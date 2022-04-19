@@ -65,8 +65,8 @@
                 <li class="list-inline-item">
                   <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                       <div class="text-center">
+                        {% if request.user.is_authenticated %}
                           <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                          {% if request.user.is_authenticated %}
                           <p class="my-0">
                               {% if grand_total %}
                                   £{{ grand_total|floatformat:2 }}
@@ -81,8 +81,8 @@
                   <li class="list-inline-item dropdown">
                       <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <div class="text-center">
-                              <div><i class="fas fa-user fa-lg"></i></div>
-                              {% if request.user.is_authenticated %}
+                            <div><i class="fas fa-user fa-lg"></i></div>
+                            {% if request.user.is_authenticated %}
                               <p class="my-0">My Account</p>
                               {% else %}
                               <p class="my-0">Login</p>
@@ -107,51 +107,63 @@
   </header>
 
   {% block content %}
-    {% endblock %}
+  {% endblock %}
 
   <footer>
-    <div class="footer-container container">
-      <div class="row">
-        <div class="col-12 col-lg-4">
-              <p class="text-uppercase"><a href="tel:01234500789">01234 500 789</a>
-                <br>
-                <span class="text-muted">Call between: 8.30am-5.30pm Mon-Fri</span>
-              </p>
-              <p class="text-uppercase"><a href="mailto:info@fastsupplies.com">info@fastsupplies.com</a>
-                <br>
-                <span class="text-muted text-lowercase">Call between: 8.30am-5.30pm Mon-Fri</span>
-              </p>
-              <p class="text-uppercase">Fast Supplies
-                <br>
-                <span class="text-muted text-lowercase">15 Crieff Road, Perth PH2 5QD</span>
-              </p>
+    <div class="footer-container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-5 col-lg-3 col">
+          <p class="footer-title">Newsletter</p>
+         <p>Sign up for our newsletter here</p>
+         <div class="newsletter-container">
+           <input type="email" placeholder="Enter your email address" name="newsletter" id="newsletter">
+           <button id="newsletter-submit" type="submit">Sign Up</button>
+          </div>
         </div>
-        <div class="col-12 col-lg-4 py-1 py-lg-0">
+        <div class="col-12 col-md-5 col-lg-2">
           <p class="footer-title">Customer Service</p>
           <ul>
-            <li>Contact Us</li>
-            <li>Return Items</li>
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Return Items</a></li>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
           </ul>
         </div>
-        <div class="col-12 col-lg-4 py-1 py-lg-0">
+        <div class="col-12 col-md-5 col-lg-2">
           <p class="footer-title">Your account</p>
           <ul>
-            <li>Register</li>
-            <li>Login</li>
+            <li><a href="">Register</a></li>
+            <li><a href="{% url 'account_login' %}">Login</a></li>
           </ul>
         </div>
+        <div class="col-12 col-md-5 col-lg-3">
+          <p class="text-uppercase"><a href="tel:01234500789">01234 500 789</a>
+            <br>
+            <span class="text-muted small">Call between: 8.30am-5.30pm Mon-Fri</span>
+          </p>
+          <p class="text-uppercase"><a href="mailto:info@fastsupplies.com">info@fastsupplies.com</a>
+            <br>
+            <span class="text-muted small">We will respond within 24 hours</span>
+          </p>
+          <p class="text-uppercase">Fast Supplies
+            <br>
+            <span class="text-muted small">15 Crieff Road, Perth PH2 5QD</span>
+          </p>
     </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-12 footer-bottom mx-auto mt-3">
+      <p class="text-center">Safe & Secure payment with Fast Supplies</p>
+      <img class="mx-auto d-block" src="{{ MEDIA_URL }}media/mc_logo.png"  width="200px" alt="card logos">
+      <p class="text-center text-weight-light mt-3">&copy; 2022 Fast Supplies</p>
+    </div>
+  </div>
   </footer>
 
     {% if messages %}
     <div class="message-container"></div>
     {% endif %}
-
-    {% block page_header %}
-    {% endblock %}
-
 
     {% block postloadjs %}
     {% endblock %}
