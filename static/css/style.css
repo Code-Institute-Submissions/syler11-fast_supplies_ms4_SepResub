@@ -60,6 +60,12 @@ body {
     background: #000 !important;
 }
 
+.card-logo {
+    background: url('/media/mc_logo.png') no-repeat center center;
+    height: 60px;
+    width: auto;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
