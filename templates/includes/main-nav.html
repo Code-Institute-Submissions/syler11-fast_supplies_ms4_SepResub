@@ -17,11 +17,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Chemicals
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Rooms & Public areas</a>
-                <a href="" class="dropdown-item">Restaurant</a>
-                <a href="" class="dropdown-item">Kitchen</a>
-                <a href="" class="dropdown-item">All Chemicals</a>
+            <div class="dropdown-menu border-0" aria-labelledby="chemicals-link">
+                <a href="{% url 'products' %}?category=rooms,public_areas" class="dropdown-item">Rooms & Public areas</a>
+                <a href="{% url 'products' %}?category=restaurant" class="dropdown-item">Restaurant</a>
+                <a href="{% url 'products' %}?category=kitchen" class="dropdown-item">Kitchen</a>
+                <a href="{% url 'products' %}?category=rooms,public_areas,restaurant,kitchen" class="dropdown-item">All Chemicals</a>
             </div>
         </li>
 
@@ -30,9 +30,9 @@
                 Housekeeping
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Bedrooms</a>
-                <a href="" class="dropdown-item">Common areas</a>
-                <a href="" class="dropdown-item">All Housekeeping</a>
+                <a href="{% url 'products' %}?category=bedrooms" class="dropdown-item">Bedrooms</a>
+                <a href="{% url 'products' %}?category=common_areas" class="dropdown-item">Common areas</a>
+                <a href="{% url 'products' %}?category=bedrooms,common_areas" class="dropdown-item">All Housekeeping</a>
             </div>
         </li>
 
