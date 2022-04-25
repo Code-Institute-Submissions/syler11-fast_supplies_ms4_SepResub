@@ -131,10 +131,16 @@
         <div class="col-12 col-md-5 col-lg-3 col">
           <p class="footer-title">Newsletter</p>
          <p>Sign up for our newsletter here</p>
-         <div class="newsletter-container">
-           <input type="email" placeholder="Enter your email address" name="newsletter" id="newsletter">
-           <button id="newsletter-submit" type="submit">Sign Up</button>
-          </div>
+         <div class="p-1 rounded border" id="newsletter-message">
+          <form id="contactForm" onsubmit="return sendMail(this);">
+            <div class="input-group">
+              <input type="email" placeholder="Enter your email address" id="email_address" name="email_address" aria-describedby="newsletter" class="form-control border-0 shadow-0">
+              <div class="input-group-append">
+                <button id="newsletter" type="submit" value="newsletter" class="btn btn-link green-btn">Signup</button>
+              </div>
+            </div>
+          </form>
+        </div>
         </div>
         <div class="col-12 col-md-5 col-lg-2">
           <p class="footer-title">Customer Service</p>
@@ -182,6 +188,7 @@
     {% endif %}
 
     {% block postloadjs %}
+    <script src="{% static 'js/newsletter.js' %}"></script>
     {% endblock %}
 
   </body>
