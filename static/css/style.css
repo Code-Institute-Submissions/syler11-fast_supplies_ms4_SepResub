@@ -19,6 +19,16 @@ body {
     width: 1.5rem;
 }
 
+.fs-logo{
+    background-image: url('/media/fs_logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 250px;
+    background-color: #222;
+    margin-left: 1rem;
+}
+
 .logo-font {
     text-transform: uppercase;
 }
