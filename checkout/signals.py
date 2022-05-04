@@ -1,5 +1,3 @@
-18 lines (15 sloc)  518 Bytes
-   
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
 
@@ -13,8 +11,9 @@ def update_on_save(sender, instance, created, **kwargs):
     instance.order.update_total()
 
 @receiver(post_delete, sender=OrderLineItem)
-def update_on_save(sender, instance, **kwargs):
+def update_on_delete(sender, instance, **kwargs):
     """
     Update order total on lineitem delete
     """
+    print('delete signal received!')
     instance.order.update_total()
