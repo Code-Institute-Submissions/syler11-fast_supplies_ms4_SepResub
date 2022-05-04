@@ -1,13 +1,13 @@
-var formEmail = document.getElementById('email_address');
+// var formEmail = document.getElementById('email_address');
 
-function sendMail() {
+function sendMail(contactForm) {
     emailjs.init('user_TRwsZUpJla2MRcQgJKZEc');
     emailjs.send("service_vgdcg0c","ms4_email", {
-        "to_email": formEmail.value
+        "to_email": contactForm.email_address.value
     }).then(
         function (response) {
             console.log("SUCCESS");
-            $("#newsletter-message").replaceWith( "Thanks for subscribing to our mailing list" );
+            $("#mailing-list").replaceWith( "Thanks for subscribing to our mailing list" );
         },
         function (error) {
             console.log("FAILED", error);
