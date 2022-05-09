@@ -257,6 +257,7 @@ a.category-badge > span.badge:hover {
 .footer-container {
     background: #ececec;
     padding: 1rem;
+    margin-top: 2rem;
 }
 
 .footer-title {
