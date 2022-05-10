@@ -1,1 +1,1 @@
-web: gunicorn fast_suuplies.wsgi:application
+web: gunicorn fast_supplies.wsgi:application
