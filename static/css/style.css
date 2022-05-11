@@ -8,6 +8,7 @@ body {
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Poppins';
+    margin-left: 6px;
 }
 
 /* from Bulma */
@@ -35,6 +36,11 @@ body {
 
 .main-logo-link {
     width: fit-content;
+}
+
+.dropdown-menu {
+    left: -85px;
+    min-width: 14rem;
 }
 
 .shop-now-button {
