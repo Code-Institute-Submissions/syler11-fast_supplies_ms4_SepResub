@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<main class="return-container">
+    <div class="row">
+      <div class=" return-page offset-lg-3 col-lg-6  offset-1 col-10">
+
+				<h1 class="page-title mb-0 text-size-md text-size-md-lg text-size-lg-xl">Terms and Conditions</h1>
+
+				<hr class="my-2">
+
+			<h3>Change or cancel an order</h3>
+			<p>If you wish to change or cancel an order contact our Customer Service team on 0844 844 4300 any time between 8.30am and 6pm – Monday to Friday. Please have the order number and date the order was placed to hand.</p>
+			<p>If your products have already been delivered, then you will need to follow our returns procedure below.</p>
+			<h3>Track your order</h3>
+			<p>When you are logged in, you can check your order status by clicking the 'My Account' link at the top of the page and then on the 'Order Tracking' link in the sidebar.</p>
+			<h3>Your purchase history</h3>
+			<p>When you are logged in, you can check your purchase history by clicking the 'My Account' link at the top of the page and then on the 'Order Tracking' link in the sidebar. Here you will find a list of any current or previous orders you have placed. You can check the status and the full details of your orders here.</p>
+			<h3>How to return goods</h3>
+			<p>We hope you will be pleased with your purchase. Should you wish to return an item (excluding kitchen equipment, please see returning kitchen equipment, below), we will be happy to refund in full or exchange, if it is in full resaleable condition. Returns should be made within reasonable time (usually 30 days) and in original undamaged packaging.</p> 
+			<p>Should goods be delivered faulty, incorrect or damaged, please report to us immediately and confirm in writing within 3 days of delivery.</p> 
+			<p>Please note that there may be a collection charge for any items returned.</p> 
+			<p>In both instances, please call our customer helpline on 0844 844 4300 to obtain details on how to return your product.</p>
+                </div>
+                </div>
+                </main>
+   
+    
+{% endblock %}
+
+{% block postloadjs %}
+<script> 
+myCarousel = document.querySelector('#mainCarousel');
+var carousel = new bootstrap.Carousel(myCarousel, {
+    interval: 5000,
+});
+</script>
+{% endblock %}
