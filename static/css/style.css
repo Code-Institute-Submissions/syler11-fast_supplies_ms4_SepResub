@@ -43,6 +43,10 @@ body {
     min-width: 14rem;
 }
 
+.footer-container ul {
+    padding-inline-start: 0;
+}
+
 .shop-now-button {
     background: black;
     color: white;
