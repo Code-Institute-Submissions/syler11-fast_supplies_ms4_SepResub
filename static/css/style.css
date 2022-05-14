@@ -184,16 +184,6 @@ a.category-badge > span.badge:hover {
     overflow-y: auto;
 }
 
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
@@ -276,23 +266,6 @@ a.category-badge > span.badge:hover {
     border-radius: 0;
 }
 
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-
-}
-
 .footer-container {
     background: #ececec;
     padding: 1rem;
@@ -312,4 +285,36 @@ a.category-badge > span.badge:hover {
 footer a {
     text-decoration: none;
     color: #555;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+      max-width: 80%;
+    }
+  }
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+
+}
+
+/* pad the top a bit when navbar is collapsed on mobile */
+@media (max-width: 991px) {
+    .display-4.logo-font.text-black {
+        font-size: 2rem;
+    }
 }
