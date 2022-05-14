@@ -349,4 +349,8 @@ footer a {
     .footer-container {
         padding: 0;
     }
+
+    #email-address {
+        font-size: 12px;
+    }
 }
