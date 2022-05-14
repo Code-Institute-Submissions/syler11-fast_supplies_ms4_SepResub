@@ -95,8 +95,8 @@ body {
 
 .card-logo {
     background: url('/media/mc_logo.png') no-repeat center center;
-    height: 60px;
-    width: auto;
+    max-width: auto;
+    height: 100%;
 }
 
 a.category-badge > span.badge:hover {
@@ -316,5 +316,37 @@ footer a {
 @media (max-width: 991px) {
     .display-4.logo-font.text-black {
         font-size: 2rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+
+    .footer-container {
+        padding: 0;
     }
 }
