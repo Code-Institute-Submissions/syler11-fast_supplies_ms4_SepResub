@@ -38,6 +38,10 @@ body {
     width: fit-content;
 }
 
+.tooltip-text {
+    cursor: pointer;
+}
+
 .dropdown-menu {
     left: -85px;
     min-width: 14rem;

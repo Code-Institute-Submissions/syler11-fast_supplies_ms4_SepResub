@@ -118,10 +118,10 @@
       </div>
       <div id="deivery-banner" class="row text-center">
         <div class="col-12 col-md-6 bg-black text-white">
-          <h5 class="logo-font my-1">Free delivery over £{{ free_delivery_threshold }}</h4>
+          <div data-toggle="tooltip" class="tooltip-text" title="Free Delivery over £100.00 to Mainland UK"><h5 class="logo-font my-1">Free delivery over £{{ free_delivery_threshold }}</h5></div>
         </div>
         <div class="col-md-6 d-none d-md-block bg-black text-white">
-          <h5 class="logo-font my-1">Best price guarantee</h4>
+          <div data-toggle="tooltip" class="tooltip-text" title="Find a price cheaper and we will match the price"><h5 class="logo-font my-1">Best price guarantee</h5></div>
         </div>
       </div>
   </header>
@@ -207,7 +207,9 @@
 
 {% block postloadjs %}
     <script type="text/javascript">
+      $('.toast').toast({autohide: true, delay: 5000});
       $('.toast').toast('show');
+      $('#example').tooltip(options)
     </script>
 {% endblock %}
 
