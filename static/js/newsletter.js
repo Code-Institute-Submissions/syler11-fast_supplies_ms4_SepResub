@@ -1,5 +1,3 @@
-// var formEmail = document.getElementById('email_address');
-
 function sendMail(contactForm) {
     emailjs.init('user_TRwsZUpJla2MRcQgJKZEc');
     emailjs.send("service_vgdcg0c","ms4_email", {
@@ -7,7 +5,7 @@ function sendMail(contactForm) {
     }).then(
         function (response) {
             console.log("SUCCESS");
-            $("#mailing-list").replaceWith( "Thanks for subscribing to our mailing list" );
+            $("#mailing-list").replaceWith( "Thanks for subscribing to our mailing list!" );
         },
         function (error) {
             console.log("FAILED", error);
