@@ -47,6 +47,10 @@ body {
     min-width: 14rem;
 }
 
+.carousel-size {
+    max-width: 100%;
+}
+
 .footer-container ul {
     padding-inline-start: 0;
 }
@@ -356,5 +360,10 @@ footer a {
 
     #email-address {
         font-size: 12px;
+    }
+
+    .carousel-size {
+        height: 230px;
+        width: auto;
     }
 }
