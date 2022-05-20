@@ -91,7 +91,7 @@
                               {% endif %}
                           </div>
                       </a>
-                      <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                      <div class="dropdown-menu custom-dropdown-menu border-0" aria-labelledby="user-options">
                           {% if request.user.is_authenticated %}
                               {% if request.user.is_superuser %}
                                   <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -135,7 +135,7 @@
         <div class="col-12 col-md-5 col-lg-4 mt-2                                                                                                                                                                                                                                                                                                                                                                                                                   ">
           <p class="footer-title">Newsletter</p>
          <p class="newsletter-text">Sign up for our newsletter here</p>
-         <div class="p-1 rounded border" id="mailing-list">
+         <div class="p-1 red-bold rounded border" id="mailing-list">
           <form id="mailinglistform" onsubmit="return sendMail(this);">
             <div class="input-group">
               <input type="text" placeholder="Your email address" id="email_address" name="email_address" aria-describedby="newsletter" class="form-control border-0 shadow-0">

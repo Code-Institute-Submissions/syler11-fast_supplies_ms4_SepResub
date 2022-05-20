@@ -27,7 +27,6 @@ Login for user: username: nikolett password: 12345678
     + [Database](#database)
     + [Conceptual Database](#conceptual-database)
     + [Physical Database](#physical-database)
-    + [MongoDB Database Information](#mongodb-database-information)
   * [Scope](#scope)
     + [User Stories](#user-stories)
     + [User Stories Website Owner](#user-stories-website-owner)

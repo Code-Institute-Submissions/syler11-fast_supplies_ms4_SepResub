@@ -42,7 +42,7 @@ body {
     cursor: pointer;
 }
 
-.dropdown-menu {
+.custom-dropdown-menu {
     left: -85px;
     min-width: 14rem;
 }
@@ -295,6 +295,12 @@ footer a {
     color: #555;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    border: none;
+    width: 5%;
+    background-color: #fff;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -367,3 +373,5 @@ footer a {
         width: auto;
     }
 }
+
+
