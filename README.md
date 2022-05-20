@@ -70,7 +70,6 @@ Login for user: username: nikolett password: 12345678
 - [APIs](#apis)
   * [Email JS](#email-js)
 - [Deployment](#deployment)
-  * [Mongo Database](#mongo-database)
   * [Heroku](#heroku)
   * [Local Deployment](#local-deployment)
 - [Bugs](#bugs)
@@ -518,15 +517,14 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
 ## Libraries and other resources
 
 - [JQuery](https://jquery.com/)
-- [Materialize](https://materializecss.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [Fontawesome](https://fontawesome.com/)
 - [Heroku](https://id.heroku.com/)
-- [Flask framework](https://flask.palletsprojects.com/en/2.0.x/)
+- [Django framework](https://www.djangoproject.com/)
 - [Balsamiq](https://balsamiq.com/)
 - [Google Font](https://fonts.google.com/)
 - [GitHub](https://github.com/)
 - [GitPod](https://www.gitpod.io/)
-- [MongoDB](https://www.mongodb.com/)
 - [Coolors - Color palette generator](https://coolors.co/) 
 
 # Testing
@@ -543,16 +541,6 @@ The testing information and results for this project are documented in [TESTING.
 
 # Deployment
 There are several applications that need to be configured to run this application locally or on a cloud based service.
-
-## Mongo Database
-Mongodb is the database used in the application
-1. Create an account at mongodb
-2. Create a database cluster
-3. Select the cluster, and in the collections section create a database and create 3 collections under the database: reservations, profiles and users
-4. In the database access, create a user and allow the user read/write access. Note the username
-5. In the network access tab, allow network access from the ip-address of the application connecting to the database
-6. In the Databases section click Connect, and select connect your application
-7. Note the MONGO_URI, MONGO_DBNAME and user, these parameters are used when deploying locally(env.py file) and deploying on the likes of heroku(config vars)
 
 ## Heroku
 To deploy this application to Heroku, run the following steps.
@@ -574,10 +562,10 @@ To deploy this application to Heroku, run the following steps.
 To run this project locally, you will need to clone the repository
 1. Login to GitHub (https://wwww.github.com)
 2. Select the repository syler/MS3-ProGroup-App
-3. Click the Code button and copy the HTTPS url, for example: https://github.com/syler11/MS3-ProGroup-App.git
+3. Click the Code button and copy the HTTPS url, for example: https://github.com/syler11/fast_supplies_ms4.git
 4. In your IDE, open a terminal and run the git clone command, for example 
 
-    ```git clone https://github.com/syler11/MS3-ProGroup-App.git```
+    ```git clone https://github.com/syler11/fast_supplies_ms4.git```
 
 5. The repository will now be cloned in your workspace
 6. Create an env.py file in the root folder in your project, and add in the following code with the relevant key, value pairs, and ensure you enter the correct key values<br>
@@ -588,7 +576,7 @@ To run this project locally, you will need to clone the repository
 <code>os.environ.setdefault("MONGO_URI", TO BE ADDED BY USER)</code><br>
 <code>os.environ.setdefault("MONGO_DBNAME", TO BE ADDED BY USER)</code><br>
 7. Install the relevant packages as per the requirements.txt file
-8. Start the application by running <code>python3 app.py</code>
+8. Start the application by running <code>python3 manage.py runserver</code>
 
 # Bugs
 
