@@ -11,6 +11,15 @@ body {
     margin-left: 6px;
 }
 
+.no-show {
+    display: none;
+}
+
+.tooltipped {
+    font-size: 1rem;
+    padding: 6px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;

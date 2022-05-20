@@ -84,8 +84,18 @@
                                             {% endif %}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
-                                                    <a href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                    <a href="{% url 'edit_product' product.id %}">
+                                                        <i class="far right fa-edit tooltipped" data-position="top" data-tooltip="Edit" title="Edit"
+                                                            aria-label="edit">
+                                                                <span class="no-show">Edit</span>
+                                                        </i>
+                                                    </a> | 
+                                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">
+                                                        <i class="far right fa-trash-alt tooltipped" data-position="top" data-tooltip="Delete" title="Delete"
+                                                            aria-label="edit">
+                                                                <span class="no-show">Delete</span>
+                                                        </i>
+                                                    </a>
                                                 </small>
                                             {% endif %}
                                         </div>
