@@ -94,24 +94,24 @@ For test purchase please use the default stripe test Mastercard number 4242 4242
 ### Project Goal
 The primary goal of the website from the site 
 owners perspective is as follows:
-- To create/edit/delete profiles so users can add a reservation
-- To allow users reservations to a selected profile
-- To allow users modify their reservations and / or profiles
-- To allow users delete profiles and / or profiles
+- To create/edit/delete products to the websiteavailable to purchase
+- To allow users to users to add products to their bags
+- To allow users modify their urcahse bag before they would pay
+- To allow users to checkout and pay for their bags securely using their debit or credit cards
 - To allow users to send messages to the owners
-- To view statistics on the usage of the site
+- To create account and save their profile details and previous purchase history
 
 The primary goal of the website from a site users perspective is as follows:
-- To allow users reservations to a selected profile
-- To allow users modify their reservations and / or profiles
-- To allow users delete profiles and / or profiles
+- To allow users to purchase goods
+- To allow users modify their bags before checkout
+- To allow users to subscrib to newsletters
 - To send messages to the owners
-- To view statistics on the usage of the site
+- To create profiles / accounts
 
 ### User Experience
 #### Target audience
-- The applications was designed to use in hospitality setting
-- Main target audience are reservations workforce and hotel managers
+- The applications was designed to be used by hopistaliy and catering venues
+- Main target audience are managers for responsible for purchases 
 - Secodnary target audience are owner / sharholders who could look at various statistics
 
 #### User requierements and expectations
