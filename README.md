@@ -127,62 +127,40 @@ The primary goal of the website from a site users perspective is as follows:
 
 ## Structure
 ### Website pages
-The website contains 18 pages in a logical structure, information and purpose.
-1. Home / Landing Page: The first page the user would see when they access the website before they can login to the site.
+The website contains 15 pages in a logical structure, information and purpose.
+1. Home Page: The first page the user would see when they access the website before they can login to the site.
 2. Login: This page allows the user to login to the website. There was no register page added to the landing page to ensure that only authorised personnel could access the website when given access by one of the admin.
-3. Reservations: The first page when user would arrive after successful login. It display all the reservation / navigations and some basic statistics of the exsiting reservations. 
-4. Add Reservations: This page allows user add new reservation.
-5. Edit Reservations: This page allows user to edit existing reservation.
-6. Delete Reservations: This page allows user to delete reservation. 
-7. Profiles: This contains all the exisitng group profiles in aplhabetical order.
-8. Add Profiles: This page allows user add new profiles.
-9. Edit Profiles: This page allows user to edit existing profiles.
-10. Delete Profiles: This page allows user to delete profiles. 
-11. Users: / admin only / This page lists all existing users but visible only for people with admin role. 
-12. Add users: This page allows admin users add new users.
-13. Edit users: This page allows admin users to edit existing users.
-14. Delete users: This page allows admin users to delete users. 
-15. Help: This page allows users to send message to the website owner. 
-16. Logout: This link allows the user to logout of the site.
-17. 404: The 404 error page is displayed if the user enters an incorrect url when accessing the site.
-18. 400, 401, 405 and 500: The error page is displayed if the user encounters an error on the site
+3. Register: The first page when user would arrive after successful login. It display all the reservation / navigations and some basic statistics of the exsiting reservations. 
+4. Products: This page allows user add new reservation.
+5. Products details: This page allows user to edit existing reservation.
+6. Bag: This page allows user to delete reservation. 
+7. Checkout: This contains all the exisitng group profiles in aplhabetical order.
+8. Checkout success: This page allows user add new profiles.
+9. Order history: This page allows user to edit existing profiles.
+10. Logout: This link allows the user to logout of the site.
+11. Return: / admin only / This page lists all existing users but visible only for people with admin role. 
+12. Privacy policy: This page allows admin users add new users.
+13. Terms and Conditions: This page allows admin users to edit existing users. 
+14. 404: The 404 error page is displayed if the user enters an incorrect url when accessing the site.
+15. 400, 403 and 500: The error page is displayed if the user encounters an error on the site
 
-### Code structure
-- My project is built using a Blueprints structure
-- Flask blueprint is a way to organize a flask application into smaller and re-usable application. 
-- Just like a normal flask application, a blueprint defines a collection of views, templates and static assets.
-- I found the following videos and website to help my project. 
-    - https://www.youtube.com/watch?v=Zcw1cgXwKCg
-    - https://prettyprinted.com/
-- The project is structured as follows
-    - authentication: Contains a flask route for authentication for example login, logout
-    - errors: Contains a flask route for error pages for example 404
-    - reservation: Contains a flask route for Group reservations, adding, editing etc
-    - static
-      - css (Project style css)
-      - pictures (Project and readme images)
-      - js (Project javascript structured into individual files)
-    - templates: Html templates to match the routes for Authentication, Email, Errors, Profiles, Reservations,  Users and a base.html file
-    - profiles: Contains a flask route for profiles code, adding, editing etc 
-    - users: Contains a flask route for users code, adding, editing etc 
-    - An app.py that setups, creates and runs the application
-    - A local env.py(that is not committed to source control) - This ensures passwords and security-sensitive information are stored in environment variables or in files that
-    are in .gitignore, and are never committed to the repository
+### Code Structure
+The project is divided into a number of apps, as is built using the Django Framework The project was built on the Boutique Ado project, that was part of the project content The apps are described as follows
+
+- bag: This app contains functionality regarding a users shopping bag
+- checkout: This app contains functionality regarding a users checking out and payment of an order
+- home: This app contains functionality regarding the users home page
+- products: This app contains functionality regarding a product. I added functionality for adding/removing a rating/comment to a product
+- profiles: This app contains functionality regarding a users profile and order history
 
 ### Database
 - The website is a data-centric one with html, javascript, css used with the materialize framework as a frontend
-- The backend consists of Python, flask and jinja templates with a database of a mongodb open-source document-oriented database
-
-### Conceptual Database
-Once I designed the conceptual database model it help to have a better understanding of database strucutre and their realations between them. 
-
-![Conceptual database model](progroup/static/pictures/databases/conceptual_database_model.png)
+- The backend consists of Python built with the Django framework with a database of a Postgres for the deployed Heroku version(production)
 
 ### Physical Database
-With the conceptual database model in place I created the physical database model.  
-The model is the exact copy of the MongoDB collection data structure and name fields.
+This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database.
 
-![Physical database model](progroup/static/pictures/databases/database_model.png)
+![Physical database model](media/database_schema.png)
 
 
 #### MongoDB Database Information
