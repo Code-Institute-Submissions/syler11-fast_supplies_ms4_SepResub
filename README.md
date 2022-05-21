@@ -84,9 +84,9 @@ For test purchase please use the default stripe test Mastercard number 4242 4242
 
 
 # Project Overview
-- ProGroup project is a website that allows users to add/edit/delete Group reservation for submission as milestone project 3 as part of the Code Institute - Diploma in Software Development (Full stack) course. The project based on a real world use when the hotel reservation is able to keep track the various groups arriving in the 2022 seasn. 
-- The website is deployed using Heroku pages at the following url: [ProGroup](http://progroup-app.herokuapp.com/)
-- The repository on GitHub that contains the website source code and assets is available at the following url: [Code Repository](https://github.com/syler11/MS3-ProGroup-App)
+- Fast Supplies project is an ecoomerce website which specialized in catering equipments and disposables for submission as milestone project 4 as part of the Code Institute - Diploma in Software Development (Full stack) course. 
+- The website is deployed using Heroku pages at the following url: [Fast Supplies](http://fast-supplies.herokuapp.com/)
+- The repository on GitHub that contains the website source code and assets is available at the following url: [Code Repository](https://github.com/syler11/fast_supplies_ms4)
 - The website was built with a responsive look and feel for desktop, tablet and mobile devices
 
 # UX
