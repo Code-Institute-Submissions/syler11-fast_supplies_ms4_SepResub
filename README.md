@@ -1,17 +1,21 @@
-# ProGroup Group Reservation Manager
-ProGroup is a website that allows hotels to keep track and organize their group reservations.   
-Users will be able to create/update/delete new Group Profiles and New Reservations based on the Profiles.   
-Users also able to see basic statistics and send email to the owner of the website.  
-There are two type of users: user and admin.  
-Users are able to create/update and delete profiles and reservations but not able to add new users or edit and delete existing users.   
-Admin will be able to add new users.   
-Login for admin: username: admin password: code2545
-Login for user: username: nikolett password: 12345678
+# Fast Supplies Ecommerce website specialized in supplying hotels and catering venues
+Fast Supplies allows users to purchase hotel supplies for great prices and super fast deliveries. 
+Clients will be able to add items to the bag and make a purchase.   
+Client will be able to create a profile to save their profile details and keep track of their previous purchases.  
+There are three types of users: guest user, user with profile and superuser.    
+Guest user will be able to make a purchase but their profile details won't be saved.  
+User will be able to make a purchase and their profile details are saved for future purchases.  
+Superuser will be able to add, edit and delete products abd access to back end date to update profiles, groups, categories, orders, etc.
+Login for user: username: nikolettTest password: test@1234!
+
+Login for superuser: username: syler password: code2545
+
+For test purchase please use the default stripe test Mastercard number 4242 4242 4242 4242 and any valid expiry date and CVC code. 
 <br>
 
-**View the live site [here](https://progroup-app.herokuapp.com/)**
+**View the live site [here](https://fast-supplies.herokuapp.com/)**
 
-![Website Mockup Photos](progroup/static/pictures/website-mockup.png)
+![Website Mockup Photos](media/mockup-ms4.png)
 
 # Table of Contents
 - [Project overview](#project-overview)
