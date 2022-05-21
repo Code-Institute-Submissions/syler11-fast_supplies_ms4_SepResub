@@ -119,8 +119,9 @@ The primary goal of the website from a site users perspective is as follows:
 - Quickly and easily find relevant information
 - Links and functions that work as expected
 - Good presentation and a visually appealing design regardless of screen size
-- An easy way to contact the admin/s
-- Simple content that the user can skim read
+- An easy way to find products and them to he bag
+- An easy way to adjust the bag content
+- An easy way to checkout and pay for the bag content
 - Accessibility
 
 
