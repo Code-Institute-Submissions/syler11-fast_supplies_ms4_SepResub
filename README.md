@@ -163,15 +163,6 @@ This model contains all fields stored in the database collections with their dat
 ![Physical database model](media/database_schema.png)
 
 
-#### MongoDB Database Information
-- One production database(group_manager) was created to store site information, it contains three collections described below
-1. profiles - contains contact information for a group operator
-![Profiles](progroup/static/pictures/databases/profiles_collection.png)
-2. reservations - contatins the group operator names and reservation details such
-![Reservations](progroup/static/pictures/databases/reservations_collection.png)
-3. users - to store registered user information
-![Users](progroup/static/pictures/databases/users_collection.png)
-
 ## Scope
 
 ### User Stories
@@ -472,17 +463,6 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
 -	User Story 8.2: Edit Account – As an admin user I can edit my account information such as Full Name, Position, Email, Username when clicking on the Save Changes  
 
 ## Features left to implement
-1. Send email directly to the contact person including the reservation details
-2. Send automated email directly on 1st day of each month to contact person whether the group is still go ahead
-3. Send automated email to users and admins about group statistic on the 1st day of the month
-4. Make calculation such as room,F&B and total revenue
-5. Having a report page with preloaded querys for periods
-6. Have an invoicing facilites to send ProForma and Final invoice
-7. Adding payments to reservations
-8. Adding customized items to reservation e.g. Dinner including net value and VAT
-9. Summary report to hotel owners in pdf format
-10. Make that group_selected variable dynamic (see comment on the reservation/route.py file line 147-152)
-11. Repo was forked to work on future implementation and fulfill CI requirements and do not commit after submission
  
 
 
@@ -494,7 +474,6 @@ The Roboto font is the main font used throughout the whole website with Sans Ser
 - [Css](https://en.wikipedia.org/wiki/CSS)
 - [Javascript](https://www.javascript.com/)
 - [Python](https://www.python.org/)
-- [Jinja](https://jinja.palletsprojects.com/en/3.0.x/)
 
 ## Libraries and other resources
 
@@ -572,6 +551,7 @@ Bugs:
 
 Credit to https://codeinstitute.net/ for the lesson on email.js  
 Credit to https://favicon.io/favicon-converter/ for the Favicon    
+Credit to https://app.quickdatabasediagrams.com/ for the Database Model   
 Credit to https://websitemockupgenerator.com/ for the Website mockup picture    
 Credit to https://fontawesome.com/ for the Icona displayed on the website    
 Credit to https://validator.w3.org/ for the html and css validation  
