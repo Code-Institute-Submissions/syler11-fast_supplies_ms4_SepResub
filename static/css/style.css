@@ -112,7 +112,7 @@ body {
 
 .card-logo {
     background: url('/media/mc_logo.png') no-repeat center center;
-    max-width: auto;
+    max-width: 100%;
     height: 100%;
 }
 
