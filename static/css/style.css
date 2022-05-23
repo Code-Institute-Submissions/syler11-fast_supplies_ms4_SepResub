@@ -259,6 +259,10 @@ a.category-badge > span.badge:hover {
     display: none;
 }
 
+.text-blue {
+    color: darkblue;
+}
+
 /* Product Form */
 
 .btn-file {
