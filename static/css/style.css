@@ -255,6 +255,10 @@ a.category-badge > span.badge:hover {
 	color: #17a2b8; /* text-info */
 }
 
+.no-display {
+    display: none;
+}
+
 /* Product Form */
 
 .btn-file {

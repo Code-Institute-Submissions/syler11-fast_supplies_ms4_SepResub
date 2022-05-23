@@ -1,3 +1,6 @@
+/* Code written with the help of the official 
+EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/ */
+
 function sendMail(contactForm) {
     emailjs.init('user_TRwsZUpJla2MRcQgJKZEc');
     emailjs.send("service_vgdcg0c","ms4_email", {

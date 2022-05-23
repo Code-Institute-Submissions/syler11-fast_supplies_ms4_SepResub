@@ -47,17 +47,20 @@
       <div id="topnav" class="row bg white pt-lg-2 d-none d-lg-flex">
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
               <a href="{% url 'home' %}" class="nav-link fs-logo">
-                  <!-- <h2 class="logo-font text-black my-0"><strong>Fast Supplies</strong></h2> -->
+                  <span class="no-display" aria-labelledby="logo">Logo</span>
               </a>
           </div>
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
               <form method="GET" action="{% url 'products' %}">
                   <div class="input-group w-100">
-                      <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                      <input class="form-control border border-black rounded-0" label="search" type="text" name="q" placeholder="Search our site">
                       <div class="input-group-append">
                           <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                               <span class="icon">
                                   <i class="fas fa-search"></i>
+                              </span>
+                              <span class="no-display">
+                                Search
                               </span>
                           </button>
                       </div>
@@ -138,7 +141,7 @@
          <div class="p-1 red-bold rounded border" id="mailing-list">
           <form id="mailinglistform" onsubmit="return sendMail(this);">
             <div class="input-group">
-              <input type="text" placeholder="Your email address" id="email_address" name="email_address" aria-describedby="newsletter" class="form-control px-1 border-0 shadow-0">
+              <input type="text" placeholder="Your email address" id="email_address" name="email_address" label="email_address" aria-describedby="newsletter" class="form-control px-1 border-0 shadow-0">
               <div class="input-group-append">
                 <button id="newsletter" type="submit" value="newsletter" class="btn btn-link green-btn">Signup</button>
               </div>
@@ -165,15 +168,15 @@
         <div class="col-12 col-md-5 col-lg-4 mt-2">
           <p class="text-uppercase"><a href="tel:01234500789">01234 500 789</a>
             <br>
-            <span class="text-muted small">Call between: 8.30am-5.30pm Mon-Fri</span>
+            <span class="small">Call between: 8.30am-5.30pm Mon-Fri</span>
           </p>
           <p class="text-uppercase"><a href="mailto:info@fastsupplies.com">info@fastsupplies.com</a>
             <br>
-            <span class="text-muted small">We will respond within 24 hours</span>
+            <span class="small">We will respond within 24 hours</span>
           </p>
           <p class="text-uppercase">Fast Supplies
             <br>
-            <span class="text-muted small">15 Crieff Road, Perth PH2 5QD</span>
+            <span class="small">15 Crieff Road, Perth PH2 5QD</span>
           </p>
     </div>
     </div>
