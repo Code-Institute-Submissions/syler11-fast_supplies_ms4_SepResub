@@ -47,13 +47,14 @@
       <div id="topnav" class="row bg white pt-lg-2 d-none d-lg-flex">
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
               <a href="{% url 'home' %}" class="nav-link fs-logo">
-                  <span class="no-display" aria-labelledby="logo">Logo</span>
+                  <span class="no-display" aria-describedby="logo">Logo</span>
               </a>
           </div>
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
               <form method="GET" action="{% url 'products' %}">
                   <div class="input-group w-100">
-                      <input class="form-control border border-black rounded-0" label="search" type="text" name="q" placeholder="Search our site">
+                      <label for="q" hidden>Search</label>
+                      <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
                       <div class="input-group-append">
                           <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                               <span class="icon">
@@ -141,9 +142,10 @@
          <div class="p-1 red-bold rounded border" id="mailing-list">
           <form id="mailinglistform" onsubmit="return sendMail(this);">
             <div class="input-group">
-              <input type="text" placeholder="Your email address" id="email_address" name="email_address" label="email_address" aria-describedby="newsletter" class="form-control px-1 border-0 shadow-0">
+              <label for="email_address" hidden>Email Address</label>
+              <input type="text" placeholder="Your email address" id="email_address" name="email_address" aria-describedby="newsletter" class="form-control px-1 border-0 shadow-0">
               <div class="input-group-append">
-                <button id="newsletter" type="submit" value="newsletter" class="btn btn-link green-btn">Signup</button>
+                <button id="newsletter" type="submit" value="newsletter" class="btn btn-link text-white bg-black">Signup</button>
               </div>
             </div>
           </form>
