@@ -523,12 +523,9 @@ Step 2 | [Desktop Result](progroup/static/pictures/testing/account_updated_deskt
 
 
 ## Bugs during the testing
-1. Aria labelledby buttons were missing
-2. div and from tags in the wrong order
-3. hotel logo wasn't resized to minimum 
-4. let were cahnged var to pass js hint validation without warnings
-5. ```var $ = window.$;``` was added to script to avoid linting errors by js hint validation
-6. add reservation page was redirecting back to the same page after adding a new user
+1. Empty button links were found
+2. colour contrast adjusted
+3. Labels were missing for input fields
 
 # Code Validators and Website Analysis
 
@@ -603,20 +600,17 @@ users/users.html | [Results](progroup/static/pictures/lighthouse_validation/user
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-authentication/login.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/login_html_validation.png)  
-authentication/account.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/account_html_validation.png)  
-email/contact.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/contact_html_validation.png)  
-errors/404.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/404_html_validation.png)  
-profiles/add_profile.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/add_profile_html_validation.png)  
-profiles/edit_profile.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/edit_profile_html_validation.png)  
-profiles/profiles.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/profiles_html_validation.png)  
-reservations/add_reservation.html | 5 errors and 0 contrast errors *See Note | [Results](progroup/static/pictures/wave_accessibility_validation/add_reservation_html_validation.png)  
-reservations/edit_reservation.html | 5 errors and 0 contrast errors *See Note | [Results](progroup/static/pictures/wave_accessibility_validation/edit_reservation_html_validation.png)  
-reservations/reservations.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/reservations_html_validation.png) 
-users/add_user.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/add_user_html_validation.png)  
-users/edit_user.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/edit_user_html_validation.png)  
-users/users.html | 0 errors and 0 contrast errors | [Results](progroup/static/pictures/wave_accessibility_validation/users_html_validation.png)
-* (Note: these errors came from the built in materialize dropdown menu and datepicker function which are not in my control)
+home/index.html | Passed, No errors found | [Results](media/testing/accessibility/index.html_accessibility.png)  
+home/returns.html | Passed, No errors found | [Results](media/testing/accessibility/returns.html_accessibility.png)  
+home/terms.html | Passed, No errors found | [Results](media/testing/accessibility/terms.html_accessibility.png)  
+home/privacy.html | Passed, No errors found | [Results](media/testing/accessibility/privacy.html_accessibility.png)  
+bag/bag.html | Passed, No errors found | [Results](media/testing/accessibility/bag.html_accessibility.png)  
+products/products.html | Passed, No errors found | [Results](media/testing/accessibility/products.html_accessibility.png)  
+products/product_detail.html | Passed, No errors found | [Results](media/testing/accessibility/product_detail.html_accessibility.png)  
+products/products_edit.html | Passed, No errors found | [Results](media/testing/accessibility/products_edit.html_accessibility.png)  
+checkout/checkout.html | Passed, No errors found | [Results](accessibility/checkout.html_accessibility.png)  
+checkout/checkout_success.html | Passed, No errors found | [Results](media/testing/accessibility/checkout_success.html_accessibility.png)  
+profile/order_history.html | Passed, No errors found | [Results](media/testing/accessibility/order_history.html_accessibility.png) 
 
 ## JSHint
 * JSHint(https://jshint.com/) was used to analyse the Javascript files
