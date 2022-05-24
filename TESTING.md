@@ -537,19 +537,18 @@ I used https://validator.w3.org/ to validate the html files
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-authentication/login.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/login_html_validation.png)  
-authentication/account.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/account_html_validation.png)  
-email/contact.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/contact_html_validation.png)  
-errors/404.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/404_html_validation.png)  
-profiles/add_profile.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/add_profile_html_validation.png)  
-profiles/edit_profile.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/edit_profile_html_validation.png)  
-profiles/profiles.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/profiles_html_validation.png)  
-reservations/add_reservation.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/add_reservation_html_validation.png)  
-reservations/edit_reservation.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/edit_reservation_html_validation.png)  
-reservations/reservations.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/reservations_html_validation.png) 
-users/add_user.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/add_user_html_validation.png)  
-users/edit_user.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/edit_user_html_validation.png)  
-users/users.html | Passed, No errors found | [Results](progroup/static/pictures/html_validation/users_html_validation.png)  
+home/index.html | Passed, No errors found | [Results](media/testing/html_validation/index.html_validation.png)  
+home/returns.html | Passed, No errors found | [Results](media/testing/html_validation/returns.html_validation.png)  
+home/terms.html | Passed, No errors found | [Results](media/testing/html_validation/terms.html_validation.png)  
+home/privacy.html | Passed, No errors found | [Results](media/testing/html_validation/privacy.html_validation.png)  
+bag/bag.html | Passed, No errors found | [Results](media/testing/html_validation/bag.html_validation.png)  
+products/products.html | Passed, No errors found | [Results](media/testing/html_validation/products.html_validation.png)  
+products/product_detail.html | Passed, No errors found | [Results](media/testing/html_validation/product_detail.html_validation.png)  
+products/products_edit.html | Passed, No errors found | [Results](media/testing/html_validation/products_edit.html_validation.png)  
+checkout/checkout.html | Passed, No errors found | [Results](media/testing/html_validation/checkout.html_validation.png)  
+checkout/checkout_success.html | Passed, No errors found | [Results](media/testing/html_validation/checkout_success.html_validation.png)  
+profile/order_history.html | Passed, No errors found | [Results](media/testing/html_validation/order_history.html_validation.png)  
+ 
 
 ## CSS Validation Service
 I used https://jigsaw.w3.org/css-validator/ to validate the css(style.css)
