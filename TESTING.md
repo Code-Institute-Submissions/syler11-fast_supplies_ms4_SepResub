@@ -556,7 +556,9 @@ I used https://jigsaw.w3.org/css-validator/ to validate the css(style.css)
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-style.css | Passed, No errors found | [Results](progroup/static/pictures/css_validation/style_css_validation.png)
+style.css | Passed, No errors found | [Results](media/testing/css_validation/style.css_validation.png)
+profile.css | Passed, No errors found | [Results](media/testing/css_validation/profile.css_validation.png)
+checkout.css | Passed, No errors found | [Results](media/testing/css_validation/checkout.css_validation.png)
 
 ## Chrome Dev tools Lighthouse 
 
@@ -624,7 +626,7 @@ Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 js/newsletter.js |  errors, 0 warnings | [Results](media/testing/js_validation/newsletter.js_validation.png)  
 js/stripe.js |  errors, 0 warnings | [Results](media/testing/js_validation/stripe.js_validation.png)  
-js/countryfield.js |  errors, 0 warnings | [Results](progroup/static/pictures/js_validation/script_js_validation.png)  
+js/countryfield.js |  errors, 0 warnings | [Results](media/testing/js_validation/countryfiled.js_validation.png)  
 
 ## PEP8online
 * PEP8online was used to analyse the Python files (https://pep8online.com/)
