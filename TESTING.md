@@ -581,18 +581,8 @@ users/users.html | [Results](progroup/static/pictures/lighthouse_validation/user
 ### Mobile
 Page | Result 
 ------------ | ------------- 
-authentication/login.html | [Results](progroup/static/pictures/lighthouse_validation/login_mobile_validation.png)  
-authentication/account.html | [Results](progroup/static/pictures/lighthouse_validation/account_mobile_validation.png)  
-email/contact.html | [Results](progroup/static/pictures/lighthouse_validation/contact_mobile_validation.png)    
-profiles/add_profile.html | [Results](progroup/static/pictures/lighthouse_validation/add_profile_mobile_validation.png)  
-profiles/edit_profile.html | [Results](progroup/static/pictures/lighthouse_validation/edit_profile_mobile_validation.png)  
-profiles/profiles.html | [Results](progroup/static/pictures/lighthouse_validation/profiles_mobile_validation.png)  
-reservations/add_reservation.html | [Results](progroup/static/pictures/lighthouse_validation/add_reservation_mobile_validation.png)  
-reservations/edit_reservation.html | [Results](progroup/static/pictures/lighthouse_validation/edit_reservation_mobile_validation.png)  
-reservations/reservations.html | [Results](progroup/static/pictures/lighthouse_validation/reservations_mobile_validation.png) 
-users/add_user.html | [Results](progroup/static/pictures/lighthouse_validation/add_user_mobile_validation.png)  
-users/edit_user.html | [Results](progroup/static/pictures/lighthouse_validation/edit_user_mobile_validation.png)  
-users/users.html | [Results](progroup/static/pictures/lighthouse_validation/users_mobile_validation.png)  
+home/index.html | [Results](media/testing/accessibility/index.html_accessibility.png)  
+ 
 <br>
 
 ## Wave Accessibility
