@@ -41,9 +41,9 @@
                         <div class="col-2 mb-1">
                             <a href="{% url 'product_detail' item.product.id %}">
                                 {% if item.product.image %}
-                                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                                    <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
                                 {% else %}
-                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
                                 {% endif %}
                             </a>
                         </div>
@@ -77,17 +77,26 @@
                     {% csrf_token %}
                     <fieldset class="rounded px-3 mb-5">
                         <legend class="fieldset-label small text-black px-2 w-auto">Details</legend>
+                        <label for="id_full_name" hidden>Full Name</label>
                         {{ order_form.full_name | as_crispy_field }}
+                        <label for="id_email" hidden>Email</label>
                         {{ order_form.email | as_crispy_field }}
                     </fieldset>
                     <fieldset class="rounded px-3 mb-5">
                         <legend class="fieldset-label small text-black px-2 w-auto">Delivery</legend>
+                        <label for="id_phone_number" hidden>Phone number</label>
                         {{ order_form.phone_number | as_crispy_field }}
+                        <label for="id_street_address_1" hidden>Street Address 1</label>
                         {{ order_form.street_address1 | as_crispy_field }}
+                        <label for="id_street_address_2" hidden>Street Address 2</label>
                         {{ order_form.street_address2 | as_crispy_field }}
+                        <label for="id_town_or_city" hidden>Town or City</label>
                         {{ order_form.town_or_city | as_crispy_field }}
+                        <label for="id_county" hidden>County</label>
                         {{ order_form.county | as_crispy_field }}
+                        <label for="id_postcode" hidden>Postcode</label>
                         {{ order_form.postcode | as_crispy_field }}
+                        <label for="id_country" hidden>Country</label>
                         {{ order_form.country | as_crispy_field }}
                         <div class="form-check form-check-inline float-right mr-0">
 							{% if user.is_authenticated %}

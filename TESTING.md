@@ -604,7 +604,7 @@ home/index.html | Passed, No errors found | [Results](media/testing/accessibilit
 home/returns.html | Passed, No errors found | [Results](media/testing/accessibility/returns.html_accessibility.png)  
 home/terms.html | Passed, No errors found | [Results](media/testing/accessibility/terms.html_accessibility.png)  
 home/privacy.html | Passed, No errors found | [Results](media/testing/accessibility/privacy.html_accessibility.png)  
-bag/bag.html | Passed, No errors found | [Results](media/testing/accessibility/bag.html_accessibility.png)  
+bag/bag.html | Passed, No errors found | [Results](media/testing/accessibility/bag.html%20_accessibility.png)  
 products/products.html | Passed, No errors found | [Results](media/testing/accessibility/products.html_accessibility.png)  
 products/product_detail.html | Passed, No errors found | [Results](media/testing/accessibility/product_detail.html_accessibility.png)  
 products/products_edit.html | Passed, No errors found | [Results](media/testing/accessibility/products_edit.html_accessibility.png)  
