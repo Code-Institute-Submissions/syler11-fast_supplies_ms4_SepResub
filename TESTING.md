@@ -608,7 +608,7 @@ bag/bag.html | Passed, No errors found | [Results](media/testing/accessibility/b
 products/products.html | Passed, No errors found | [Results](media/testing/accessibility/products.html_accessibility.png)  
 products/product_detail.html | Passed, No errors found | [Results](media/testing/accessibility/product_detail.html_accessibility.png)  
 products/products_edit.html | Passed, No errors found | [Results](media/testing/accessibility/products_edit.html_accessibility.png)  
-checkout/checkout.html | Passed, No errors found | [Results](accessibility/checkout.html_accessibility.png)  
+checkout/checkout.html | Passed, No errors found | [Results](media/testing/accessibility/checkout.html_accessbility.png)  
 checkout/checkout_success.html | Passed, No errors found | [Results](media/testing/accessibility/checkout_success.html_accessibility.png)  
 profile/profile.html | Passed, No errors found | [Results](media/testing/accessibility/profile.html_accessibility.png) 
 profile/order_history.html | Passed, No errors found | [Results](media/testing/accessibility/order_history.html_accessibility.png) 
