@@ -134,14 +134,14 @@ Testing was completed on the following browsers and device types
 
 Device Number | Physical/Emulator | Device Name | Device Type | Browser | Version
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-1 | Physical | iPad | Tablet |  Safari | 15.3 |
-2 | Physical | iPhone | Mobile |Safari | 15.3 |
+1 | Physical | iPad 9th Gen | Tablet |  Safari | 15.4.1 |
+2 | Physical | iPhone 11 | Mobile |Safari | 15.4.1 |
 3 | Physical | MacBook Pro | Laptop | Safari | 14.1 |
-4 | Physical | Windows Desktop| Desktop | Microsoft Edge | 98.0 |
-5 | Physical | Windows Desktop| Desktop | Chrome | 98.0 |
-6 | Emulator | iPhone 5/SE | Mobile | Chrome Emulator | 98.0 |
-7 | Emulator | iPhone X | Mobile | Chrome Emulator | 98.0 |
-8 | Emulator | iPad | Tablet | Chrome Emulator | 98.0 |
+4 | Physical | Windows Desktop| Desktop | Microsoft Edge | 101.0 |
+5 | Physical | Windows Desktop| Desktop | Chrome | 101.0 |
+6 | Emulator | iPhone 5/SE | Mobile | Chrome Emulator | 101.0 |
+7 | Emulator | iPhone X | Mobile | Chrome Emulator | 101.0 |
+8 | Emulator | iPad | Tablet | Chrome Emulator | 101.0 |
 
 ## Feature One Navigation
 
@@ -610,6 +610,7 @@ products/product_detail.html | Passed, No errors found | [Results](media/testing
 products/products_edit.html | Passed, No errors found | [Results](media/testing/accessibility/products_edit.html_accessibility.png)  
 checkout/checkout.html | Passed, No errors found | [Results](accessibility/checkout.html_accessibility.png)  
 checkout/checkout_success.html | Passed, No errors found | [Results](media/testing/accessibility/checkout_success.html_accessibility.png)  
+profile/profile.html | Passed, No errors found | [Results](media/testing/accessibility/profile.html_accessibility.png) 
 profile/order_history.html | Passed, No errors found | [Results](media/testing/accessibility/order_history.html_accessibility.png) 
 
 ## JSHint

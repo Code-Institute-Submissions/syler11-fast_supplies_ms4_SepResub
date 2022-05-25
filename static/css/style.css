@@ -261,6 +261,11 @@ a.category-badge > span.badge:hover {
 
 .text-blue {
     color: darkblue;
+    font-weight: bold;
+}
+
+.text-shadow-blue {
+    text-shadow: 1px 1px darkblue;
 }
 
 /* Product Form */
