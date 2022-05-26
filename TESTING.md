@@ -657,6 +657,18 @@ fast_supplies-wsgi.py | All right | [Results](media/testing/pep8/fast_supplies-w
 home-apps.py | All right | [Results](media/testing/pep8/home-apps.py.png)  
 home-urls.py | All right | [Results](media/testing/pep8/home-urls.py.png)  
 home-views.py | All right | [Results](media/testing/pep8/home-views.py.png) 
+profiles-apps.py | All right | [Results](media/testing/pep8/profiles-apps.py.png) 
+profiles-forms.py | All right | [Results](media/testing/pep8/profiles-forms.py.png) 
+profiles-models.py | All right | [Results](media/testing/pep8/profiles-models.py.png) 
+profiles-urls.py | All right | [Results](media/testing/pep8/profiles-urls.py.png) 
+profiles-views.py | All right | [Results](media/testing/pep8/profiles-views.py.png) 
+products-admin.py | All right | [Results](media/testing/pep8/products-admin.py.png) 
+products-apps.py | All right | [Results](media/testing/pep8/products-apps.py.png) 
+products-forms.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
+products-models.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
+products-urls.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
+products-views.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
+products-widgets.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
  
   
  
