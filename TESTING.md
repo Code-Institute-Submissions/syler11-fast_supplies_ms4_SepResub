@@ -563,25 +563,43 @@ checkout.css | Passed, No errors found | [Results](media/testing/css_validation/
 ### Desktop
 Page | Result 
 ------------ | ------------- 
-authentication/login.html | [Results](progroup/static/pictures/lighthouse_validation/login_desktop_validation.png)  
-authentication/account.html | [Results](progroup/static/pictures/lighthouse_validation/account_desktop_validation.png)  
-email/contact.html | [Results](progroup/static/pictures/lighthouse_validation/contact_desktop_validation.png)   
-profiles/add_profile.html | [Results](progroup/static/pictures/lighthouse_validation/add_profile_desktop_validation.png)  
-profiles/edit_profile.html | [Results](progroup/static/pictures/lighthouse_validation/edit_profile_desktop_validation.png)  
-profiles/profiles.html | [Results](progroup/static/pictures/lighthouse_validation/profiles_desktop_validation.png)  
-reservations/add_reservation.html | [Results](progroup/static/pictures/lighthouse_validation/add_reservation_desktop_validation.png)  
-reservations/edit_reservation.html | [Results](progroup/static/pictures/lighthouse_validation/edit_reservation_desktop_validation.png)  
-reservations/reservations.html | [Results](progroup/static/pictures/lighthouse_validation/reservations_desktop_validation.png) 
-users/add_user.html | [Results](progroup/static/pictures/lighthouse_validation/add_user_desktop_validation.png)  
-users/edit_user.html | [Results](progroup/static/pictures/lighthouse_validation/edit_user_desktop_validation.png)  
-users/users.html | [Results](progroup/static/pictures/lighthouse_validation/users_desktop_validation.png)  
+index.html | [Results](media/testing/lighthouse/index.html_desktop.png)  
+bag.html | [Results](media/testing/lighthouse/bag.html_desktop.png)  
+products.html | [Results](media/testing/lighthouse/products.html_desktop.png)  
+product_detail.html | [Results](media/testing/lighthouse/product_detail.html_desktop.png)  
+product_edit.html | [Results](media/testing/lighthouse/product_edit.html_desktop.png)  
+add_product.html | [Results](media/testing/lighthouse/add_product.html_desktop.png)  
+checkout.html | [Results](media/testing/lighthouse/checkout.html_desktop.png)  
+checkout_success.html | [Results](media/testing/lighthouse/checkout_success.html_desktop.png)  
+order-history.html | [Results](media/testing/lighthouse/order-history.html_desktop.png)  
+profile.html | [Results](media/testing/lighthouse/profile.html_desktop.png)  
+register.html | [Results](media/testing/lighthouse/register.html_desktop.png)  
+login.html | [Results](media/testing/lighthouse/login.html_desktop.png)  
+returns.html | [Results](media/testing/lighthouse/returns.html_desktop.png)  
+terms.html | [Results](media/testing/lighthouse/terms.html_desktop.png)  
+privacy.html | [Results](media/testing/lighthouse/privacy.html_desktop.png)  
+ 
 <br>
 
 
 ### Mobile
 Page | Result 
 ------------ | ------------- 
-home/index.html | [Results](media/testing/accessibility/index.html_accessibility.png)  
+index.html | [Results](media/testing/lighthouse/index.html_mobile.png)  
+bag.html | [Results](media/testing/lighthouse/bag.html_mobile.png)  
+products.html | [Results](media/testing/lighthouse/products.html_mobile.png)  
+product_detail.html | [Results](media/testing/lighthouse/product_detail.html_mobile.png)  
+product_edit.html | [Results](media/testing/lighthouse/product_edit.html_mobile.png)  
+add_product.html | [Results](media/testing/lighthouse/add_product.html_mobile.png)  
+checkout.html | [Results](media/testing/lighthouse/checkout.html_mobile.png)  
+checkout_success.html | [Results](media/testing/lighthouse/checkout_success.html_mobile.png)  
+order-history.html | [Results](media/testing/lighthouse/order-history.html_mobile.png)  
+profile.html | [Results](media/testing/lighthouse/profile.html_mobile.png)  
+register.html | [Results](media/testing/lighthouse/register.html_mobile.png)  
+login.html | [Results](media/testing/lighthouse/login.html_mobile.png)  
+returns.html | [Results](media/testing/lighthouse/returns.html_mobile.png)  
+terms.html | [Results](media/testing/lighthouse/terms.html_mobile.png)  
+privacy.html | [Results](media/testing/lighthouse/privacy.html_mobile.png)  
  
 <br>
 
