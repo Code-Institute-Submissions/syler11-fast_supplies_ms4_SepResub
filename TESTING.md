@@ -635,10 +635,28 @@ js/countryfield.js |  errors, 0 warnings | [Results](media/testing/js_validation
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-app.py | All right | [Results](progroup/static/pictures/pep8_validation/app_py_validation.png)  
-authentication/routes.py | All right | [Results](progroup/static/pictures/pep8_validation/authentication_routes_py_validation.png)  
-error/routes.py | All right | [Results](progroup/static/pictures/pep8_validation/error_routes_py_validation.png)  
-profiles/routes.py | All right | [Results](progroup/static/pictures/pep8_validation/profiles_routes_py_validation.png)  
-reservations/routes.py | All right | [Results](progroup/static/pictures/pep8_validation/reservations_routes_py_validation.png)  
-users/routes.py | All right | [Results](progroup/static/pictures/pep8_validation/users_routes_py_validation.png)  
+manage.py | All right | [Results](media/testing/pep8/manage.py.png)  
+custom_storages.py | All right | [Results](media/testing/pep8/custom_storages.py.png)  
+bag-apps.py | All right | [Results](media/testing/pep8/bag-apps.py.png)  
+bag-contexts.py | All right | [Results](media/testing/pep8/bag-contexts.py.png)  
+bag-urls.py | All right | [Results](media/testing/pep8/bag-urls.py.png)  
+bag-views.py | All right | [Results](media/testing/pep8/bag-views.py.png)  
+checkout-admin.py | All right | [Results](media/testing/pep8/checkout-admin.py.png)  
+checkout-apps.py | All right | [Results](media/testing/pep8/checkout-apps.py.png)  
+checkout-forms.py | All right | [Results](media/testing/pep8/checkout-forms.py.png)  
+checkout-models.py | All right | [Results](media/testing/pep8/checkout-models.py.png)  
+checkout-signals.py | All right | [Results](media/testing/pep8/checkout-signals.py.png)  
+checkout-urls.py | All right | [Results](media/testing/pep8/checkout-urls.py.png)  
+checkout-views.py | All right | [Results](media/testing/pep8/checkout-views.py.png)  
+checkout-webhooks.py | All right | [Results](media/testing/pep8/checkout-webhooks.py.png)  
+checkout-webhook_handler.py | All right | [Results](media/testing/pep8/checkout-webhook_handler.py.png)  
+fast_supplies-asgi.py | All right | [Results](media/testing/pep8/fast_supplies-asgi.py.png)  
+fast_supplies-settings.py | All right | [Results](media/testing/pep8/fast_supplies-settings.py.png)  
+fast_supplies-urls.py | All right | [Results](media/testing/pep8/fast_supplies-urls.py.png)  
+fast_supplies-wsgi.py | All right | [Results](media/testing/pep8/fast_supplies-wsgi.py.png)  
+home-apps.py | All right | [Results](media/testing/pep8/home-apps.py.png)  
+home-urls.py | All right | [Results](media/testing/pep8/home-urls.py.png)  
+home-views.py | All right | [Results](media/testing/pep8/home-views.py.png) 
+ 
+  
  

@@ -7,6 +7,7 @@ def index(request):
     """
     return render(request, "home/index.html")
 
+
 def returns(request):
     """
     A view to return the returns page
