@@ -171,8 +171,8 @@ This model contains all fields stored in the database collections with their dat
 The user stories for the website user "regular user" (with and without account) are described as follows:
 -	User Story 1.1: As a superuser/regular user the navigation bar is displayed with a logo on all pages with a search box, My account, shopping bag icons on a desktop device
 - User Story 1.2: As a superuser/regular user the navigation bar is displayed on all pages with a search box, My account, shopping bag icons on smaller screen devices
-- User Story 1.3: As a regular user not logged in, I see a Register/Login link under the My Account dropdown
-- User Story 1.4: As a regular user logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
+- User Story 1.3: As a superuser/regular not logged in, I see a Register/Login link under the My Account dropdown
+- User Story 1.4: As a superuser/regular logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
 - User Story 1.5: As a superuser/regular user logged in, I see a "My Profile"/Logout under the My Account dropdown
 - User Story 1.6: As a superuser/regular user logged in, if I click on the My Profile under My Account I am brought to the My Profile page
 - User Story 1.7: As a superuser/regular user logged in, if I click on the My Profile under My Account I am brought to the Logout page. If I click Logout I am Logged out. If I click cancel I am brought back to the homepage
@@ -228,6 +228,30 @@ The user stories for the website user "regular user" (with and without account) 
 ### User Stories Website Owner
 User Stories Website Owner
 The user stories for the website owner(superuser) are described as follows: There is a lot of overlap between the two user types, the admin user however has more administrative rights throughout
+-	User Story 1.1: As a superuser the navigation bar is displayed with a logo on all pages with a search box, My account, shopping bag icons on a desktop device
+- User Story 1.2: As a superuser the navigation bar is displayed on all pages with a search box, My account, shopping bag icons on smaller screen devices
+- User Story 1.3: As a not logged in, I see a Register/Login link under the My Account dropdown
+- User Story 1.4: As a logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
+- User Story 1.5: As a superuser logged in, I see a "My Profile"/Logout under the My Account dropdown
+- User Story 1.6: As a superuser logged in, if I click on the My Profile under My Account I am brought to the My Profile page
+- User Story 1.7: As a superuser logged in, if I click on the My Profile under My Account I am brought to the Logout page. If I click Logout I am Logged out. If I click cancel I am brought back to the homepage
+- User Story 1.8: As a superuser I can view the Home link on smaller screen in the main navigation, and clicking it will bring the user to the homepage
+- User Story 1.9: As a superuser I can click on the "All Products" navigation, click By Price, and will be brought to the Products page, with products price low to high displayed
+- User Story 1.10: As a superuser I can click on the "All Products" navigation, click By Rating, and will be brought to the Products page, with products rating high to low displayed
+- User Story 1.11: As a superuser I can click on the "All Products" navigation, click By Category, and will be brought to the Products page, with products category a-z displayed
+- User Story 1.12: As a superuser I can click on the "Chemicals" navigation, and filter by Rooms & Public area, Restaurant, Kitchen or All Chemicals
+- User Story 1.13: As a superuser I can click on the "Housekeeping" navigation, and filter by Bedrooms, Common areas or All Housekeeping
+- User Story 1.14: As a superuser I can click on the "Tableware" navigation, and filter by Crockery, Cutlery, Glassware or All Tableware
+- User Story 1.15: As a superuser I can click on the "Special Offers" navigation, and filter by New products, Deals, Clearance or All Special Offers
+- User Story 1.16: As a superuser if I encounter an error on the site, I will be navigated to the applicable 400, 403, 404 or 500 error page 
+-	User Story 2.1: As a superuser four sections are displayed in the footer are. Newsletter, Customer Service, Your account and General business information
+- User Story 4.1: As a superuser I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
+- User Story 4.2: As a superuser I can request a new password if I forget my current password. I will receive an email to reset my password. Once I reset I can log in
+- User Story 5.7: As a superuser I can view the Add product page by clicking on the My Profile / Add Product link.
+- User Story 5.8: As a superuser I can view the Edit product page by clicking on the Edit button on the product.
+- User Story 5.9: As a superuser I can click on a product, and I am navigated to the product detail page. I can edit or delete the product by clicking on the Edit or Delete links on the page
+
+
   
 
 ## Skeleton
