@@ -201,6 +201,10 @@ The user stories for the website user "regular user" (with and without account) 
 - User Story 5.4: As a regular user I can view the product name, price, image, rating, category, description
 - User Story 5.5: As a regular user I can click on the Keep Shopping button on the product detail page, and it will navigate the user to the products page
 - User Story 5.6: As a regular user I can set the quantity for a product
+- User Story 6.1: As a regular user I can view my Default delivery information: Phone Number, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country
+- User Story 6.2: As a regular user I can update my Default delivery information: Phone Number, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country
+- User Story 6.3: As a regular user I can view my order history(Order Number, Date, Items and Order Total)
+- User Story 6.4: As a regular user I can click on an order number to view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)
  
 
 
