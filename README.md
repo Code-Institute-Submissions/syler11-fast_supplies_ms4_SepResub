@@ -168,12 +168,23 @@ This model contains all fields stored in the database collections with their dat
 ### User Stories
 
 #### User Stories Existing Users  
-The user stories for the website user "regular user" (users with "user" role) are described as follows:
--	User Story 1.1: As a regular user the navigation bar is displayed with a logo on all pages for easy navigation, with a burger menu on mobile devices when user logged in  
--	User Story 1.2: As a regular user the navigation item selected is highlighted  
--	User Story 1.3: As a regular user, when logged out, the home/landing page is the default page and there is an option for Login  
--	User Story 1.4: As a regular user, when logged in, the reservation page is the default page and there are five options with a logo: Profiles, Account, Help, Logout  
--	User Story 1.5: As a regular user if I encounter a route that does not exist, I am navigated to a 404 error page  
+The user stories for the website user "regular user" (with and without account) are described as follows:
+-	User Story 1.1: As a superuser/regular user the navigation bar is displayed with a logo on all pages with a search box, My account, shopping bag icons on a desktop device
+- User Story 1.2: As a superuser/regular user the navigation bar is displayed on all pages with a search box, My account, shopping bag icons on smaller screen devices
+- User Story 1.3: As a regular user not logged in, I see a Register/Login link under the My Account dropdown
+- User Story 1.4: As a regular user logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
+- User Story 1.5: As a superuser/regular user logged in, I see a "My Profile"/Logout under the My Account dropdown
+- User Story 1.6: As a superuser/regular user logged in, if I click on the My Profile under My Account I am brought to the My Profile page
+- User Story 1.7: As a superuser/regular user logged in, if I click on the My Profile under My Account I am brought to the Logout page. If I click Logout I am Logged out. If I click cancel I am brought back to the homepage
+- User Story 1.8: As a superuser/regular user I can view the Home link on smaller screen in the main navigation, and clicking it will bring the user to the homepage
+- User Story 1.9: As a superuser/regular user I can click on the "All Products" navigation, click By Price, and will be brought to the Products page, with products price low to high displayed
+- User Story 1.10: As a superuser/regular user I can click on the "All Products" navigation, click By Rating, and will be brought to the Products page, with products rating high to low displayed
+- User Story 1.11: As a superuser/regular user I can click on the "All Products" navigation, click By Category, and will be brought to the Products page, with products category a-z displayed
+- User Story 1.12: As a superuser/regular user I can click on the "Chemicals" navigation, and filter by Rooms & Public area, Restaurant, Kitchen or All Chemicals
+- User Story 1.13: As a superuser/regular user I can click on the "Housekeeping" navigation, and filter by Bedrooms, Common areas or All Housekeeping
+- User Story 1.14: As a superuser/regular user I can click on the "Tableware" navigation, and filter by Crockery, Cutlery, Glassware or All Tableware
+- User Story 1.15: As a superuser/regular user I can click on the "Special Offers" navigation, and filter by New products, Deals, Clearance or All Special Offers
+- User Story 1.16: As a superuser/regular user if I encounter an error on the site, I will be navigated to the applicable 400, 403, 404 or 500 error page
 -	User Story 2.1: As a regular user I can view a hero image with login on the home/landing page  
 -	User Story 2.2: As a regular user I can view four reservations added on the website, with group name, arrival date, los, rooms / pax, board and status  
 -	User Story 2.3: As a regular user if I encounter a route that does not exist I am navigated to a 404 error page  
