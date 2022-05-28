@@ -250,6 +250,17 @@ The user stories for the website owner(superuser) are described as follows: Ther
 - User Story 5.7: As a superuser I can view the Add product page by clicking on the My Profile / Add Product link.
 - User Story 5.8: As a superuser I can view the Edit product page by clicking on the Edit button on the product.
 - User Story 5.9: As a superuser I can click on a product, and I am navigated to the product detail page. I can edit or delete the product by clicking on the Edit or Delete links on the page
+- User Story 8.1: As a superuser I can add a product by clicking on the Product Management link in My Account. I must enter a name, category, price, colour, code, description and Image url, upload image and click the Add Product button. Clicking cancel navigates the user to the product page.
+- User Story 8.2: As a superuser I can edit a product by clicking on the Edit button on the Products page for the product. I can update thea name, category, price, colour, code, description, and Image url, update an image and click the Edit Product button. Clicking cancel navigates the user to the product page
+- User Story 8.3: As a superuser I can delete a product by clicking on the Delete button on the product
+- User Story 9.1: As a superuser I can view users orders in the django admin page and can view order number, date, full name, order total, delivery cost, grand total
+- User Story 9.2: As a superuser I can view users orders in the django admin page and can search by order number, full name and filter by order number, full name and order date
+- User Story 9.3: As a superuser I can view products in the django admin page and can view a products code, name, category, has sizes, price, presale price, rating, image, image url
+- User Story 9.4: As a superuser I can view products in the django admin page and can view search and filter by code, category, name and price
+- User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
+- User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
+- User Story 9.7: As a superuser I can view reviews in the django admin page and can filter by user, product rating, create date and search by user, product, rating, text
+- User Story 9.8: As a superuser I can view categories in the django admin page and can view a category name and friendly name
 
 
   
