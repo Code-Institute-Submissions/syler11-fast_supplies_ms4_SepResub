@@ -186,13 +186,21 @@ The user stories for the website user "regular user" (with and without account) 
 - User Story 1.15: As a superuser/regular user I can click on the "Special Offers" navigation, and filter by New products, Deals, Clearance or All Special Offers
 - User Story 1.16: As a superuser/regular user if I encounter an error on the site, I will be navigated to the applicable 400, 403, 404 or 500 error page
 -	User Story 2.1: As a superuser/regular user four sections are displayed in the footer are. Newsletter, Customer Service, Your account and General business information
-User Story 2.2: As a superuser/regular user I can sign up for a newsletter by entering my email address and clicking Signup. I will receive an email after signing up
-User Story 2.3: As a superuser/regular user I can contact the website owner by clicking on the contact us navigation and find information usch as returns, terms and conditions and privacy policy
-User Story 2.4: As a superuser/regular user I can login or register at the your account section
-User Story 2.5: As a superuser/regular user I can find usel general business information and I can also see what type of cards are accepted on the website at the bottom of the footer area
+- User Story 2.2: As a superuser/regular user I can sign up for a newsletter by entering my email address and clicking Signup. I will receive an email after signing up
+- User Story 2.3: As a superuser/regular user I can contact the website owner by clicking on the contact us navigation and find information usch as returns, terms and conditions and privacy policy
+- User Story 2.4: As a superuser/regular user I can login or register at the your account section
+- User Story 2.5: As a superuser/regular user I can find usel general business information and I can also see what type of cards are accepted on the website at the bottom of the footer area
 -	User Story 3.1: As a superuser/regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
-User Story 3.2: As a superuser/regular user I will receive an email to verify my account after registering
-User Story 3.3: As a superuser/regular user I can log in to my account once I click on the verification link in the email I receive regarding my registration
+- User Story 3.2: As a superuser/regular user I will receive an email to verify my account after registering
+- User Story 3.3: As a superuser/regular user I can log in to my account once I click on the verification link in the email I receive regarding my registration
+- User Story 4.1: As a superuser/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
+- User Story 4.2: As a superuser/regular user I can request a new password if I forget my current password. I will receive an email to reset my password. Once I reset I can log in
+- User Story 5.1: As a regular user I can view the products page with product count and with each product image, title, category, price
+- User Story 5.2: As a regular user I can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
+- User Story 5.3: As a regular user if I click on a product I will be navigated to the product detail page
+- User Story 5.4: As a regular user I can view the product name, price, image, rating, category, description
+- User Story 5.5: As a regular user I can click on the Keep Shopping button on the product detail page, and it will navigate the user to the products page
+- User Story 5.6: As a regular user I can set the quantity for a product
  
 
 
