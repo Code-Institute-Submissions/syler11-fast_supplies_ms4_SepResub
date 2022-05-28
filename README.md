@@ -250,17 +250,19 @@ Account | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_
 
 ### Color palette
 There are six main colors what I used throughout of this project.
-- #ECECEC - Light grey colour for background
-- #37474F - main background clor for the navigation theme
-- #CF9109 - Font color for the navigation
-- #039be5 - Add / Save / Search Button colour
-- #F44336 - Delete button color
+- #555 - The main font colour throughpout the site apart from the main navigation
+- #6c757d - Light grey colour for muted text like product categories
+- #ececec - footer background colour
+- #000 - Banner and some of the buttons back ground colour and navigation font color
+- #00008B - Bag colour
+- #007bff - Edit icon color
+- #dc3545 - Delete icon color
 
 I choose those colours after testing a number of palettes while making sure the colour palette met accessibility standards.
-![Color Palette](progroup/static/pictures/color_palette.png)
+![Color Palette](media/ms4_colour_palette.png)
 
 ### Typography
-The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font. This font is from the Google fonts library.
+The Poppins font is the main font used throughout the whole website with Sans Serif as the fallback font. This font is from the Google fonts library.
 
 # Features
 
