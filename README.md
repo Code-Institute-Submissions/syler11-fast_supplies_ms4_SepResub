@@ -308,6 +308,30 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 
 # Features
 
+The website have 9 distinct features, and they are described below
+What is important to detail is what pages are accessible by the three types of users
+1. A  guest user not logged into the site
+2. A regular user logged into the site
+3. A superuser
+The navigation buttons update depending on whether a user is logged in or not, and whether that user is the admin:
+
+ Nav Link              |Guest User  |Regular user with account | Superuser
+:-------------         |:------------- |:----------------|:------------- |
+Home     |&#10004;        |&#10004;          |&#10004; |
+Register               |&#10004;        |&#10004;         |&#10060; |
+Log in               |&#10060;        |&#10060;         |&#10060; |
+Log out               |&#10060;       |&#10004;          |&#10004; |
+Products           |&#10004;        |&#10004;          |&#10004; |
+Product Detail           |&#10004;        |&#10004;          |&#10004; |
+My Profile             |&#10060;       |&#10004;          |&#10004; |
+Bag |&#10004;        |&#10004;          |&#10004; |
+Checkout |&#10004;        |&#10004;          |&#10004; |
+Checkout success |&#10004;        |&#10004;          |&#10004; |
+Order History         |&#10060;       |&#10004;          |&#10004; |
+Product Management(Add Product)     |&#10060;       |&#10060;         |&#10004; |
+Product Management(Edit Product)     |&#10060;       |&#10060;         |&#10004; |
+Product Management(Delete Product)     |&#10060;       |&#10060;         |&#10004; |
+Admin backend access |&#10060;        |&#10060;          |&#10004; |
 
 
 ## Existing Features
