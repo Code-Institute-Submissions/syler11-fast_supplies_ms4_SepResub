@@ -44,27 +44,30 @@ For test purchase please use the default stripe test Mastercard number 4242 4242
     + [Feature One Navigation](#feature-one-navigation)
       - [Description feature one](#description-feature-one)
       - [User stories feature one](#user-stories-feature-one)
-    + [Feature Two Main page](#feature-two-main-page)
+    + [Feature Two Footer](#feature-two-main-footer)
       - [Description feature two](#description-feature-two)
       - [User stories feature two](#user-stories-feature-two)
-    + [Feature Three Login](#feature-three-login)
+    + [Feature Three Register](#feature-three-register)
       - [Description feature three](#description-feature-three)
       - [User stories feature three](#user-stories-feature-three)
-    + [Feature Four Reservations](#feature-four-reservations)
+    + [Feature Four Login](#feature-four-login)
       - [Description feature four](#description-feature-four)
       - [User stories feature four](#user-stories-feature-four)
-    + [Feature Five Profiles](#feature-five-profiles)
+    + [Feature Five Products](#feature-five-products)
       - [Description feature five](#description-feature-five)
       - [User stories feature five](#user-stories-feature-five)
-    + [Feature Six Users](#feature-six-users)
+    + [Feature Six Profile](#feature-six-profile)
       - [Description feature six](#description-feature-six)
       - [User stories feature six](#user-stories-feature-six)
-    + [Feature Seven Help](#feature-seven-help)
+    + [Feature Seven Checkout](#feature-seven-checkout)
       - [Description feature seven](#description-feature-seven)
       - [User stories feature seven](#user-stories-feature-seven)
-    + [Feature Eight Acount](#feature-eight-account)
+    + [Feature Eight Product Management](#feature-eight-product-management)
       - [Description feature eight](#description-feature-eight)
       - [User stories feature eight](#user-stories-feature-eight)
+    + [Feature Nine Admin](#feature-nine-admin)
+      - [Description feature nine](#description-feature-nine)
+      - [User stories feature nine](#user-stories-feature-nine)
   * [Features left to implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
@@ -305,6 +308,8 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 
 # Features
 
+
+
 ## Existing Features
 ### Feature One Navigation
 #### Description Feature One
@@ -330,7 +335,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 -	User Story 1.4: As an admin user, when logged in, the reservation page is the default page and there are five options with a logo: Reservations Profiles, Account, Help, Logout (Users can be seen only by admin users)  
 -	User Story 1.5: As an admin user if I encounter a route that does not exist, I am navigated to a 404 error page 
 
-### Feature Two Main Page
+### Feature Two Footer
 #### Description Feature Two
 * The login/landing page is displayed when the user first accessing the site or i they log out.  
 * It displays a hero image and login facilities.
@@ -355,7 +360,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 -	User Story 2.3: As an admin user if I encounter a route that does not exist I am navigated to a 404 error page  
 -	User Story 2.4: As an admin user if I encounter an error with the application starting up I am navigated to a 500 error page  
 
-### Feature Three Login
+### Feature Three Register
 #### Description Feature Three
 - The user cannot register on the website but admin can add users to ensure unauthorized access to sensitive business infromation.
 - username is manadtory fields and if they are not entered correctly error message will appear.
@@ -381,7 +386,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 -	User Story 3.3: As an admin user I can log in to my account by providing my username and password and clicking Login and I will be navigated to the reservation page. A username and password must be provided. If the username and/or password entered is incorrectly a relevant message will be displayed  
 -	User Story 3.4: As an admin user, when I am logged into the site, and I click Logout I am successfully logged out of the site, and brought to the home/landing page, with the Login option  
 
-### Feature Four Reservations
+### Feature Four Login
 #### Description Feature Four
 - Users can add reservation to the database by entering all the mandatory fields and clicking the add reservation button. 
 - Users can edit existing reservations by clicking the edit (pen & envelope) icon.
@@ -411,7 +416,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 -	User Story 4.3: Delete Reservation - As an admin user I can delete a reservation by confirming I want to delete  
 -	User Story 4.4: View Reservation - As an admin user I can view a memory by clicking on a Reservation when additional info would be revealed 
 
-### Feature Five Profiles
+### Feature Five Products
 #### Description Feature Five
 - Users can add profile to the database by entering all the mandatory fields and clicking the add profile button. 
 - Users can edit existing reservations by clicking the edit (pen & envelope) icon.
@@ -441,7 +446,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 -	User Story 5.3: Delete Profile - As an admin user I can delete a profile by confirming I want to delete
 -	User Story 5.4: View Profile - As an admin user I can see all the existing Profiles by navigating to the Profiles page
 
-### Feature Six Users (admin users only)
+### Feature Six profile
 #### Description Feature Six
 - Admin users can add user to the database by entering all the mandatory fields and clicking the add user button. 
 - Admin users can edit existing reservations by clicking the edit (pen & envelope) icon.
@@ -470,7 +475,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 -	User Story 6.3: Delete Profile - As an admin user I can delete a user by confirming I want to delete  
 -	User Story 6.4: View users - As an admin user I can see all the existing users by navigating to the Users page
 
-### Feature Seven Help
+### Feature Seven Checkout
 #### Description Feature Seven
 - Users can send emails to the admins directly on the website. 
 - The process is straightforward when the full name and email address and message filled the email can be sent with the send button.
@@ -484,7 +489,7 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 #### User Stories Feature Seven
 -	User Story 7.1: Help – As an admin user I can send an email to the admin by clicking on the Help button in the navbar and filling up the Name, Email address and Message and click on Send Message  
 
-### Feature Eight Account
+### Feature Eight Product Management
 #### Description Feature Eight
 - User can access their basic profile information.
 - All information displayed can be update byclicking on the edit (pen & envelope) symbol. 
@@ -500,6 +505,25 @@ The Poppins font is the main font used throughout the whole website with Sans Se
 ![Account updated mobile](progroup/static/pictures/testing/account_updated_mobile.png)
 
 #### User Stories Feature Eight
+-	User Story 8.1: Account – As an admin user I can see my account information such as Full Name, Position, Email, Username and Role   
+-	User Story 8.2: Edit Account – As an admin user I can edit my account information such as Full Name, Position, Email, Username when clicking on the Save Changes  
+
+### Feature Nine Admin
+#### Description Feature Nine
+- User can access their basic profile information.
+- All information displayed can be update byclicking on the edit (pen & envelope) symbol. 
+- All changes executed by the user will be saved. 
+
+#### Account Page Desktop
+![Account Page desktop](progroup/static/pictures/testing/account_page_desktop.png)
+#### Account Page Mobile
+![Account Page mobile](progroup/static/pictures/testing/account_page_mobile.png)
+#### Account Updated Desktop
+![Account updated desktop](progroup/static/pictures/testing/account_updated_desktop.png)
+#### Account Updated Mobile
+![Account updated mobile](progroup/static/pictures/testing/account_updated_mobile.png)
+
+#### User Stories Feature Nine
 -	User Story 8.1: Account – As an admin user I can see my account information such as Full Name, Position, Email, Username and Role   
 -	User Story 8.2: Edit Account – As an admin user I can edit my account information such as Full Name, Position, Email, Username when clicking on the Save Changes  
 
