@@ -431,10 +431,10 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 ![Login mobile](progroup/static/pictures/testing/login_mobile.png) 
 
 #### User Stories Feature Three
--	User Story 3.1: As an admin user my username must be a minimum of 5 characters, and contain lowercase, uppercase letters and numbers, but no special characters  
--	User Story 3.2: As an admin user my username and / or password must match my confirm username and / or password  
--	User Story 3.3: As an admin user I can log in to my account by providing my username and password and clicking Login and I will be navigated to the reservation page. A username and password must be provided. If the username and/or password entered is incorrectly a relevant message will be displayed  
--	User Story 3.4: As an admin user, when I am logged into the site, and I click Logout I am successfully logged out of the site, and brought to the home/landing page, with the Login option  
+-	User Story 3.1: As a superuser/regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
+- User Story 3.2: As a superuser/regular user I will receive an email to verify my account after registering
+- User Story 3.3: As a superuser/regular user I can log in to my account once I click on the verification link in the email I receive regarding my registration
+
 
 ### Feature Four Login
 #### Description Feature Four
@@ -461,10 +461,8 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 ![View reservation mobile](progroup/static/pictures/testing/reservation_collapsible_mobile.png)
 
 #### User Stories Feature Four
--	User Story 4.1: Add Reservation - As an admin user I can add a new reservation by selecting a Group name selection, reservation details, room details, room rates and notes, when clicking on the add reservation the page would redirect to reservations and the new reservation would be added  
--	User Story 4.2: Edit Reservation - As an admin user I can edit an existing reservation by updating any Group name selection, reservation details, room details, room rates and notes, when clicking on the edit reservation the page would redirect to reservations and the new reservation would be updated  
--	User Story 4.3: Delete Reservation - As an admin user I can delete a reservation by confirming I want to delete  
--	User Story 4.4: View Reservation - As an admin user I can view a memory by clicking on a Reservation when additional info would be revealed 
+- User Story 4.1: As a superuser/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
+- User Story 4.2: As a superuser/regular user I can request a new password if I forget my current password. I will receive an email to reset my password. Once I reset I can log in
 
 ### Feature Five Products
 #### Description Feature Five
