@@ -275,18 +275,21 @@ Each wireframe contains three sub images, one for desktop, tablet and mobile
 
 Page | Wireframe | 
 ------------ | ------------- 
-Login | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_login.png)
-Reservations | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_reservations.png)
-Add Reservations | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_addReservation.png)
-Edit Reservations | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_editReservation.png)
-Profiles | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_profiles.png)
-Add Profiles | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_addProfile.png)
-Edit Profiles | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_editProfile.png)
-Users | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_users.png)
-Add Users | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_addUser.png)
-Edit Users | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_editUser.png)
-Help | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_help.png)
-Account | [Desktop/Tablet/Mobile](progroup/static/pictures/wireframes/wireframe_account.png)
+Homepage | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
+Returns | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
+Terms and Conditions | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
+Privacy Policy | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
+Register | [Desktop/Tablet/Mobile](progroumedia/wireframes/wireframe_homepage.png)
+Login | [Desktop/Tablet/Mobile](progroup/media/wireframes/wireframe_homepage.png)
+Products | [Desktop/Tablet/Mobile](progroup/smedia/wireframes/wireframe_homepage.png)
+Products Detail | [Desktop/Tablet/Mobile](promedia/wireframes/wireframe_homepage.png)
+Bag | [Desktop/Tablet/Mobile](progrmedia/wireframes/wireframe_homepage.png)
+Checkout | [Desktop/Tablet/Mobile](progromedia/wireframes/wireframe_homepage.png)
+Checkout Success | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
+Order History | [Desktop/Tablet/Mobile](prmedia/wireframes/wireframe_homepage.png)
+My Profile | [Desktop/Tablet/Mobile](promedia/wireframes/wireframe_homepage.png)
+Add Product | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
+Edit product | [Desktop/Tablet/Mobile](prmedia/wireframes/wireframe_homepage.png)
 
 ## Surface
 
@@ -386,28 +389,26 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 
 ### Feature Two Footer
 #### Description Feature Two
-* The login/landing page is displayed when the user first accessing the site or i they log out.  
+* The footer area contains 4 distinctive section: Newsletter, Customer Service, Your account and General business information
 * It displays a hero image and login facilities.
 
-#### Desktop Login Page
-![Login desktop](progroup/static/pictures/testing/login_desktop.png)  
-#### Mobile Login Page
-![Login mobile](progroup/static/pictures/testing/login_mobile.png) 
-#### Desktop Reservation Page
-![Login desktop](progroup/static/pictures/testing/reservations_desktop.png)  
-#### Mobile Reservation Page
-![Login mobile](progroup/static/pictures/testing/reservations_mobile.png) 
-#### Desktop 500 Error Page
-![Login desktop](progroup/static/pictures/testing/500_page_desktop.png)
-#### Mobile 500 Error Page
-![Login desktop](progroup/static/pictures/testing/500_page_mobile.png)
+#### Footer - Desktop
+![Footer desktop](media/testing/features/feature_two/footer_desktop.png)
+#### Footer - Mobile
+![Footer desktop](media/testing/features/feature_two/footer_desktop.png)
+#### Newsletter Subscription - Tablet
+![Footer desktop](media/testing/features/feature_two/newsletter_subscription.png)
+#### Newsletter SEmail Confirmation
+![Footer desktop](media/testing/features/feature_two/newsletter_email_confirmation.png)
+
 
 
 #### User Stories Feature Two
--	User Story 2.1: As an admin user I can view a hero image with login on the home/landing page  
--	User Story 2.2: As an admin user I can view four reservations added on the website, with group name, arrival date, los, rooms / pax, board and status  
--	User Story 2.3: As an admin user if I encounter a route that does not exist I am navigated to a 404 error page  
--	User Story 2.4: As an admin user if I encounter an error with the application starting up I am navigated to a 500 error page  
+-	User Story 2.1: As a superuser/regular user four sections are displayed in the footer are. Newsletter, Customer Service, Your account and General business information
+- User Story 2.2: As a superuser/regular user I can sign up for a newsletter by entering my email address and clicking Signup. I will receive an email after signing up
+- User Story 2.3: As a superuser/regular user I can contact the website owner by clicking on the contact us navigation and find information usch as returns, terms and conditions and privacy policy
+- User Story 2.4: As a superuser/regular user I can login or register at the your account section
+- User Story 2.5: As a superuser/regular user I can find usel general business information and I can also see what type of cards are accepted on the website at the bottom of the footer area
 
 ### Feature Three Register
 #### Description Feature Three
