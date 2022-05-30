@@ -443,22 +443,11 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 - Users can delete existing reservation by clicking the delete (trash can) icon.
 - User can view more details about reservation by clicking on the reservation line itself. (collapsible feature)
 
-#### Add Reservation Desktop
-![Add reservation desktop](progroup/static/pictures/testing/add_reservation_desktop.png)
-#### Add Reservation Mobile
-![Add reservation mobile](progroup/static/pictures/testing/add_reservation_mobile.png)
-#### Edit Reservation Desktop
-![Edit reservation desktop](progroup/static/pictures/testing/edit_reservation_desktop.png)
-#### Edit Reservation Mobile
-![Edit reservation mobile](progroup/static/pictures/testing/edit_reservation_mobile.png)
-#### Delete Reservation Desktop
-![Delete reservation desktop](progroup/static/pictures/testing/delete_reservation_confirmation_desktop.png)
-#### Delete Reservation Mobile
-![Delete reservation mobile](progroup/static/pictures/testing/delete_reservation_confirmation_mobile.png)
-#### View Reservation Desktop
-![View reservation desktop](progroup/static/pictures/testing/reservation_collapsible_desktop.png)
-#### View Reservation Mobile
-![View reservation mobile](progroup/static/pictures/testing/reservation_collapsible_mobile.png)
+
+#### Login Desktop
+![Login desktop](media/testing/features/feature_four/login_desktop.png) 
+#### Forgot password Mobile
+![Forgot password mobile](media/testing/features/feature_four/forgot_password_mobile.png) 
 
 #### User Stories Feature Four
 - User Story 4.1: As a superuser/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
