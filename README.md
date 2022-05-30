@@ -41,10 +41,10 @@ For test purchase please use the default stripe test Mastercard number 4242 4242
     + [Typography](#typography)
 - [Features](#features)
   * [Existing features](#existing-features)
-    + [Feature One Navigation](#feature-one-navigation)
+    + [Feature One Navigation and Header](#feature-one-navigation-and-header)
       - [Description feature one](#description-feature-one)
       - [User stories feature one](#user-stories-feature-one)
-    + [Feature Two Footer](#feature-two-main-footer)
+    + [Feature Two Footer](#feature-two-footer)
       - [Description feature two](#description-feature-two)
       - [User stories feature two](#user-stories-feature-two)
     + [Feature Three Register](#feature-three-register)
@@ -335,29 +335,54 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 
 
 ## Existing Features
-### Feature One Navigation
+### Feature One Navigation and Header
 #### Description Feature One
-- There is no navigation available for users on the login/landing only the login facility what will be covered in feature three.   
-- When the user is logged in there are five options with a logo: Reservations Profiles, Account, Help, Logout (Users can be seen only by admin users).  
--  The navigation for the logged in users ensure the easy use of the website.  
-
+- The navigation and header are comprosmising the logo (hidden on small screens) serach bar, shopping bag, my prolfile links and the main navigationlinks (hamburger icon on small screens)
 #### Desktop Navigation
-![Navigation desktop](progroup/static/pictures/testing/navigation_desktop.png)  
+![Navigation desktop](media/testing/features/feature_one/main_navigation-desktop.png)  
+#### Tablet Navigation
+![Navigation tablet](media/testing/features/feature_one/main_navigation-tablet.png)  
 #### Mobile Navigation
-![Navigation mobile](progroup/static/pictures/testing/navigation_mobile.png)  
-#### Desktop 404 Error Page
-![Navigation desktop](progroup/static/pictures/testing/404_page_desktop.png)  
-#### Mobile 404 Error Page
-![Navigation desktop](progroup/static/pictures/testing/404_page_mobile.png)  
-  
+![Navigation mobile](media/testing/features/feature_one/main_navigation-mobile.png) 
+
+- The look is consistent throughout the website regardless the type of the user
+- The my profile page will display differenly for all three type of users
+#### My Profile link - Guest user
+![Navigation desktop](media/testing/features/feature_one/my_profile-guest_user.png)  
+#### My Profile link - Regular user
+![Navigation desktop](media/testing/features/feature_one/my_profile-regular_user.png)  
+#### My Profile link - Superuser
+![Navigation desktop](media/testing/features/feature_one/my_profile-superuser.png)  
+
+- The main navigation links are comprosmising 5 filters All Products, Chemicals, Housekeeping, Tableware and Special Offers.
+  Each links contains additional filter for easier navigation. 
+#### Filters - Desktop
+![Navigation desktop](media/testing/features/feature_one/navigation_filters_desktop.png)  
+#### Filters - Tablet
+![Navigation tablet](media/testing/features/feature_one/navigation_filters_tablet.png)  
+#### Filters - Mobile
+![Navigation mobile](media/testing/features/feature_one/navigation_filters_mobile.png)  
+-  I encounter an error on the site, I will be navigated to the applicable 400, 403, 404 or 500 error page
+![404 Error page](media/testing/features/feature_one/404_page_desktop.png)  
  
 
 #### User Stories Feature One
--	User Story 1.1: As an admin user the navigation bar is displayed with a logo on all pages for easy navigation, with a burger menu on mobile devices when user logged in  
--	User Story 1.2: As an admin user the navigation item selected is highlighted  
--	User Story 1.3: As an admin user, when logged out, the home/landing page is the default page and there is an option for Login  
--	User Story 1.4: As an admin user, when logged in, the reservation page is the default page and there are five options with a logo: Reservations Profiles, Account, Help, Logout (Users can be seen only by admin users)  
--	User Story 1.5: As an admin user if I encounter a route that does not exist, I am navigated to a 404 error page 
+-	User Story 1.1: As a superuser/regular user the navigation bar is displayed with a logo on all pages with a search box, My account, shopping bag icons on a desktop device
+- User Story 1.2: As a superuser/regular user the navigation bar is displayed on all pages with a search box, My account, shopping bag icons on smaller screen devices
+- User Story 1.3: As a superuser/regular not logged in, I see a Register/Login link under the My Account dropdown
+- User Story 1.4: As a superuser/regular logged in/not logged in, I am brought to my shopping bag if I click on the Bag icon
+- User Story 1.5: As a superuser/regular user logged in, I see a "My Profile"/Logout under the My Account dropdown
+- User Story 1.6: As a superuser/regular user logged in, if I click on the My Profile under My Account I am brought to the My Profile page
+- User Story 1.7: As a superuser/regular user logged in, if I click on the My Profile under My Account I am brought to the Logout page. If I click Logout I am Logged out. If I click cancel I am brought back to the homepage
+- User Story 1.8: As a superuser/regular user I can view the Home link on smaller screen in the main navigation, and clicking it will bring the user to the homepage
+- User Story 1.9: As a superuser/regular user I can click on the "All Products" navigation, click By Price, and will be brought to the Products page, with products price low to high displayed
+- User Story 1.10: As a superuser/regular user I can click on the "All Products" navigation, click By Rating, and will be brought to the Products page, with products rating high to low displayed
+- User Story 1.11: As a superuser/regular user I can click on the "All Products" navigation, click By Category, and will be brought to the Products page, with products category a-z displayed
+- User Story 1.12: As a superuser/regular user I can click on the "Chemicals" navigation, and filter by Rooms & Public area, Restaurant, Kitchen or All Chemicals
+- User Story 1.13: As a superuser/regular user I can click on the "Housekeeping" navigation, and filter by Bedrooms, Common areas or All Housekeeping
+- User Story 1.14: As a superuser/regular user I can click on the "Tableware" navigation, and filter by Crockery, Cutlery, Glassware or All Tableware
+- User Story 1.15: As a superuser/regular user I can click on the "Special Offers" navigation, and filter by New products, Deals, Clearance or All Special Offers
+- User Story 1.16: As a superuser/regular user if I encounter an error on the site, I will be navigated to the applicable 400, 403, 404 or 500 error page
 
 ### Feature Two Footer
 #### Description Feature Two
