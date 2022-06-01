@@ -483,32 +483,24 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 
 ### Feature Six profile
 #### Description Feature Six
-- Admin users can add user to the database by entering all the mandatory fields and clicking the add user button. 
-- Admin users can edit existing reservations by clicking the edit (pen & envelope) icon.
-- Admin users can delete existing user by clicking the delete (trash can) icon.
-- Admin users can check existing users by navigating to the users page
+- A regular user or speruser can update their default delivery information as per the user stories below
+- A use must be logged in to see their profile page
+- This is the information that is displayed when the user is checking out an order
+- A user can view and update their Default delivery information
 
-#### Add User Desktop
-![Add User desktop](progroup/static/pictures/testing/add_user_desktop.png)
-#### Add User Mobile
-![Add User mobile](progroup/static/pictures/testing/add_user_mobile.png)
-#### Edit User Desktop
-![Edit User desktop](progroup/static/pictures/testing/edit_user_desktop.png)
-#### Edit User Mobile
-![Edit User mobile](progroup/static/pictures/testing/edit_user_mobile.png)
-#### Delete User Desktop
-![Delete User desktop](progroup/static/pictures/testing/delete_user_confirmation_desktop.png)
-#### Delete User Mobile
-![Delete User mobile](progroup/static/pictures/testing/delete_user_confirmation_mobile.png)
-#### View User Desktop
-![View User desktop](progroup/static/pictures/testing/users_page_desktop.png)
-#### View User Mobile
-![View User mobile](progroup/static/pictures/testing/users_page_mobile.png)
+#### My Profile Desktop
+![Product detail mobile](media/testing/features/feature_six/my_profile_desktop.png)
+#### Order Histrory Tablet
+![Product detail mobile](media/testing/features/feature_six/order_history_tablet.png)
+#### Update profile Mobile
+![Product detail mobile](media/testing/features/feature_six/update_profile_mobile.png)
+
+
 #### User Stories Feature Six
--	User Story 6.1: Add User - As an admin user I can add a new user by typing a First name, Last name, Email, Password, Position, and select either user or admin for the Role, when clicking on the add user the page would redirect to Users and the new reservation would be added  
--	User Story 6.2: Edit User - As an admin user I can edit an existing user by updating any First name, Last name, Email, Password, Position, and select either user or admin for the Role, when clicking on the edit profile the page would redirect to profiles and the user would be updated  
--	User Story 6.3: Delete Profile - As an admin user I can delete a user by confirming I want to delete  
--	User Story 6.4: View users - As an admin user I can see all the existing users by navigating to the Users page
+User Story 6.1: As a superuser/regular user I can view my Default delivery information: Phone Number, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country
+User Story 6.2: As a superuser/regular user I can update my Default delivery information: Phone Number, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country
+User Story 6.3: As a superuser/regular user I can view my order history(Order Number, Date, Items and Order Total)
+User Story 6.4: As a superuser/regular user I can click on an order number to view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)
 
 ### Feature Seven Checkout
 #### Description Feature Seven
