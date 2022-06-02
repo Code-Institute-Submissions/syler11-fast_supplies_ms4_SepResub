@@ -6,7 +6,7 @@ There are three types of users: guest user, user with profile and superuser.
 Guest user will be able to make a purchase but their profile details won't be saved.  
 User will be able to make a purchase and their profile details are saved for future purchases.  
 Superuser will be able to add, edit and delete products abd access to back end date to update profiles, groups, categories, orders, etc.
-Login for user: username: nikolettTest password: test@1234!
+Login for user: username: vamerad password: code@2545
 
 Login for superuser: username: syler password: code2545
 
@@ -398,9 +398,8 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 ![Footer desktop](media/testing/features/feature_two/footer_desktop.png)
 #### Newsletter Subscription - Tablet
 ![Footer desktop](media/testing/features/feature_two/newsletter_subscription.png)
-#### Newsletter SEmail Confirmation
+#### Newsletter Email Confirmation
 ![Footer desktop](media/testing/features/feature_two/newsletter_email_confirmation.png)
-
 
 
 #### User Stories Feature Two
@@ -417,18 +416,15 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 - password is manadtory fields and if they are not entered correctly error message will appear.
 - After logout the user will be redirected to the login / landing page.
 
-#### Incorrect Username Desktop
-![Incorrect username desktop](progroup/static/pictures/testing/incorrect_username_desktop.png)
-#### Incorrect Username Mobile
-![Incorrect username mobile](progroup/static/pictures/testing/incorrect_username_mobile.png)
-#### Incorrect Password Desktop
-![Incorrect password desktop](progroup/static/pictures/testing/incorrect_password_desktop.png)
-#### Incorrect Password Mobile
-![Incorrect password mobile](progroup/static/pictures/testing/incorrect_username_mobile.png)
-#### After logout Desktop
-![Login desktop](progroup/static/pictures/testing/login_desktop.png)  
-#### After logout Mobile
-![Login mobile](progroup/static/pictures/testing/login_mobile.png) 
+#### Register New Account
+![Forgot password mobile](media/testing/features/feature_three/register_new_account.png) 
+#### Verify Email
+![Forgot password mobile](media/testing/features/feature_three/verify_email.png) 
+#### Verify Email Received
+![Forgot password mobile](media/testing/features/feature_three/verify_email_received.png) 
+#### Email Verification Confirm
+![Forgot password mobile](media/testing/features/feature_three/email_verification_confirm.png) 
+
 
 #### User Stories Feature Three
 -	User Story 3.1: As a superuser/regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
@@ -444,8 +440,10 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 #### Login Desktop
 ![Login desktop](media/testing/features/feature_four/login_desktop.png) 
 - If the user needs to request a password, they can click on the Forgot Password link
-#### Forgot password Mobile
-![Forgot password mobile](media/testing/features/feature_four/forgot_password_mobile.png) 
+#### Forgot password
+![Forgot password mobile](media/testing/features/feature_four/forgot_password.png) 
+#### Email password reset
+![Forgot password mobile](media/testing/features/feature_four/email_password_reset.png) 
 
 #### User Stories Feature Four
 - User Story 4.1: As a superuser/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
