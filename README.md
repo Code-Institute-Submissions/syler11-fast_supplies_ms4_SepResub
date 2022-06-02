@@ -517,10 +517,6 @@ User Story 6.4: As a superuser/regular user I can click on an order number to vi
 - The process is straightforward when the full name and email address and message filled the email can be sent with the send button.
 - Flash message will confirm that message was sent. 
 
-#### Email Sent Desktop
-![Email sent desktop](progroup/static/pictures/testing/email_sent_desktop.png)
-#### Email Sent Mobile
-![Email sent mobile](progroup/static/pictures/testing/email_sent_mobile.png)
 
 #### User Stories Feature Seven
 - User Story 7.1: As a superuser/regular user I can click on a product, set quantity, click Add to Bag and the product will be added to my bag, a message displayed, and a toast will be displayed with the bag contents
