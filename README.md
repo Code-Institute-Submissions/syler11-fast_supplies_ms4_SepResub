@@ -511,9 +511,29 @@ User Story 6.4: As a superuser/regular user I can click on an order number to vi
 
 ### Feature Seven Checkout
 #### Description Feature Seven
-- Users can send emails to the admins directly on the website. 
-- The process is straightforward when the full name and email address and message filled the email can be sent with the send button.
-- Flash message will confirm that message was sent. 
+- A user can add items to a bag, if the bag is empty a message is displayed
+
+#### Product Quantity before adding to bag
+![Product detail mobile](media/testing/features/feature_seven/product_quantity.png)
+- A user can update the quantity or remove an item from their shopping bag 
+#### Product added
+![Product detail mobile](media/testing/features/feature_seven/product_added.png)
+- User can fill up the checkout from with name and delivery details and save details for next time if any field is missing or wrong the user will get a notification in red
+#### Checkout Form
+![Product detail mobile](media/testing/features/feature_seven/checkout_form.png)
+#### Checkout Form error
+![Product detail mobile](media/testing/features/feature_seven/checkout_form_error.png)
+- User must fill up the card details to make a purchase if any field is missing or wrong the user will get a notification
+#### Stripe Payment form
+![Product detail mobile](media/testing/features/feature_seven/stripe_payment_form.png)
+#### Stripe Payment error
+![Product detail mobile](media/testing/features/feature_seven/invalid_card_error.png)
+- User will get a confirmation about a succesful purchase what letting the user know the order number and that email was sent to the email give on the form
+#### Order Confirmation
+![Product detail mobile](media/testing/features/feature_seven/order_confirmation.png)
+- User will receive an email confirmation about the purchase
+#### Order Email Confirmation
+![Product detail mobile](media/testing/features/feature_seven/order_email_confirmation.png)
 
 
 #### User Stories Feature Seven
