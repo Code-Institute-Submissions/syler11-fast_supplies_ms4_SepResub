@@ -14,6 +14,18 @@ class ProductAdmin(admin.ModelAdmin):
         'rating',
         'image',
     )
+    list_filter = (
+        'sku',
+        'name',
+        'category',
+        'price',
+    )
+    search_fields = (
+        'sku',
+        'name',
+        'category',
+        'price',
+    )
 
     ordering = ('sku',)
 

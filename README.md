@@ -262,8 +262,7 @@ The user stories for the website owner(superuser) are described as follows: Ther
 - User Story 9.4: As a superuser I can view products in the django admin page and can view search and filter by code, category, name and price
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
-- User Story 9.7: As a superuser I can view reviews in the django admin page and can filter by user, product rating, create date and search by user, product, rating, text
-- User Story 9.8: As a superuser I can view categories in the django admin page and can view a category name and friendly name
+- User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
 
 
   
@@ -588,18 +587,18 @@ User Story 6.4: As a superuser/regular user I can click on an order number to vi
 - All information displayed can be update byclicking on the edit (pen & envelope) symbol. 
 - All changes executed by the user will be saved. 
 
-#### Account Page Desktop
-![Account Page desktop](progroup/static/pictures/testing/account_page_desktop.png)
-#### Account Page Mobile
-![Account Page mobile](progroup/static/pictures/testing/account_page_mobile.png)
-#### Account Updated Desktop
-![Account updated desktop](progroup/static/pictures/testing/account_updated_desktop.png)
-#### Account Updated Mobile
-![Account updated mobile](progroup/static/pictures/testing/account_updated_mobile.png)
+#### Product deleted
+![Product detail mobile](media/testing/features/feature_nince_admin_orders.png)
+
 
 #### User Stories Feature Nine
--	User Story 8.1: Account – As an admin user I can see my account information such as Full Name, Position, Email, Username and Role   
--	User Story 8.2: Edit Account – As an admin user I can edit my account information such as Full Name, Position, Email, Username when clicking on the Save Changes  
+- User Story 9.1: As a superuser I can view users orders in the django admin page and can view order number, date, full name, order total, delivery cost, grand total
+- User Story 9.2: As a superuser I can view users orders in the django admin page and can search by order number, full name and filter by order number, full name and order date
+- User Story 9.3: As a superuser I can view products in the django admin page and can view a products code, name, category, has sizes, price, presale price, rating, image, image url
+- User Story 9.4: As a superuser I can view products in the django admin page and can view search and filter by code, category, name and price
+- User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
+- User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
+- User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
 
 ## Features left to implement
  
