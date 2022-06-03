@@ -683,21 +683,37 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 # Deployment
 There are several applications that need to be configured to run this application locally or on a cloud based service.
 
-## Heroku
-To deploy this application to Heroku, run the following steps.
-1. In the app.py file, ensure that debug is not enabled, i.e. set to True
-2. Create a file called ProcFile in the root directory, and add the line <code>web: python app.py</code> if the file does not already exist
-3. Create a requirements.txt file by running the command <code>pip freeze > requirements.txt</code> in your terminal if the file doesn't already exist
-5. Both the ProcFile and requirements.txt files should be added to your git repo in the root directory
-6. Create an account on heroku.com
-7. Create a new application and give it a unique name
-8. In the application dashboard, navigate to the deploy section and connect your application to your git repo, by selecting your repo
-9. Select the branch for example master and enable automatic deploys if desired. Otherwise, a deployment will be manual
-10. The next step is to set the config variables in the Settings section
-11. Set key/value pairs for the following keys: IP, MONGO_DBNAME, MONGO_URI, PORT, SECRET_KEY
-12. Go to the dashboard and trigger a deployment
-13. This will trigger a deployment, once the deployment has been successful click on the "Open App" link to open the app
-14. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
+
+## AWS Amazon Web Services 
+
+To deploy this application to Heroku, run the following steps. ( source CI - boutique-ado tutorial)
+1. Create an account at heroku.com
+2. Create an app, give it a name for example fast-suuplies, and select a region (EU)
+3. Under resources search for postgres, and add a Postgres database to the app
+4. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
+5. Install the plugins dj-database-url and psycopg2-binary.
+6. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
+7. Create a Procfile with the text: web: gunicorn rugby_shop.wsgi:application for example
+8. In the settings.py ensure the connection is to the Heroku postgres database
+9. Ensure debug is set to false in the settings.py file
+10. Add localhost/127.0.0.1, and fast-supplies.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+11. Run "python3 manage.py showmigrations" to check the status of the migrations
+12. Run "python3 manage.py migrate" to migrate the database
+13. Run "python3 manage.py createsuperuser" to create a super/admin user
+14. Run "python3 manage.py loaddata categories.json" on the categories file in products/fixtures to create the categories
+15. Run "python3 manage.py loaddata products.json" on the products file in products/fixtures to create the products
+16. Install gunicorn and add it to the requirements.tx file using the command pip3 freeze > requirements.txt
+17. From the CLI login to Heroku using the command heroku git:remote -a fast-supplies
+18. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a fast-supplies
+19. Push the code to Heroku using the command git push heroku master
+20. Ensure the following environment variables are set in Heroku
+21. Since Heroku disabled GitHub auto deployment use the following step
+22. <code>heroku login -i</code> (add email address and password)
+23. once logged in use <code>heroku git:remote -a fast-supplies</code>
+24. <code>git push heroku main</code>  
+22. Click deploy to deploy your application to Heroku for the first time
+23. Click on the link provided to access the application
+24. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
 
 ## Local Deployment
 To run this project locally, you will need to clone the repository
@@ -734,9 +750,11 @@ To run this project locally, you will need to clone the repository
 
 Bugs:
 
-1. Heroku  changes
+1. Heroku changes
 2. Newsletter
-3. 
+3. Emal was going out after heroku deployment
+4. Example.com was going out in the emails
+
 
 # Credits
 
