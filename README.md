@@ -557,22 +557,30 @@ User Story 6.4: As a superuser/regular user I can click on an order number to vi
 
 ### Feature Eight Product Management
 #### Description Feature Eight
-- User can access their basic profile information.
-- All information displayed can be update byclicking on the edit (pen & envelope) symbol. 
-- All changes executed by the user will be saved. 
+- Suoeruser can access the add product link via the My profile navigation
+- By clicking on add product a new product can be added by filling up the required fields such as Product category, SKU, Name, Description, Quantity, Price, Rating, Image Url and product image. After clicking on the add product button the product will be added and the Superuser will be navigated to the newly added product detail page. Also a message will appear saying the Product was successfully added. 
+- By clicking on the blue edit icon the product fields can be updated after overwriting the existing field and clicking on Update product. 
+- By clicking on the red delete icon the product can be deleted from the database.
 
-#### Account Page Desktop
-![Account Page desktop](progroup/static/pictures/testing/account_page_desktop.png)
-#### Account Page Mobile
-![Account Page mobile](progroup/static/pictures/testing/account_page_mobile.png)
-#### Account Updated Desktop
-![Account updated desktop](progroup/static/pictures/testing/account_updated_desktop.png)
-#### Account Updated Mobile
-![Account updated mobile](progroup/static/pictures/testing/account_updated_mobile.png)
+#### Superuser navigation
+![Product detail mobile](media/testing/features/feature_eight/superuser_navigation.png)
+#### Add product 1
+![Product detail mobile](media/testing/features/feature_eight/add_product_1.png)
+#### Add product 2
+![Product detail mobile](media/testing/features/feature_eight/add_product_2.png)
+#### Product added
+![Product detail mobile](media/testing/features/feature_eight/product_added.png)
+#### Update Product
+![Product detail mobile](media/testing/features/feature_eight/update_product.png)
+#### Product updated
+![Product detail mobile](media/testing/features/feature_eight/product_updated.png)
+#### Product deleted
+![Product detail mobile](media/testing/features/feature_eight/product_deleted.png)
 
 #### User Stories Feature Eight
--	User Story 8.1: Account – As an admin user I can see my account information such as Full Name, Position, Email, Username and Role   
--	User Story 8.2: Edit Account – As an admin user I can edit my account information such as Full Name, Position, Email, Username when clicking on the Save Changes  
+- User Story 8.1: As a superuser I can add a product by clicking on the Product Management link in My Account. I must enter a name, category, price, colour, code, description and Image url, upload image and click the Add Product button. Clicking cancel navigates the user to the product page.
+- User Story 8.2: As a superuser I can edit a product by clicking on the Edit button on the Products page for the product. I can update thea name, category, price, colour, code, description, and Image url, update an image and click the Edit Product button. Clicking cancel navigates the user to the product page
+- User Story 8.3: As a superuser I can delete a product by clicking on the Delete button on the product 
 
 ### Feature Nine Admin
 #### Description Feature Nine
