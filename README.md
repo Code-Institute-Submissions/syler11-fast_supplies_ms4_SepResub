@@ -583,12 +583,16 @@ User Story 6.4: As a superuser/regular user I can click on an order number to vi
 
 ### Feature Nine Admin
 #### Description Feature Nine
-- User can access their basic profile information.
-- All information displayed can be update byclicking on the edit (pen & envelope) symbol. 
-- All changes executed by the user will be saved. 
+- Superuser can access their own backend via https://fast-supplies.herokuapp.com/admin/ where they can perform CRUD operations of users, products, categories, orders. 
 
-#### Product deleted
+#### Admin Order
 ![Product detail mobile](media/testing/features/feature_nince_admin_orders.png)
+#### Admin Products
+![Product detail mobile](media/testing/features/feature_nince_admin_products.png)
+#### Admin Users
+![Product detail mobile](media/testing/features/feature_nince_admin_users.png)
+#### Admin Categories
+![Product detail mobile](media/testing/features/feature_nince_admin_categories.png)
 
 
 #### User Stories Feature Nine
@@ -601,7 +605,12 @@ User Story 6.4: As a superuser/regular user I can click on an order number to vi
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
 
 ## Features left to implement
- 
+
+1. Pagination for products
+2. Quick order list for returning customers
+3. Add more than one image per product
+4. Social share plugin
+5. Improved banner / carousel 
 
 
 # Technologies Used
