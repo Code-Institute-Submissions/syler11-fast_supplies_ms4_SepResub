@@ -75,8 +75,10 @@ For test purchase please use the default stripe test Mastercard number 4242 4242
 - [Testing](#testing)
 - [APIs](#apis)
   * [Email JS](#email-js)
+  * [Google Emails](#google-emails)
+  * [Stripe](#stripe)
 - [Deployment](#deployment)
-  * [Heroku](#heroku)
+  * [AWS Amazon Webservices](#aws-amazon-webservices)
   * [Local Deployment](#local-deployment)
 - [Bugs](#bugs)
 - [Credits](#credits)
@@ -130,22 +132,24 @@ The primary goal of the website from a site users perspective is as follows:
 
 ## Structure
 ### Website pages
-The website contains 15 pages in a logical structure, information and purpose.
+The website contains 17 pages in a logical structure, information and purpose.
 1. Home Page: The first page the user would see when they access the website before they can login to the site.
 2. Login: This page allows the user to login to the website. There was no register page added to the landing page to ensure that only authorised personnel could access the website when given access by one of the admin.
 3. Register: The first page when user would arrive after successful login. It display all the reservation / navigations and some basic statistics of the exsiting reservations. 
 4. Products: This page allows user add new reservation.
 5. Products details: This page allows user to edit existing reservation.
-6. Bag: This page allows user to delete reservation. 
-7. Checkout: This contains all the exisitng group profiles in aplhabetical order.
-8. Checkout success: This page allows user add new profiles.
-9. Order history: This page allows user to edit existing profiles.
-10. Logout: This link allows the user to logout of the site.
-11. Return: / admin only / This page lists all existing users but visible only for people with admin role. 
-12. Privacy policy: This page allows admin users add new users.
-13. Terms and Conditions: This page allows admin users to edit existing users. 
-14. 404: The 404 error page is displayed if the user enters an incorrect url when accessing the site.
-15. 400, 403 and 500: The error page is displayed if the user encounters an error on the site
+6. Add Product: Allows superuser to add new products to the database. 
+7. Edit Product: Allows superuser to edit products in the database. 
+8. Bag: This page allows user to delete reservation. 
+9. Checkout: This contains all the exisitng group profiles in aplhabetical order.
+10. Checkout success: This page allows user add new profiles.
+11. Order history: This page allows user to edit existing profiles.
+12. Logout: This link allows the user to logout of the site.
+13. Return: / admin only / This page lists all existing users but visible only for people with admin role. 
+14. Privacy policy: This page allows admin users add new users.
+15. Terms and Conditions: This page allows admin users to edit existing users. 
+16. 404: The 404 error page is displayed if the user enters an incorrect url when accessing the site.
+17. 400, 403 and 500: The error page is displayed if the user encounters an error on the site
 
 ### Code Structure
 The project is divided into a number of apps, as is built using the Django Framework The project was built on the Boutique Ado project, that was part of the project content The apps are described as follows
@@ -263,9 +267,6 @@ The user stories for the website owner(superuser) are described as follows: Ther
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
-
-
-  
 
 ## Skeleton
 
@@ -684,7 +685,7 @@ To set up the project to send emails and to use a Google account as an SMTP serv
 There are several applications that need to be configured to run this application locally or on a cloud based service.
 
 
-## AWS Amazon Web Services 
+## AWS Amazon Webservices 
 
 To deploy this application to Heroku, run the following steps. ( source CI - boutique-ado tutorial)
 1. Create an account at heroku.com
@@ -787,5 +788,5 @@ Photos:
 
 # Acknowledgment
 
-I would like to thank my wife who is also my co-worker who helped me to test the functionalities and gave me ideas how to include certain features. 
-I would like to thank my mentor Mo Shami for the guidance and support.
+- I would like to thank my wife who is also my co-worker who helped me to test the functionalities and gave me ideas how to include certain features. 
+- I would like to thank my mentor Mo Shami for the guidance and support.
