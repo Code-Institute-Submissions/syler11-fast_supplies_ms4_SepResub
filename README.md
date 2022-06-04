@@ -488,7 +488,7 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 - User Story 5.8: As a superuser I can view the Edit product page by clicking on the Edit button on the product.
 - User Story 5.9: As a superuser I can click on a product, and I am navigated to the product detail page. I can edit or delete the product by clicking on the Edit or Delete links on the page
 
-### Feature Six profile
+### Feature Six Profile
 #### Description Feature Six
 - A regular user or speruser can update their default delivery information as per the user stories below
 - A use must be logged in to see their profile page
@@ -783,7 +783,7 @@ Credit to Paul Meeneghan whose project's readme and testing files inspisred me a
 Photos:
 
 1. product pcitures from Alliance National
-2. hotel_logo from bridgeoforchy.co.uk website 
+2. Logo designed by my wife Nikolett who has just started learning webdesign
 3. website-mockup.png from https://websitemockupgenerator.com/
 
 # Acknowledgment

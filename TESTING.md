@@ -143,383 +143,104 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 7 | Emulator | iPhone X | Mobile | Chrome Emulator | 101.0 |
 8 | Emulator | iPad | Tablet | Chrome Emulator | 101.0 |
 
-## Feature One Navigation
+## Feature One Navigation and Header
 
-### User Story 1-1    
-* User Story 1-1: As an admin or regular user the navigation bar is displayed with a logo on all pages for easy navigation, with a burger menu on mobile devices when user logged in  
-### Test case steps 1-1  
-1. Navigate to the home / reservation page
-### Expected result 1-1  
-1.The home / reservation page will be displayed with logo and navigation bar, with a burger menu on mobile devices
-### Actual result 1-1  
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/navigation_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/navigation_tablet.png) |[Mobile Result](progroup/static/pictures/testing/navigation_mobile.png) | Passed |
-<br>
+### User Story 1 Feature   
+- User Story 1.1: Description here 
+### User Story 1 Steps
+- Description of steps here    
+### User Story 1 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-### User Story 1-2
--	User Story 1-2: As an admin user the navigation item hovered is highlighted  
-### Test case steps 1-2
-1. Hover the mouse over the required navigation item
-### Expected result 1-2
-1. In desktop size the font is bigger and has white shadow in tablet and mobile size the background has darker background
-### Actual result 1-2
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/navigation_highlighted_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/navigation_highlighted_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/navigation_highlighted_mobile.png)  | Passed |
-<br>
+## Feature Two Footer
 
-### User Story 1-3
--	User Story 1-3: As an admin user, when logged out, the login /landing page is the default page and there is an option for Login  
-### Test case steps 1-3
-1. As an admin/regular user, navigate to the login/landing page by first logging in
-### Expected result 1-3
-1. The user is navigated to the login/landing page and there is the logo and Login facility displayed
-### Actual result 1-3
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/login_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/login_tablet.png) |[Mobile Result](progroup/static/pictures/testing/login_mobile.png) | Passed |
-<br>
+### User Story 2 Feature   
+- User Story 2.1: Description here 
+### User Story 2 Steps
+- Description of steps here    
+### User Story 2 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-### User Story 1-4
--	User Story 1-4: As an admin user, when logged in, the reservation page is the default page and there are five options with a logo: Profiles, Account, Help, Logout   
-### Test case steps 1-4
-1.As an admin/regular user login to the website
-### Expected result 1-4
-1. The reservation page is the default page and there are six options with a logo: Reservations, Profiles, Users (admin only), Help, Account, Logout
-### Actual result 1-4
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/reservations_desktop.png) |[Tablet Result](progroup/static/pictures/testing/reservations_tablet.png) | [Mobile Result](progroup/static/pictures/testing/reservations_mobile.png) | Passed |
-<br>
+## Feature One Navigation and Header
 
+### User Story 3 Register  
+- User Story 3.1: Description here 
+### User Story 3 Steps
+- Description of steps here    
+### User Story 3 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-## Feature Two Main Page
+## Feature Four Login
 
-### User Story 2-1  
-* User Story 2-1: As an admin or regular user I can view a hero image with login on the login/landing page    
-### Test case steps 2-1  
-1. An admin or regular user navigate to the login landing page 
-### Expected result 2-1  
-1. An admin or regular user would be displayed the login/landing page with a hero image and login facilities
-### Actual result 2-1 
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/landing_page_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/landing_page_tablet.png) |[Mobile Result](progroup/static/pictures/testing/landing_page_mobile.png) | Passed | 
-<br>
+### User Story 4 Feature   
+- User Story 4.1: Description here 
+### User Story 4 Steps
+- Description of steps here    
+### User Story 4 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-### User Story 2-2
--	User Story 2-2: As an admin user I can view four reservations added on the website, with group name, arrival date, los, rooms / pax, board and status an delete and edit button and also a search facility for group name status on the top of the page
-### Test case steps 2-2
-1. Navigate to reservations page (or simply log in)
-### Expected result 2-2
-1. After uccesfully navigating to reservation page the admin and user would see 4 result for the existing group bookings with group name, arrival date, los, rooms / pax, board and status and delete and edit button and the search facility on the top of the page
-### Actual result 2-2
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/reservations_page_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/reservations_page_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/reservations_page_mobile.png)  | Passed |
-<br>
+## Feature Five Products
 
-### User Story 2-3
--	User Story 2-3: As an admin or regular user if I encounter a route that does not exist, I am navigated to a 404 error page 
-### Test case steps 2-3
-1. As an admin/regular user try to access a path ehat doesn't exist
-### Expected result 2-3
-1. A 404 error page would display informing that page doesn't exist and offers a link back to the reservations page
-### Actual result 2-3
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/404_page_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/404_page_tablet.png) |[Mobile Result](progroup/static/pictures/testing/404_page_mobile.png) | Passed |
-<br>
+### User Story 5 Feature   
+- User Story 5.1: Description here 
+### User Story 5 Steps
+- Description of steps here    
+### User Story 5 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-### User Story 2-4 
--	User Story 2-4: As an admin user if I encounter an error with the application starting up I am navigated to a 500 error page  
-### Test case steps 2-4
-1. In your local environment in the env.py file modify the MONGO_URI to set an incorrect Password
-### Expected result 2-4
-1. On application start up the website would display a 500 error page
-### Actual result 2-4
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/500_page_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/500_page_tablet.png) |[Mobile Result](progroup/static/pictures/testing/500_page_mobile.png) | Passed |
-<br>
+## Feature Six Profiles
 
-## Feature Three Login
+### User Story 6 Feature   
+- User Story 6.1: Description here 
+### User Story 6 Steps
+- Description of steps here    
+### User Story 6 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-### User Story 3-1 
--	User Story 3-1: As an admin or regular user my username must be a minimum of 5 characters, and can contain lowercase, uppercase letters and number but no special characters  
-### Test case steps 3-1
-1. Changed one of the existing username from 5 to 4 characters (admin to admi)
-### Expected result 3-1
-1. An admin or regular user shall receive a warning that the format is not accepted
-### Actual result 3-1
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/username_error_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/username_error_tablet.png) |[Mobile Result](progroup/static/pictures/testing/username_error_mobile.png) | Passed |
-<br>
+## Feature Seven Checkout
 
-### User Story 3-2 
--	User Story 3-2: As an admin or regular user my username and / or password must match my confirm username and / or password   
-### Test case steps 3-2
-1. An admin or regular user would enter the correct username / password combination and click login the application would log them in and would display the reservation page
-### Expected result 3-2
-1. Successful login the reservation page is displayed
-### Actual result 3-2
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/reservations_page_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/reservations_page_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/reservations_page_mobile.png)  | Passed |
-<br>
+### User Story 7 Feature   
+- User Story 7.1: Description here 
+### User Story 7 Steps
+- Description of steps here    
+### User Story 7 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-### User Story 3-3 
--	User Story 3-3: As an admin user I can log in to my account by providing my username and password and clicking Login and I will be navigated to the reservation page. A username and password must be provided. If the username and/or password entered is incorrectly a relevant message will be displayed  
-### Test case steps 3-3
-1. An admin or regular user type the wrong username
-2. An admin or regular user type the wrong password
-### Expected result 3-3
-1. Flash message appear on the top of page displaying Inccorect username
-2. Flash message appear on the top of page displaying Inccorect password
-### Actual result 3-3
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/incorrect_username_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/incorrect_username_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/incorrect_username_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/incorrect_password_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/incorrect_password_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/incorrect_password_mobile.png)  | Passed |
-<br>
+## Feature Eight Product Management
 
-### User Story 3-4 
--	User Story 3-4: As an admin user, when I am logged into the site, and I click Logout I am successfully logged out of the site, and brought to the home/landing page, with the Login option  
-### Test case steps 3-4
-1. As an admin or reguklar user the log out button is available in the navigation
-2. After clicking on the navigation button an admin or regular user is successfully logged out 
-### Expected result 3-4
-1. Admin or regular user is looged out and login/landing page displayed
-### Actual result 3-4
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/landing_page_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/landing_page_tablet.png) |[Mobile Result](progroup/static/pictures/testing/landing_page_mobile.png) | Passed | 
-<br>
+### User Story 8 Feature   
+- User Story 8.1: Description here 
+### User Story 8 Steps
+- Description of steps here    
+### User Story 8 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
-## Feature Four Reservations
-### User Story 4-1 
--	User Story 4-1: Add Reservation - As an admin user I can add a new reservation by selecting a Group name selection, reservation details, room details, room rates and notes, when clicking on the add reservation the page would redirect to reservations and the new reservation would be added  
-### Test case steps 4-1
-1. An admin or regular user clicks on the Add New button on the reservation page and the add reservation display
-2. An admin or regular user would fill all the required input fields and click Add Reservation button and the page would redirect to reservations with the new reservation added
-### Expected result 4-1
-1. Add reservation page displays
-2. Page redirect to reservations and the new reseration added to the database (+1 reservations in total)
-### Actual result 4-1
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/add_reservation_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/add_reservation_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/add_reservation_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/add_reservation_filled_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/add_reservation_filled_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/add_reservation_filled_mobile.png)  | Passed |
-Step 3 | [Desktop Result](progroup/static/pictures/testing/new_reservation_added_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/new_reservation_added_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/new_reservation_added_mobile.png)  | Passed |
-<br>
+## Feature Nine Django Admin
 
-### User Story 4-2 
--	User Story 4-2: Edit Reservation - As an admin user I can edit an existing reservation by updating any Group name selection, reservation details, room details, room rates and notes, when clicking on the edit reservation the page would redirect to reservations and the new reservation would be updated  
-### Test case steps 4-2
-1. An admin or regular users would click on the edit symbol on the required reservation
-2. After the values are updated by clicking the save cnahges button the database values would be updated and reservation page would display again
-### Expected result 4-2
-1. An admin or regular users would edit Reservation display for value to be updated
-2. Reservation page would display the reservations with teh updated values
-### Actual result 4-2
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/edit_reservation_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/edit_reservation_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/edit_reservation_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/reservation_updated_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/reservation_updated_tablet.png) |[Mobile Result](progroup/static/pictures/testing/reservation_updated_mobile.png)  | Passed |
-<br>
-
-### User Story 4-3   
--	User Story 4-3: Delete Reservation - As an admin user I can delete a reservation by confirming I want to delete  
-### Test case steps 4-3
-1. An admin or regular users would click on the delete symbol on the required reservation and then confirmation panel would
-2. By clicking on the delete button the reservation would be moved from the database
-### Expected result 4-3
-1. Delete confirmation panel appear
-2. Reservation is deleted from the database
-### Actual result 4-3
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/delete_reservation_confirmation_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/delete_reservation_confirmation_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/delete_reservation_confirmation_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/reservation_deleted_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/reservation_deleted_tablet.png) |[Mobile Result](progroup/static/pictures/testing/reservation_deleted_mobile.png)  | Passed |
-<br>
-
-### User Story 4-4 
--	User Story 4-4: View Reservation - As an admin user I can view a memory by clicking on a Reservation when additional info would be revealed 
-### Test case steps 4-4
-1. An admin or regular users would click on the required reservation and then the reservation details would reveal below
-### Expected result 4-4
-1. A collapsible would open and reveal additional info
-### Actual result 4-4
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/reservation_collapsible_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/reservation_collapsible_tablet.png) |[Mobile Result](progroup/static/pictures/testing/reservation_collapsible_mobile.png)  | Passed |
-<br>
-
-## Feature Five Profiles
-
-### User Story 5-1 
--	User Story 5-1: Add Profile - As an admin user I can add a new profile by typing a Group name, Contact name, Contact Email, Contact Phone, Line Address, City, Post Code, Country, when clicking on the add profile the page would redirect to Profiles and the new reservation would be added  
-### Test case steps 5-1
-1. An admin or regular user clicks on the Add New button on the profile page and the add profile page will display
-2. An admin or regular user would fill all the required input fields and click Add Profile button and the page would redirect to the Profiles page with the new Profile added
-### Expected result 5-1
-1. Add profile page displays
-2. Page redirect to profiles and the newprofile added to the database (+1 profiles in total)
-### Actual result 5-1
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/add_profile_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/add_profile_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/add_profile_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/add_profile_filled_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/add_profile_filled_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/add_profile_filled_mobile.png)  | Passed |
-Step 3 | [Desktop Result](progroup/static/pictures/testing/new_profile_added_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/new_profile_added_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/new_profile_added_mobile.png)  | Passed |
-<br>
-
-### User Story 5-2 
--	User Story 5-2: Edit Profile - As an admin user I can edit an existing profile by updating any Group name, Contact name, Contact Email, Contact Phone, Line Address, City, Post Code, Country, when clicking on the edit profile the page would redirect to profiles and the profiles would be updated  
-### Test case steps 5-2
-1. An admin or regular users would click on the edit symbol on the required profile
-2. After the values are updated by clicking the save cnahges button the database values would be updated and profiles page would display again
-### Expected result 5-2
-1. An admin or regular users would be redirected to Edit Profile page for value/s to be updated
-2. Profiles page would display the profiles with the updated values
-### Actual result 5-2
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/edit_profile_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/edit_profile_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/edit_profile_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/profile_updated_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/profile_updated_tablet.png) |[Mobile Result](progroup/static/pictures/testing/profile_updated_mobile.png)  | Passed |
-<br>
-
-### User Story 5-3 
--	User Story 5-3: Delete Profile - As an admin user I can delete a profile by confirming I want to delete  
-### Test case steps 5-3
-1. An admin or regular users would click on the delete symbol on the required profile and then confirmation panel would
-2. By clicking on the delete button the profile would be moved from the database
-### Expected result 5-3
-1. Delete confirmation panel would appear
-2. After clicking delete the profile is deleted from the database
-### Actual result 5-3
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/delete_profile_confirmation_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/delete_profile_confirmation_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/delete_profile_confirmation_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/profile_deleted_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/profile_deleted_tablet.png) |[Mobile Result](progroup/static/pictures/testing/profile_deleted_mobile.png)  | Passed |
-<br>
-
-### User Story 5-4 
--	User Story 5-4: View Profiles - As an admin or regular user I can see existing profiles by navigating to the Profiles page
-### Test case steps 5-4
-1. An admin or regular users would navigate t the Profiles page
-### Expected result 5-4
-1. Profiles page would display all existing profiles
-### Actual result 5-4
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/profiles_page_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/profiles_page_tablet.png) |[Mobile Result](progroup/static/pictures/testing/profiles_page_mobile.png)  | Passed |
-<br>
-
-## Feature Six Users (admin users only)
-
-### User Story 6-1 
--	User Story 6-1: Add User - As an admin user I can add a new user by typing a First name, Last name, Email, Password, Position, and select either user or admin for the Role, when clicking on the add user the page would redirect to Users and the new reservation would be added  
-### Test case steps 6-1
-1. An admin user click on the Add New button on the users page and the add user page will display
-2. An admin user would fill all the required input fields and click Add User button and the page would redirect to the Users page with the new User added
-### Expected result 6-1
-1. Add user page displays
-2. Page redirect to users and the new user added to the database (+1 users in total)
-### Actual result 6-1
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/add_user_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/add_user_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/add_user_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/add_user_filled_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/add_user_filled_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/add_user_filled_mobile.png)  | Passed |
-Step 3 | [Desktop Result](progroup/static/pictures/testing/new_user_added_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/new_user_added_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/new_user_added_mobile.png)  | Passed |
-<br>
-
-### User Story 6-2 
--	User Story 6-2: Edit User - As an admin user I can edit an existing user by updating any First name, Last name, Email, Password, Position, and select either user or admin for the Role, when clicking on the edit profile the page would redirect to profiles and the user would be updated  
-### Test case steps 6-2
-1. An admin users would click on the edit symbol on the required user
-2. After the values are updated by clicking the save changes button the database values would be updated and users page would display again
-### Expected result 6-2
-1. An admin users would be redirected to Edit User page for value/s to be updated
-2. Users page would display the profiles with the updated values
-### Actual result 6-2
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/edit_user_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/edit_user_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/edit_user_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/user_updated_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/user_updated_tablet.png) |[Mobile Result](progroup/static/pictures/testing/user_updated_mobile.png)  | Passed |
-<br>
-
-### User Story 6-3 
--	User Story 6-3: Delete Profile - As an admin user I can delete a user by confirming I want to delete  
-### Test case steps 6-3
-1. An admin user would click on the delete symbol on the required user and then confirmation panel would appear
-2. By clicking on the delete button the user would be moved from the database
-### Expected result 6-3
-1. Delete confirmation panel would appear
-2. After clicking delete the user is deleted from the database
-### Actual result 6-3
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/delete_user_confirmation_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/delete_user_confirmation_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/delete_user_confirmation_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/user_deleted_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/user_deleted_tablet.png) |[Mobile Result](progroup/static/pictures/testing/user_deleted_mobile.png)  | Passed |
-<br>
-
-### User Story 6-4 
--	User Story 6-4: View Users - As an admin user I can see existing users by navigating to the users page
-### Test case steps 6-4
-1. An admin user I would navigate to the users page
-### Expected result 6-4
-1. Users page would display all existing users
-### Actual result 6-4
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/users_page_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/users_page_tablet.png) |[Mobile Result](progroup/static/pictures/testing/users_page_mobile.png)  | Passed |
-<br>
-
-## Feature Seven Help
-
-### User Story 7-1 
--	User Story 7-1: Help – As an admin or regular user I can send an email to the admin by clicking on the Help button in the navbar and filling up the Name, Email address and Message and click on Send Message  
-### Test case steps 7-1
-1. An admin or regular user Navigate to help page and fill up all required fields and click on send
-### Expected result 7-1
-1. Email form would reset and flash message would appear that email was successfully sent
-### Actual result 7-1
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/message_sent_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/message_sent_tablet.png) |[Mobile Result](progroup/static/pictures/testing/message_sent_mobile.png) | Passed |
-<br>
-
-
-## Feature Eight Account
-
-### User Story 8-1  
--	User Story 8-1: View Account – As an admin user I can see my account information such as Full Name, Position, Email, Username and Role   
-### Test case steps 8-1
-1. An admin or regular user navigate to Account page
-### Expected result 8-1
-1. As an admin or regular user I would see details on the account page
-### Actual result 8-1
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/account_page_desktop.png)  | [Tablet Result](progroup/static/pictures/testing/account_page_tablet.png) |[Mobile Result](progroup/static/pictures/testing/account_page_mobile.png) | Passed |
-<br>
-
-### User Story 8-2   
--	User Story 8-2: Edit Account – As an admin user I can edit my account information such as Full Name, Position, Email, Username when clicking on the Save Changes  
-### Test case steps 8-2
-1. The users would click on the edit symbol on the required on their account profile
-2. After the values are updated by clicking the save changes button the database values would be updated and users account would display again
-### Expected result 8-2
-1. A users would be redirected to Edit User page for value/s to be updated
-2. Account page would display the  account profile with the updated values
-### Actual result 8-2
-Step Number | Desktop | Tablet | Mobile | Result 
------------- | ------------ | ------------- | ------------- | ------------- |
-Step 1 | [Desktop Result](progroup/static/pictures/testing/edit_account_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/edit_account_tablet.png)  |[Mobile Result](progroup/static/pictures/testing/edit_account_mobile.png)  | Passed |
-Step 2 | [Desktop Result](progroup/static/pictures/testing/account_updated_desktop.png)   | [Tablet Result](progroup/static/pictures/testing/account_updated_tablet.png) |[Mobile Result](progroup/static/pictures/testing/account_updated_mobile.png)  | Passed |
-<br>
+### User Story 9 Feature   
+- User Story 9.1: Description here 
+### User Story 9 Steps
+- Description of steps here    
+### User Story 9 Testing result    
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
 
 
 ## Bugs during the testing
