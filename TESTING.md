@@ -163,11 +163,33 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 - User Story 1.15: As a superuser/regular user I can click on the "Special Offers" navigation, and filter by New products, Deals, Clearance or All Special Offers
 - User Story 1.16: As a superuser/regular user if I encounter an error on the site, I will be navigated to the applicable 400, 403, 404 or 500 error page
 ### User Story 1 Steps
-- Description of steps here    
+1. Navigate to https://fast-supplies.herokuapp.com/ and click on the My Account link as a regular user
+2. Login as regular user, logo is displayed on desktop size and hamburger icon on smaller sizes, click on the My Account button  
+3. Navigate to the "All Products" filter, and then click By Price
+4. Navigate to the "All Products" filter, and then click By Rating
+5. Navigate to the "All Products" filter, and then click By Category
+6. Navigate to the "Chemicals" filter, and filter by Kitchen
+7. Navigate to the "Housekeeping" filter, and filter by Bedrooms
+8. Navigate to the "Tableware" filter, and filter by Glassware
+9. Navigate to https://fast-supplies.herokuapp.com/brokenlink 
+10. Click the Logout link under My profile and logout
+11. Login as a superuser and click on the My account link
+
 ### User Story 1 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | The homepage is displayed, Main Navigation and Login and Register links are displayed<br> under My Account are displayed with website links(Register/Login) | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_1_mobile.png)  | Passed | 
+Step 2 | The homepage is displayed, Main Navigation and Login and Register links are displayed<br> under My Account are displayed with website links(My Profile/Logout) | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_2_mobile.png)  | Passed | 
+Step 3 | Products on the page are filtered by Price (Low-High) | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_3_mobile.png)  | Passed | 
+Step 4 | Products on the page are filtered by Rating (High-Low) | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_4_mobile.png)  | Passed | 
+Step 5 | Products on the page are filtered by Category (A-Z) | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_5_mobile.png)  | Passed | 
+Step 6 | Products on the page are filtered by Kitchen "Chemicals" | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_6_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_6_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_6_mobile.png)  | Passed | 
+Step 7 | Products on the page are filtered by Bedroms "Housekeeping" | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_7_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_7_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_7_mobile.png)  | Passed | 
+Step 8 | Products on the page are filtered by Glassware "Tableware" | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_8_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_8_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_8_mobile.png)  | Passed | 
+Step 9 | A 404 page is displayed with link to home button | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_9_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_9_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_9_mobile.png)  | Passed | 
+Step 10 | The user is logged out | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_10_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_10_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_10_mobile.png)  | Passed | 
+Step 11 | The homepage is displayed, Main Navigation and Login and Register links are displayed<br> under My Account are displayed with website links(Add Product/My Profile/Logout) | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_11_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_11_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_11_mobile.png)  | Passed | 
+
 
 ## Feature Two Footer
 
