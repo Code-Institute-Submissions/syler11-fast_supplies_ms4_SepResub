@@ -329,18 +329,25 @@ Step 3 | Selected past order details displayed | [Desktop](media/testing/user_st
 ### User Story 7 Steps
 1. As a regular user add some items to your bag, so the order is less than £100 pounds
 2. Empty the bag
-3. Add the items back into the bag
-4. Add the items back into the bag, and Update the quantity on one item by one, so the order more than £100 pounds
-5. Checkout the order
+3. Add the items back into the bag, so the order more than £100 pounds
+4. Fill out all the mandatory fields and also the bank card details to checkout the order 
+5. The checkout success opage is displayed 
+5. Check the users email address
 6. Go to the order details on the users my profile page
-7. Check the users email address
-8. Logout, and as a user not logged in add items to a bag
-9. Checkout and complete the purchase
+
 
 ### User Story 7 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
+Step 1 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_seven/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_seven/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_seven/user_story5_step_4_mobile.png)  | Passed |
+Step 2 | Bag emptied by removing all products | [Desktop](media/testing/user_stories/user_story_result_seven/user_story7_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_seven/user_story7_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_seven/user_story7_step_2_mobile.png)  | Passed |
+Step 3 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_seven/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_seven/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_seven/user_story5_step_4_mobile.png)  | Passed |
+Step 4 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
+Step 5 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
+Step 6 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
+Step 7 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
+Step 8 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
+Step 9 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
 
 ## Feature Eight Product Management
 
