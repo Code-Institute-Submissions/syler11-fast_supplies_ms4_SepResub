@@ -238,14 +238,20 @@ Step 5 | User now can logged in | [Desktop](media/testing/user_stories/user_stor
 ## Feature Four Login
 
 ### User Story 4 Feature   
-- User Story 4.1: As a superuser/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage and a message displayed
+- User Story 4.1: As a superuser/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage<br>(if the username / password combination is incorrect a message will be displayed)
 - User Story 4.2: As a superuser/regular user I can request a new password if I forget my current password. I will receive an email to reset my password. Once I reset I can log in
+
 ### User Story 4 Steps
-- Description of steps here    
+1. Use an incorrect combination if the username and password
+2. Request a forgot password
+3. Log in with the new password
+
 ### User Story 4 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_four/user_story1_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story1_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story1_step_1_mobile.png)  | Passed | 
+Step 2 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_four/user_story1_step__desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story1_step__tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story1_step__mobile.png)  | Passed | 
+Step 3 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_four/user_story1_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story1_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story1_step_3_mobile.png)  | Passed | 
 
 ## Feature Five Products
 
