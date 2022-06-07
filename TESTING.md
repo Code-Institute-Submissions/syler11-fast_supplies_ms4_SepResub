@@ -221,15 +221,19 @@ Step 3 | User can access Returns, Terms and Conditions and Privacy policy page o
 
 ### User Story 3 Steps
 1. As a regular user, navigate to the registration page, fill in email address, repeat email address, username, password, repeat password and click Register
-2. Open the email received
-3. Click on the verification link in the email received
-4. Confirm the email address for the account
-5. Log in to the account using the same email and password combination
+2. Open and click on the verification link in the email received
+3. Confirm the email address for the account
+4. Log in to the account using the same email and password combination
+5. User now logged in as a regular user
  
 ### User Story 3 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | The user register for a new account | [Desktop](media/testing/user_stories/user_story_result_three/user_story3_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_three/user_story3_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_three/user_story3_step_1_mobile.png)  | Passed | 
+Step 2 | The user receives an email and click on the email verification link | [Desktop](media/testing/user_stories/user_story_result_three/user_story3_step_2_desktop.png)  | N/A  | N/A  | Passed | 
+Step 3 | The user confirms the email address | [Desktop](media/testing/user_stories/user_story_result_three/user_story3_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_three/user_story3_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_three/user_story3_step_3_mobile.png)  | Passed | 
+Step 4 | User now can log in | [Desktop](media/testing/user_stories/user_story_result_three/user_story3_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_three/user_story3_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_three/user_story3_step_4_mobile.png)  | Passed | 
+Step 5 | User now can logged in | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_2_mobile.png)  | Passed | 
 
 ## Feature Four Login
 
