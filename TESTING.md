@@ -29,15 +29,14 @@
     + [User Story Feature 7](#user-story-feature-7)
     + [User Story Steps 7](#user-story-steps-7)
     + [User Story Testing Results 7](#user-story-testing-results-7)
-  * [Feature Eight Account](#feature-eight-account)
-     + [User Story 8_1](#user-story-8-1)
-    + [Test case steps 8-1](#test-case-steps-8-1)
-    + [Expected Result 8-1](#expected-result-8-1)
-    + [Actual Result 8-1](#actual-result-8-1)
-    + [User Story 8-2](#user-story-8-2)
-    + [Test case steps 8-2](#test-case-steps-8-2)
-    + [Expected Result 8-2](#expected-result-8-2)
-    + [Actual Result 8-2](#actual-result-8-2)
+  * [Feature Eight Product Management](#feature-eight-product-management)
+    + [User Story Feature 8](#user-story-feature-8)
+    + [User Story Steps 8](#user-story-steps-8)
+    + [User Story Testing Results 8](#user-story-testing-results-8)
+  * [Feature Nine Django Admin](#feature-nine-django-admin)
+    + [User Story Feature 9](#user-story-feature-9)
+    + [User Story Steps 9](#user-story-steps-9)
+    + [User Story Testing Results 9](#user-story-testing-results-9)
 - [Code Validators and Website Analysis](#code-validators-and-website-analysis)
   * [HTML Markup Validation Service](#html-markup-validation-service)
   * [CSS Validation Service](#css-validation-service)
@@ -270,19 +269,19 @@ Step 7 | The order history is displayed on the "my profile" page | [Desktop](med
 
 ## Feature Eight Product Management
 
-### User Story 8 Feature   
+### User Story Feature 8   
 - User Story 8.1: As a superuser I can add a product by clicking on the Product Management link in My Account. I must enter a name, category, price, colour, code, description and Image url, upload image and click the Add Product button. Clicking cancel navigates the user to the product page.
 - User Story 8.2: As a superuser I can edit a product by clicking on the Edit button on the Products page for the product. I can update thea name, category, price, colour, code, description, and Image url, update an image and click the Edit Product button. Clicking cancel navigates the user to the product page
 - User Story 8.3: As a superuser I can delete a product by clicking on the Delete button on the product 
 
-### User Story 8 Steps
+### User Story Steps 8
 1. Step As a superuser navigate to Product Management under MyAccount, and add details to a product and click the Add Product button
 2. Click on the edit button on product detail page
 3. Update the price from £17.99 to £19.99 and click update product
 4. Click on the delete button on product detail page
 5. Confirm that the product is deleted
 
-### User Story 8 Testing result    
+### User Story Testing Results 8    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | Add product page is displayed and all mandatory fields are filled | [Desktop](media/testing/user_stories/user_story_result_eight/user_story8_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eight/user_story8_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eight/user_story8_step_1_mobile.png)  | Passed | 
@@ -293,7 +292,7 @@ Step 5 | Product was successfully deleted and user message displayed | [Desktop]
 
 ## Feature Nine Django Admin
 
-### User Story 9 Feature   
+### User Story Feature 9
 - User Story 9.1: As a superuser I can view users orders in the django admin page and can view order number, date, full name, order total, delivery cost, grand total
 - User Story 9.2: As a superuser I can view users orders in the django admin page and can search by order number, full name and filter by order number, full name and order date
 - User Story 9.3: As a superuser I can view products in the django admin page and can view a products code, name, category, has sizes, price, presale price, rating, image, image url
@@ -301,9 +300,11 @@ Step 5 | Product was successfully deleted and user message displayed | [Desktop]
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
-### User Story 9 Steps
-- Description of steps here    
-### User Story 9 Testing result    
+
+### User Story Steps 9
+- Description of steps here 
+
+### User Story Testing Results 9
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
