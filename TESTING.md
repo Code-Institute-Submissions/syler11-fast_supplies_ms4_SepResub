@@ -292,8 +292,12 @@ Step 6 | Edit and delete button are displayed for superuser | [Desktop](media/te
 - User Story 6.2: As a superuser/regular user I can update my Default delivery information: Phone Number, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country
 - User Story 6.3: As a superuser/regular user I can view my order history(Order Number, Date, Items and Order Total)
 - User Story 6.4: As a superuser/regular user I can click on an order number to view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)
+
 ### User Story 6 Steps
-- Description of steps here    
+1. Click on the My Profile link under My Account
+2. Update one field in the default delivery information (Street Address 1 to 2 Main Street)
+3. Click on an order number
+
 ### User Story 6 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
