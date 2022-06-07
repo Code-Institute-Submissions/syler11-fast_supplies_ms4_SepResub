@@ -249,9 +249,9 @@ Step 5 | User now can logged in | [Desktop](media/testing/user_stories/user_stor
 ### User Story 4 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_four/user_story1_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story1_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story1_step_1_mobile.png)  | Passed | 
-Step 2 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_four/user_story1_step__desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story1_step__tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story1_step__mobile.png)  | Passed | 
-Step 3 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_four/user_story1_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story1_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story1_step_3_mobile.png)  | Passed | 
+Step 1 | Error message displayed | [Desktop](media/testing/user_stories/user_story_result_four/user_story4_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story4_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story4_step_1_mobile.png)  | Passed | 
+Step 2 | User received password reset email | [Desktop](media/testing/user_stories/user_story_result_four/user_story4_step_2_desktop.png)  | N/A  | N/A  | Passed | 
+Step 3 | User ssuccesfully changed the password abd now can log in | [Desktop](media/testing/user_stories/user_story_result_four/user_story4_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story4_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story4_step_3_mobile.png)  | Passed | 
 
 ## Feature Five Products
 
