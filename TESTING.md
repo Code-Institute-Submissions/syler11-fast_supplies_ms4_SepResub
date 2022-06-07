@@ -200,7 +200,9 @@ Step 11 | The homepage is displayed, Main Navigation and Login and Register link
 - User Story 2.4: As a superuser/regular user I can login or register at the your account section
 - User Story 2.5: As a superuser/regular user I can find usel general business information and I can also see what type of cards are accepted on the website at the bottom of the footer area
 ### User Story 2 Steps
-- Description of steps here    
+- Regular user / Superuser scroll down to the bottom of the page to acces navigation, newsletter and general information
+- Regular user / Superuser sign up for newsletter 
+- Regular user / Superuser click on the Returns / Terms and Conditions or Privcay Policy 
 ### User Story 2 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
