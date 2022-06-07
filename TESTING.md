@@ -199,10 +199,12 @@ Step 11 | The homepage is displayed, Main Navigation and Login and Register link
 - User Story 2.3: As a superuser/regular user I can contact the website owner by clicking on the contact us navigation and find information usch as returns, terms and conditions and privacy policy
 - User Story 2.4: As a superuser/regular user I can login or register at the your account section
 - User Story 2.5: As a superuser/regular user I can find usel general business information and I can also see what type of cards are accepted on the website at the bottom of the footer area
+
 ### User Story 2 Steps
 - Regular user / Superuser scroll down to the bottom of the page to acces navigation, newsletter and general information
 - Regular user / Superuser sign up for newsletter 
 - Regular user / Superuser click on the Returns / Terms and Conditions or Privcay Policy 
+
 ### User Story 2 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
@@ -216,8 +218,14 @@ Step 3 | User can access Returns, Terms and Conditions and Privacy policy page o
 -	User Story 3.1: As a superuser/regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
 - User Story 3.2: As a superuser/regular user I will receive an email to verify my account after registering
 - User Story 3.3: As a superuser/regular user I can log in to my account once I click on the verification link in the email I receive regarding my registration
+
 ### User Story 3 Steps
-- Description of steps here    
+1. As a regular user, navigate to the registration page, fill in email address, repeat email address, username, password, repeat password and click Register
+2. Open the email received
+3. Click on the verification link in the email received
+4. Confirm the email address for the account
+5. Log in to the account using the same email and password combination
+ 
 ### User Story 3 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
