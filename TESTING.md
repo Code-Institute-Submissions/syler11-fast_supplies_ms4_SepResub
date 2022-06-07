@@ -270,10 +270,9 @@ Step 3 | User ssuccesfully changed the password abd now can log in | [Desktop](m
 1. As a regular user login to the website and navigate to the products page
 2. Sort the products from Price(High to Low)
 3. Click on a product
-4. Add a product(kettle) to the bag, with a quantity of 5
+4. Add a product(kettle) to the bag, with a quantity of 3
 5. As an superuser login and click on the Add Product(My Account)
-6. As a superuser click on the edit button on the products page or in the product detail page and edit the product
-7. As a superuser delete a product
+6. As a superuser click on the edit or delete button on the products page or in the product detail page and edit or delete the product
 
 
 ### User Story 5 Testing result    
@@ -357,6 +356,7 @@ Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [
 1. Empty button links were found
 2. colour contrast adjusted
 3. Labels were missing for input fields
+4. Product sort selector wasn't wide enough on small screens
 
 # Code Validators and Website Analysis
 
