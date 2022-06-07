@@ -302,13 +302,24 @@ Step 5 | Product was successfully deleted and user message displayed | [Desktop]
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
 
 ### User Story Steps 9
-- Description of steps here 
+1. Step 1: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/checkout/order/
+2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/checkout/order/ a filter for users first name "Tim" who made an order in the past
+2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/product/
+2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/product/ apply filter "restaurant" categories
+2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ 
+2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ apply filter not Superuser
+2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/category/
 
 ### User Story Testing Results 9
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
-
+Step 1 | All orders are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_1.png)  | N/A  | N/A  | Passed | 
+Step 2 | Orderds filtered for name "Tim" 1 result | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_2.png)  | N/A  | N/A  | Passed | 
+Step 3 | All products are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_3.png)  | N/A  | N/A  | Passed | 
+Step 4 | Poducts filtered for category nam "restaurant" 2 results | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_4.png)  | N/A  | N/A  | Passed | 
+Step 5 | All users are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_5.png)  | N/A  | N/A  | Passed | 
+Step 6 | users filtered for "not Superuser" 2 results | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_6.png)  | N/A  | N/A  | Passed | 
+Step 7 | All categories are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_7.png)  | N/A  | N/A  | Passed | 
 
 ## Bugs during the testing
 1. Empty button links were found
