@@ -301,7 +301,9 @@ Step 6 | Edit and delete button are displayed for superuser | [Desktop](media/te
 ### User Story 6 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | The delivery information and the order history displayed | [Desktop](media/testing/user_stories/user_story_result_six/user_story6_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_six/user_story6_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_six/user_story6_step_1_mobile.png)  | Passed | 
+Step 2 | Street Address 1 was updated to 2 Main Street successfully | [Desktop](media/testing/user_stories/user_story_result_six/user_story6_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_six/user_story6_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_six/user_story6_step_2_mobile.png)  | Passed | 
+Step 3 | Selected past order details displayed | [Desktop](media/testing/user_stories/user_story_result_six/user_story6_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_six/user_story6_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_six/user_story6_step_3_mobile.png)  | Passed | 
 
 ## Feature Seven Checkout
 
