@@ -1,113 +1,34 @@
 # Table of Contents
 - [Testing](#testing)
   * [Manual Testing](#manual-testing)
-  * [Feature One Navigation](#feature-one-navigation)
-    + [User Story 1-1](#user-story-1-1)
-    + [Test case steps 1-1](#test-case-steps-1-1)
-    + [Expected Result 1-1](#expected-result-1-1)
-    + [Actual Result 1-1](#actual-result-1-1)
-    + [User Story 1-2](#user-story-1-2)
-    + [Test case steps 1-2](#test-case-steps-1-2)
-    + [Expected Result 1-2](#expected-result-1-2)
-    + [Actual Result 1-2](#actual-result-1-2)
-    + [User Story 1-3](#user-story-1-3)
-    + [Test case steps 1-3](#test-case-steps-1-3)
-    + [Expected Result 1-3](#expected-result-1-3)
-    + [Actual Result 1-3](#actual-result-1-3)
-    + [User Story 1-4](#user-story-1-4)
-    + [Test case steps 1-4](#test-case-steps-1-4)
-    + [Expected Result 1-4](#expected-result-1-4)
-    + [Actual Result 1-4](#actual-result-1-4)
-  * [Feature Two Main Page](#feature-two-main-page)
-    + [User Story 2-1](#user-story-2-1)
-    + [Test case steps 2-1](#test-case-steps-2-1)
-    + [Expected Result 2-1](#expected-result-2-1)
-    + [Actual Result 2-1](#actual-result-2-1)
-    + [User Story 2-2](#user-story-2-2)
-    + [Test case steps 2-2](#test-case-steps-2-2)
-    + [Expected Result 2-2](#expected-result-2-2)
-    + [Actual Result 2-2](#actual-result-2-2)
-    + [User Story 2-3](#user-story-2-3)
-    + [Test case steps 2-3](#test-case-steps-2-3)
-    + [Expected Result 2-3](#expected-result-2-3)
-    + [Actual Result 2-3](#actual-result-2-3)
-    + [User Story 2-4](#user-story-2-4)
-    + [Test case steps 2-4](#test-case-steps-2-4)
-    + [Expected Result 2-4](#expected-result-2-4)
-    + [Actual Result 2-4](#actual-result-2-4)
-  * [Feature Three Login](#feature-three-login)
-    + [User Story 3-1](#user-story-3-1)
-    + [Test case steps 3-1](#test-case-steps-3-1)
-    + [Expected Result 3-1](#expected-result-3-1)
-    + [Actual Result 3-1](#actual-result-3-1)
-    + [User Story 3-2](#user-story-3-2)
-    + [Test case steps 3-2](#test-case-steps-3-2)
-    + [Expected Result 3-2](#expected-result-3-2)
-    + [Actual Result 3-2](#actual-result-3-2)
-    + [User Story 3-3](#user-story-3-3)
-    + [Test case steps 3-3](#test-case-steps-3-3)
-    + [Expected Result 3-3](#expected-result-3-3)
-    + [Actual Result 3-3](#actual-result-3-3)
-    + [User Story 3-4](#user-story-3-4)
-    + [Test case steps 3-4](#test-case-steps-3-4)
-    + [Expected Result 3-4](#expected-result-3-4)
-    + [Actual Result 3-4](#actual-result-3-4)
-  * [Feature Four Reservations](#feature-four-reservations)
-    + [User Story 4-1](#user-story-4-1)
-    + [Test case steps 4-1](#test-case-steps-4-1)
-    + [Expected Result 4-1](#expected-result-4-1)
-    + [Actual Result 4-1](#actual-result-4-1)
-    + [User Story 4-2](#user-story-4-2)
-    + [Test case steps 4-2](#test-case-steps-4-2)
-    + [Expected Result 4-2](#expected-result-4-2)
-    + [Actual Result 4-2](#actual-result-4-2)
-    + [User Story 4-3](#user-story-4-3)
-    + [Test case steps 4-3](#test-case-steps-4-3)
-    + [Expected Result 4-3](#expected-result-4-3)
-    + [Actual Result 4-3](#actual-result-4-3)
-    + [User Story 4-4](#user-story-4-4)
-    + [Test case steps 4-4](#test-case-steps-4-4)
-    + [Expected Result 4-4](#expected-result-4-4)
-    + [Actual Result 4-4](#actual-result-4-4)
-  * [Feature Five Profiles](#feature-five-profiles)
-    + [User Story 5-1](#user-story-5-1)
-    + [Test case steps 5-1](#test-case-steps-5-1)
-    + [Expected Result 5-1](#expected-result-5-1)
-    + [Actual Result 5-1](#actual-result-5-1)
-    + [User Story 5-2](#user-story-5-2)
-    + [Test case steps 5-2](#test-case-steps-5-2)
-    + [Expected Result 5-2](#expected-result-5-2)
-    + [Actual Result 5-2](#actual-result-5-2)
-    + [User Story 5-3](#user-story-5-3)
-    + [Test case steps 5-3](#test-case-steps-5-3)
-    + [Expected Result 5-3](#expected-result-5-3)
-    + [Actual Result 5-3](#actual-result-5-3)
-    + [User Story 5-4](#user-story-5-4)
-    + [Test case steps 5-4](#test-case-steps-5-4)
-    + [Expected Result 5-4](#expected-result-5-4)
-    + [Actual Result 5-4](#actual-result-5-4)
-  * [Feature Six Users](#feature-six-users)
-    + [User Story 6_1](#user-story-6-1)
-    + [Test case steps 6_1](#test-case-steps-6-1)
-    + [Expected Result 6_1](#expected-result-6-1)
-    + [Actual Result 6_1](#actual-result-6-1)
-    + [User Story 6_2](#user-story-6-2)
-    + [Test case steps 6_2](#test-case-steps-6-2)
-    + [Expected Result 6_2](#expected-result-6-2)
-    + [Actual Result 6_2](#actual-result-6-2)
-    + [User Story 6-3](#user-story-6-3)
-    + [Test case steps 6-3](#test-case-steps-6-3)
-    + [Expected Result 6-3](#expected-result-6-3)
-    + [Actual Result 6-3](#actual-result-6-3)
-    + [User Story 6-4](#user-story-6-4)
-    + [Test case steps 6-4](#test-case-steps-6-4)
-    + [Expected Result 6-4](#expected-result-6-4)
-    + [Actual Result 6-4](#actual-result-6-4)
-  * [Feature Seven Help](#feature-seven-help)
-    + [User Story 7-1](#user-story-7-1)
-    + [Test case steps 7-1](#test-case-steps-7-1)
-    + [Expected Result 7-1](#expected-result-7-1)
-    + [Actual Result 7-1](#actual-result-7-1)
+  * [Feature One Navigation and Header](#feature-one-navigation-and-header)
+    + [User Story Feature 1](#user-story-feature-1)
+    + [User Story Steps 1](#user-story-steps-1)
+    + [User Story Testing Results 1](#user-story-testing-results-1)
+  * [Feature Two Footer](#feature-two-footer)
+    + [User Story Feature 2](#user-story-feature-2)
+    + [User Story Steps 2](#user-story-steps-2)
+    + [User Story Testing Results 2](#user-story-testing-results-2)
+  * [Feature Three Register](#feature-three-register)
+    + [User Story Feature 3](#user-story-feature-3)
+    + [User Story Steps 3](#user-story-steps-3)
+    + [User Story Testing Results 3](#user-story-testing-results-3)
+  * [Feature Four Login](#feature-four-login)
+    + [User Story Feature 4](#user-story-feature-4)
+    + [User Story Steps 4](#user-story-steps-4)
+    + [User Story Testing Results 4](#user-story-testing-results-4)
+  * [Feature Five Products](#feature-five-products)
+    + [User Story Feature 5](#user-story-feature-5)
+    + [User Story Steps 5](#user-story-steps-5)
+    + [User Story Testing Results 5](#user-story-testing-results-5)
+  * [Feature Six Profile](#feature-six-profile)
+    + [User Story Feature 6](#user-story-feature-6)
+    + [User Story Steps 6](#user-story-steps-6)
+    + [User Story Testing Results 6](#user-story-testing-results-6)
+  * [Feature Seven Checkout](#feature-seven-checkout)
+    + [User Story Feature 7](#user-story-feature-7)
+    + [User Story Steps 7](#user-story-steps-7)
+    + [User Story Testing Results 7](#user-story-testing-results-7)
   * [Feature Eight Account](#feature-eight-account)
      + [User Story 8_1](#user-story-8-1)
     + [Test case steps 8-1](#test-case-steps-8-1)
@@ -145,7 +66,7 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 
 ## Feature One Navigation and Header
 
-### User Story 1 Feature   
+### User Story Feature 1   
 -	User Story 1.1: As a superuser/regular user the navigation bar is displayed with a logo on all pages with a search box, My account, shopping bag icons on a desktop device
 - User Story 1.2: As a superuser/regular user the navigation bar is displayed on all pages with a search box, My account, shopping bag icons on smaller screen devices
 - User Story 1.3: As a superuser/regular not logged in, I see a Register/Login link under the My Account dropdown
@@ -162,7 +83,7 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 - User Story 1.14: As a superuser/regular user I can click on the "Tableware" navigation, and filter by Crockery, Cutlery, Glassware or All Tableware
 - User Story 1.15: As a superuser/regular user I can click on the "Special Offers" navigation, and filter by New products, Deals, Clearance or All Special Offers
 - User Story 1.16: As a superuser/regular user if I encounter an error on the site, I will be navigated to the applicable 400, 403, 404 or 500 error page
-### User Story 1 Steps
+### User Story Steps 1
 1. Navigate to https://fast-supplies.herokuapp.com/ and click on the My Account link as a regular user
 2. Login as regular user, logo is displayed on desktop size and hamburger icon on smaller sizes, click on the My Account button  
 3. Navigate to the "All Products" filter, and then click By Price
@@ -175,7 +96,7 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 10. Click the Logout link under My profile and logout
 11. Login as a superuser and click on the My account link
 
-### User Story 1 Testing result    
+### User Story Testing Results 1    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The homepage is displayed, Main Navigation and Login and Register links are displayed<br> under My Account are displayed with website links(Register/Login) | [Desktop](media/testing/user_stories/user_story_result_one/user_story1_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_one/user_story1_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_one/user_story1_step_1_mobile.png)  | Passed | 
@@ -193,40 +114,40 @@ Step 11 | The homepage is displayed, Main Navigation and Login and Register link
 
 ## Feature Two Footer
 
-### User Story 2 Feature   
+### User Story Feature 2  
 -	User Story 2.1: As a superuser/regular user four sections are displayed in the footer are. Newsletter, Customer Service, Your account and General business information
 - User Story 2.2: As a superuser/regular user I can sign up for a newsletter by entering my email address and clicking Signup. I will receive an email after signing up
 - User Story 2.3: As a superuser/regular user I can contact the website owner by clicking on the contact us navigation and find information usch as returns, terms and conditions and privacy policy
 - User Story 2.4: As a superuser/regular user I can login or register at the your account section
 - User Story 2.5: As a superuser/regular user I can find usel general business information and I can also see what type of cards are accepted on the website at the bottom of the footer area
 
-### User Story 2 Steps
+### User Story Steps 2
 - Regular user / Superuser scroll down to the bottom of the page to acces navigation, newsletter and general information
 - Regular user / Superuser sign up for newsletter 
 - Regular user / Superuser click on the Returns / Terms and Conditions or Privcay Policy 
 
-### User Story 2 Testing result    
+### User Story Testing Results 2
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The footer features the Newsletter, Customer servcie, Your account and General information | [Desktop](media/testing/user_stories/user_story_result_two/user_story2_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_two/user_story2_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_two/user_story2_step_1_mobile.png)  | Passed | 
 Step 2 | User receives an instant notification that the subscription was successful and email will be received | [Desktop](media/testing/user_stories/user_story_result_two/user_story2_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_two/user_story2_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_two/user_story2_step_2_mobile.png)  | Passed | 
 Step 3 | User can access Returns, Terms and Conditions and Privacy policy page on all screen sizes | [Desktop](media/testing/user_stories/user_story_result_two/user_story2_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_two/user_story2_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_two/user_story2_step_3_mobile.png)  | Passed | 
 
-## Feature One Navigation and Header
+## Feature Three Register
 
-### User Story 3 Register  
+### User Story Feature 3
 -	User Story 3.1: As a superuser/regular user I can register on the website by providing an email address, email address(confirmation), username, password, password confirmation
 - User Story 3.2: As a superuser/regular user I will receive an email to verify my account after registering
 - User Story 3.3: As a superuser/regular user I can log in to my account once I click on the verification link in the email I receive regarding my registration
 
-### User Story 3 Steps
+### User Story Steps 3
 1. As a regular user, navigate to the registration page, fill in email address, repeat email address, username, password, repeat password and click Register
 2. Open and click on the verification link in the email received
 3. Confirm the email address for the account
 4. Log in to the account using the same email and password combination
 5. User now logged in as a regular user
  
-### User Story 3 Testing result    
+### User Story Testing Results 3    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The user register for a new account | [Desktop](media/testing/user_stories/user_story_result_three/user_story3_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_three/user_story3_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_three/user_story3_step_1_mobile.png)  | Passed | 
@@ -237,16 +158,16 @@ Step 5 | User now can logged in | [Desktop](media/testing/user_stories/user_stor
 
 ## Feature Four Login
 
-### User Story 4 Feature   
+### User Story Feature 4   
 - User Story 4.1: As a superuser/regular user I can log in to the website using my username or email address and password. Both fields are mandatory. Once correct, I will be navigated to the homepage<br>(if the username / password combination is incorrect a message will be displayed)
 - User Story 4.2: As a superuser/regular user I can request a new password if I forget my current password. I will receive an email to reset my password. Once I reset I can log in
 
-### User Story 4 Steps
+### User Story Steps 4
 1. Use an incorrect combination if the username and password
 2. Request a forgot password
 3. Log in with the new password
 
-### User Story 4 Testing result    
+### User Story Testing Results 4    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | Error message displayed | [Desktop](media/testing/user_stories/user_story_result_four/user_story4_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_four/user_story4_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_four/user_story4_step_1_mobile.png)  | Passed | 
@@ -255,7 +176,7 @@ Step 3 | User ssuccesfully changed the password abd now can log in | [Desktop](m
 
 ## Feature Five Products
 
-### User Story 5 Feature   
+### User Story Feature 5
 - User Story 5.1: As a superuser/regular user I can view the products page with product count and with each product image, title, category, price
 - User Story 5.2: As a superuser/regular user I can sort the products by Price(high to low, low to high), Rating(high to low, low to high), Name(A-Z, Z-A), Category(A-Z, Z-A)
 - User Story 5.3: As a superuser/regular user if I click on a product I will be navigated to the product detail page
@@ -266,7 +187,7 @@ Step 3 | User ssuccesfully changed the password abd now can log in | [Desktop](m
 - User Story 5.8: As a superuser I can view the Edit product page by clicking on the Edit button on the product.
 - User Story 5.9: As a superuser I can click on a product, and I am navigated to the product detail page. I can edit or delete the product by clicking on the Edit or Delete links on the page
 
-### User Story 5 Steps
+### User Story Steps 5
 1. As a regular user login to the website and navigate to the products page
 2. Sort the products from Price(High to Low)
 3. Click on a product
@@ -275,7 +196,7 @@ Step 3 | User ssuccesfully changed the password abd now can log in | [Desktop](m
 6. As a superuser click on the edit or delete button on the products page or in the product detail page and edit or delete the product
 
 
-### User Story 5 Testing result    
+### User Story Testing Results 5
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | All products are displayed | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_1_mobile.png)  | Passed | 
@@ -285,20 +206,20 @@ Step 4 | 3 kettles added to the bag | [Desktop](media/testing/user_stories/user_
 Step 5 | Add product is displayed for superuser | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_5_mobile.png)  | Passed | 
 Step 6 | Edit and delete button are displayed for superuser | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_6_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_6_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_6_mobile.png)  | Passed | 
 
-## Feature Six Profiles
+## Feature Six Profile
 
-### User Story 6 Feature   
+### User Story Feature 6
 - User Story 6.1: As a superuser/regular user I can view my Default delivery information: Phone Number, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country
 - User Story 6.2: As a superuser/regular user I can update my Default delivery information: Phone Number, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country
 - User Story 6.3: As a superuser/regular user I can view my order history(Order Number, Date, Items and Order Total)
 - User Story 6.4: As a superuser/regular user I can click on an order number to view the order information (Order number, Order date/time, Full Name, Street Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total)
 
-### User Story 6 Steps
+### User Story Steps 6
 1. Click on the My Profile link under My Account
 2. Update one field in the default delivery information (Street Address 1 to 2 Main Street)
 3. Click on an order number
 
-### User Story 6 Testing result    
+### User Story Testing Results 6
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | The delivery information and the order history displayed | [Desktop](media/testing/user_stories/user_story_result_six/user_story6_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_six/user_story6_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_six/user_story6_step_1_mobile.png)  | Passed | 
@@ -307,7 +228,7 @@ Step 3 | Selected past order details displayed | [Desktop](media/testing/user_st
 
 ## Feature Seven Checkout
 
-### User Story 7 Feature   
+### User Story Feature 7
 - User Story 7.1: As a superuser/regular user I can click on a product, set quantity, click Add to Bag and the product will be added to my bag, a message displayed, and a toast will be displayed with the bag contents
 - User Story 7.2: As a superuser/regular user I can click on the bag icon, I will be brought to my bag. If there are no items in the bag, a message will be displayed
 - User Story 7.3: As a superuser/regular user I can click on the bag icon, I will be brought to my bag. If there are items, the product image, detail, price, quantity, subtotal will be displayed for the item. The bag total, delivery(if applicable), grand total would be displayed
@@ -326,7 +247,7 @@ Step 3 | Selected past order details displayed | [Desktop](media/testing/user_st
 - User Story 7.16: As a superuser/regular user on the checkout success page, the Order details will be displayed (Order number, Order date/time, Full NameStreet Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total) and a link to the sales item page is displayed
 - User Story 7.17: As a superuser/regular user not logged in, I can add items to my bag and make a purchase 
 
-### User Story 7 Steps
+### User Story Steps 7
 1. As a regular user add some items to your bag, so the order is less than £100 pounds
 2. Empty the bag
 3. Add the items back into the bag, so the order more than £100 pounds
@@ -336,7 +257,7 @@ Step 3 | Selected past order details displayed | [Desktop](media/testing/user_st
 6. Go to the order details on the users my profile page
 
 
-### User Story 7 Testing result    
+### User Story Testing Results 7
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
 Step 1 | Products added to bag below the delivery threshold what triggers 10% delivery fee | [Desktop](media/testing/user_stories/user_story_result_seven/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_seven/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_seven/user_story5_step_4_mobile.png)  | Passed |
