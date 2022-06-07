@@ -339,11 +339,20 @@ Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [
 - User Story 8.2: As a superuser I can edit a product by clicking on the Edit button on the Products page for the product. I can update thea name, category, price, colour, code, description, and Image url, update an image and click the Edit Product button. Clicking cancel navigates the user to the product page
 - User Story 8.3: As a superuser I can delete a product by clicking on the Delete button on the product 
 ### User Story 8 Steps
-- Description of steps here    
+1. Step As a superuser navigate to Product Management under MyAccount, and add details to a product and click the Add Product button
+2. Click on the edit button on product detail page
+3. Update the price from £17.99 to £19.99 and click update product
+4. Click on the delete button on product detail page
+5. Confirm that the product is deleted
+
 ### User Story 8 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | Add product page is displayed and all mandatory fields are filled | [Desktop](media/testing/user_stories/user_story_result_eight/user_story8_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eight/user_story8_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eight/user_story8_step_1_mobile.png)  | Passed | 
+Step 2 | Product added | [Desktop](media/testing/user_stories/user_story_result_eight/user_story8_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eight/user_story8_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eight/user_story8_step_2_mobile.png)  | Passed | 
+Step 3 | Edit product page is displayed and price is changed from £17.99 to £19.99 | [Desktop](media/testing/user_stories/user_story_result_eight/user_story8_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eight/user_story8_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eight/user_story8_step_3_mobile.png)  | Passed | 
+Step 4 | Product price was successfully updated to £19.99 | [Desktop](media/testing/user_stories/user_story_result_eight/user_story8_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eight/user_story8_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eight/user_story8_step_4_mobile.png)  | Passed | 
+Step 5 | Product was successfully deleted and user message displayed | [Desktop](media/testing/user_stories/user_story_result_eight/user_story8_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eight/user_story8_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eight/user_story8_step_5_mobile.png)  | Passed | 
 
 ## Feature Nine Django Admin
 
