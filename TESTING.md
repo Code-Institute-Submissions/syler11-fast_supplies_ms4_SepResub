@@ -206,7 +206,9 @@ Step 11 | The homepage is displayed, Main Navigation and Login and Register link
 ### User Story 2 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | The footer features the Newsletter, Customer servcie, Your account and General information | [Desktop](media/testing/user_stories/user_story_result_two/user_story2_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_two/user_story2_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_two/user_story2_step_1_mobile.png)  | Passed | 
+Step 2 | User receives an instant notification that the subscription was successful and email will be received | [Desktop](media/testing/user_stories/user_story_result_two/user_story2_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_two/user_story2_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_two/user_story2_step_2_mobile.png)  | Passed | 
+Step 3 | User can access Returns, Terms and Conditions and Privacy policy page on all screen sizes | [Desktop](media/testing/user_stories/user_story_result_two/user_story2_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_two/user_story2_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_two/user_story2_step_3_mobile.png)  | Passed | 
 
 ## Feature One Navigation and Header
 
