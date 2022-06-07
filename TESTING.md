@@ -325,12 +325,22 @@ Step 3 | Selected past order details displayed | [Desktop](media/testing/user_st
 - User Story 7.15: As a superuser/regular user on the checkout page if I click the Complete Order button, and the transaction is successful, the order is saved to my order history in My profile page
 - User Story 7.16: As a superuser/regular user on the checkout success page, the Order details will be displayed (Order number, Order date/time, Full NameStreet Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total) and a link to the sales item page is displayed
 - User Story 7.17: As a superuser/regular user not logged in, I can add items to my bag and make a purchase 
+
 ### User Story 7 Steps
-- Description of steps here    
+1. As a regular user add some items to your bag, so the order is less than £100 pounds
+2. Empty the bag
+3. Add the items back into the bag
+4. Add the items back into the bag, and Update the quantity on one item by one, so the order more than £100 pounds
+5. Checkout the order
+6. Go to the order details on the users my profile page
+7. Check the users email address
+8. Logout, and as a user not logged in add items to a bag
+9. Checkout and complete the purchase
+
 ### User Story 7 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | Screenshot of the result of steps here | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed |
 
 ## Feature Eight Product Management
 
@@ -338,6 +348,7 @@ Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [
 - User Story 8.1: As a superuser I can add a product by clicking on the Product Management link in My Account. I must enter a name, category, price, colour, code, description and Image url, upload image and click the Add Product button. Clicking cancel navigates the user to the product page.
 - User Story 8.2: As a superuser I can edit a product by clicking on the Edit button on the Products page for the product. I can update thea name, category, price, colour, code, description, and Image url, update an image and click the Edit Product button. Clicking cancel navigates the user to the product page
 - User Story 8.3: As a superuser I can delete a product by clicking on the Delete button on the product 
+
 ### User Story 8 Steps
 1. Step As a superuser navigate to Product Management under MyAccount, and add details to a product and click the Add Product button
 2. Click on the edit button on product detail page
@@ -377,6 +388,7 @@ Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [
 2. colour contrast adjusted
 3. Labels were missing for input fields
 4. Product sort selector wasn't wide enough on small screens
+5. Changed $ sign to £ symbol
 
 # Code Validators and Website Analysis
 
