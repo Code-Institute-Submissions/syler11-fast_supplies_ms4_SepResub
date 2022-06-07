@@ -278,7 +278,12 @@ Step 3 | User ssuccesfully changed the password abd now can log in | [Desktop](m
 ### User Story 5 Testing result    
 Step| Result | Desktop | Tablet | Mobile | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Screenshot of the result of steps here | [Desktop]()  | [Tablet]()  | [Mobile]()  | Passed | 
+Step 1 | All products are displayed | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_1_mobile.png)  | Passed | 
+Step 2 | All products displayed by price from High to Low | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_2_mobile.png)  | Passed | 
+Step 3 | Selected product detail is displayed | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_3_mobile.png)  | Passed | 
+Step 4 | 3 kettles added to the bag | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_4_mobile.png)  | Passed | 
+Step 5 | Add product is displayed for superuser | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_5_mobile.png)  | Passed | 
+Step 6 | Edit and delete button are displayed for superuser | [Desktop](media/testing/user_stories/user_story_result_five/user_story5_step_6_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_five/user_story5_step_6_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_five/user_story5_step_6_mobile.png)  | Passed | 
 
 ## Feature Six Profiles
 
