@@ -586,13 +586,13 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 - Superuser can access their own backend via https://fast-supplies.herokuapp.com/admin/ where they can perform CRUD operations of users, products, categories, orders. 
 
 #### Admin Order
-![Product detail mobile](media/testing/features/feature_nine_admin_orders.png)
+![Product detail mobile](media/testing/features/feature_nine/admin_orders.png)
 #### Admin Products
-![Product detail mobile](media/testing/features/feature_nine_admin_products.png)
+![Product detail mobile](media/testing/features/feature_nine/admin_products.png)
 #### Admin Users
-![Product detail mobile](media/testing/features/feature_nine_admin_users.png)
+![Product detail mobile](media/testing/features/feature_nine/admin_users.png)
 #### Admin Categories
-![Product detail mobile](media/testing/features/feature_nine_admin_categories.png)
+![Product detail mobile](media/testing/features/feature_nine/admin_categories.png)
 
 
 #### User Stories Feature Nine
