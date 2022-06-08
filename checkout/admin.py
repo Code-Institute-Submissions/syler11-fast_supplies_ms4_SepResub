@@ -1,13 +1,22 @@
+"""
+Imports
+"""
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
 
 class OrderLineItemAdminInline(admin.TabularInline):
+    """
+    OrderLineItem admin class
+    """
     model = OrderLineItem
     readonly_fields = ('lineitem_total',)
 
 
 class OrderAdmin(admin.ModelAdmin):
+    """
+    Order Model class
+    """
     inlines = (OrderLineItemAdminInline,)
 
     readonly_fields = ('order_number', 'date',
@@ -26,9 +35,10 @@ class OrderAdmin(admin.ModelAdmin):
                     'order_total', 'delivery_cost',
                     'grand_total',)
     list_filter = ('order_number', 'date', 'full_name',
-                    'order_total', 'grand_total',)
+                   'order_total', 'grand_total',)
     search_fields = ('order_number', 'date', 'full_name',)
 
     ordering = ('-date',)
+
 
 admin.site.register(Order, OrderAdmin)
