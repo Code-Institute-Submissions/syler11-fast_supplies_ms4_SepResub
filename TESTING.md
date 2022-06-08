@@ -1,5 +1,7 @@
 # Table of Contents
 - [Testing](#testing)
+  * [Unit Testing](#unit-testing)
+    + [Unit Testing for the Bag app](#unit-testing-for-the-bag-app)
   * [Manual Testing](#manual-testing)
   * [Feature One Navigation and Header](#feature-one-navigation-and-header)
     + [User Story Feature 1](#user-story-feature-1)
@@ -48,6 +50,18 @@
   * [PEP8online](#pep8online)
 
 # Testing
+
+## Unit Testing
+- Due the approaching deadline for the assessment I have only done one testing for the bag.
+- The number of unit tests are 8 and I used the Django testing framework for it.
+- To run the test type at the command line <code>./manage.py test</code>
+
+### Unit Testing for the Bag app
+- Bag app doesn't have the models or forms therefore only the view was tested.
+- The test was covering 8 tests adding, removing,changing items in the bag. 
+- The test run without errors or failures as per the screenshot below. 
+
+![](media/testing/unit_testing/unit_testing_bag_app.png)
 
 ## Manual Testing
 Testing was completed on the following browsers and device types
