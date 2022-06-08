@@ -285,7 +285,7 @@ Products | [Desktop/Tablet/Mobile](media/wireframes/products.png)
 Products Detail | [Desktop/Tablet/Mobile](media/wireframes/product_detail.png)
 Bag | [Desktop/Tablet/Mobile](media/wireframes/bag.png)
 Checkout | [Desktop/Tablet/Mobile](media/wireframes/checkout.png)
-Checkout Success | [Desktop/Tablet/Mobile](media/wireframes/checkout_detail.png)
+Checkout Success | [Desktop/Tablet/Mobile](media/wireframes/checkout_success.png)
 Order History | [Desktop/Tablet/Mobile](media/wireframes/order_history.png)
 Add Product | [Desktop/Tablet/Mobile](media/wireframes/add_product.png)
 Edit product | [Desktop/Tablet/Mobile](media/wireframes/edit_product.png)
@@ -586,13 +586,13 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 - Superuser can access their own backend via https://fast-supplies.herokuapp.com/admin/ where they can perform CRUD operations of users, products, categories, orders. 
 
 #### Admin Order
-![Product detail mobile](media/testing/features/feature_nince_admin_orders.png)
+![Product detail mobile](media/testing/features/feature_nine_admin_orders.png)
 #### Admin Products
-![Product detail mobile](media/testing/features/feature_nince_admin_products.png)
+![Product detail mobile](media/testing/features/feature_nine_admin_products.png)
 #### Admin Users
-![Product detail mobile](media/testing/features/feature_nince_admin_users.png)
+![Product detail mobile](media/testing/features/feature_nine_admin_users.png)
 #### Admin Categories
-![Product detail mobile](media/testing/features/feature_nince_admin_categories.png)
+![Product detail mobile](media/testing/features/feature_nine_admin_categories.png)
 
 
 #### User Stories Feature Nine
