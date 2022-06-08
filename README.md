@@ -621,6 +621,7 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 - [Css](https://en.wikipedia.org/wiki/CSS)
 - [Javascript](https://www.javascript.com/)
 - [Python](https://www.python.org/)
+- [SQLite3](https://www.sqlite.org/index.html)
 
 ## Libraries and other resources
 
@@ -629,6 +630,7 @@ Admin backend access |&#10060;        |&#10060;          |&#10004; |
 - [Fontawesome](https://fontawesome.com/)
 - [Heroku](https://id.heroku.com/)
 - [Django framework](https://www.djangoproject.com/)
+  + Lot of extensions and libraries as per <code>requirements.txt</code> 
 - [Balsamiq](https://balsamiq.com/)
 - [Google Font](https://fonts.google.com/)
 - [GitHub](https://github.com/)
@@ -750,9 +752,9 @@ To run this project locally, you will need to clone the repository
 
 Bugs:
 
-1. Heroku changes
-2. Newsletter
-3. Emal was going out after heroku deployment
+1. Heroku securtiy breach made heroku deployment a lot more challenging
+2. Newsletters function didn't work as js was in the bottom of the page, once it was moved header it worked again
+3. Email wasn't going out after heroku deployment had to set up propery the environ parameters
 4. Example.com was going out in the emails
 
 
@@ -767,8 +769,7 @@ Credit to https://validator.w3.org/ for the html and css validation
 Credit to https://wave.webaim.org/ for accessibility check for the website  
 Credit to https://www.emailjs.com/ for email sending functionality for the website   
 Credit to https://www.google.com/ for the Lighthouse report  
-Credit to https://stackoverflow.com/ for being a valuabe source for various functions
-Credit to https://www.youtube.com/watch?v=Zcw1cgXwKCg & https://prettyprinted.com/ for Flask Blueprint structure
+Credit to https://stackoverflow.com/ for being a valuabe source for various functions  
 Credit to Paul Meeneghan whose project's readme and testing files inspisred me a more extensive documentation
 
 
