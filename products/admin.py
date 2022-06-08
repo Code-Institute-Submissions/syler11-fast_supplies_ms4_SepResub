@@ -1,3 +1,6 @@
+"""
+Imports
+"""
 from django.contrib import admin
 from .models import Product, Category
 
@@ -5,6 +8,9 @@ from .models import Product, Category
 
 
 class ProductAdmin(admin.ModelAdmin):
+    """
+    Product admin  model class
+    """
     list_display = (
         'sku',
         'name',
@@ -31,10 +37,14 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 class CategoryAdmin(admin.ModelAdmin):
+    """
+    Category admin model class
+    """
     list_display = (
         'friendly_name',
         'name',
     )
+
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
