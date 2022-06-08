@@ -275,21 +275,20 @@ Each wireframe contains three sub images, one for desktop, tablet and mobile
 
 Page | Wireframe | 
 ------------ | ------------- 
-Homepage | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
-Returns | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
-Terms and Conditions | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
-Privacy Policy | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
-Register | [Desktop/Tablet/Mobile](progroumedia/wireframes/wireframe_homepage.png)
-Login | [Desktop/Tablet/Mobile](progroup/media/wireframes/wireframe_homepage.png)
-Products | [Desktop/Tablet/Mobile](progroup/smedia/wireframes/wireframe_homepage.png)
-Products Detail | [Desktop/Tablet/Mobile](promedia/wireframes/wireframe_homepage.png)
-Bag | [Desktop/Tablet/Mobile](progrmedia/wireframes/wireframe_homepage.png)
-Checkout | [Desktop/Tablet/Mobile](progromedia/wireframes/wireframe_homepage.png)
-Checkout Success | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
-Order History | [Desktop/Tablet/Mobile](prmedia/wireframes/wireframe_homepage.png)
-My Profile | [Desktop/Tablet/Mobile](promedia/wireframes/wireframe_homepage.png)
-Add Product | [Desktop/Tablet/Mobile](media/wireframes/wireframe_homepage.png)
-Edit product | [Desktop/Tablet/Mobile](prmedia/wireframes/wireframe_homepage.png)
+Homepage | [Desktop/Tablet/Mobile](media/wireframes/homepage.png)
+Returns | [Desktop/Tablet/Mobile](media/wireframes/returns.png)
+Terms and Conditions | [Desktop/Tablet/Mobile](media/wireframes/terms.png)
+Privacy Policy | [Desktop/Tablet/Mobile](media/wireframes/privacy_policy.png)
+Register | [Desktop/Tablet/Mobile](media/wireframes/register.png)
+Login | [Desktop/Tablet/Mobile](media/wireframes/login.png)
+Products | [Desktop/Tablet/Mobile](media/wireframes/products.png)
+Products Detail | [Desktop/Tablet/Mobile](media/wireframes/product_detail.png)
+Bag | [Desktop/Tablet/Mobile](media/wireframes/bag.png)
+Checkout | [Desktop/Tablet/Mobile](media/wireframes/checkout.png)
+Checkout Success | [Desktop/Tablet/Mobile](media/wireframes/checkout_detail.png)
+Order History | [Desktop/Tablet/Mobile](media/wireframes/order_history.png)
+Add Product | [Desktop/Tablet/Mobile](media/wireframes/add_product.png)
+Edit product | [Desktop/Tablet/Mobile](media/wireframes/edit_product.png)
 
 ## Surface
 
