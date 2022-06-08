@@ -1,12 +1,10 @@
-# Imports
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# 3rd party:
+"""
+Imports
+"""
 from django.contrib.messages import get_messages
 from django.test import TestCase
 
-# Internal:
 from products.models import Product
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 class TestBagViews(TestCase):
@@ -43,7 +41,8 @@ class TestBagViews(TestCase):
         """
         product = Product.objects.get(sku='123456')
         response = self.client.post(f'/bag/add/{product.id}/',
-                                    {"quantity": 1, "redirect_url": "view_bag"})
+                                    {"quantity": 1,
+                                     "redirect_url": "view_bag"})
         bag = self.client.session['bag']
         self.assertEqual(bag[str(product.id)], 1)
         messages = list(get_messages(response.wsgi_request))
