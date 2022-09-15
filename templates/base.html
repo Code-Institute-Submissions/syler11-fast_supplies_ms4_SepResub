@@ -213,11 +213,7 @@
 {% endif %}
 
 {% block postloadjs %}
-    <script>
-      $('.toast').toast({autohide: true, delay: 5000});
-      $('.toast').toast('show');
-      $('#example').tooltip()
-    </script>
+  <script src="{%  static 'js/main.js' %}"></script>
 {% endblock %}
 
   </body>
