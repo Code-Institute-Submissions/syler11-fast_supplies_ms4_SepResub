@@ -1,4 +1,4 @@
-// Back to top icon functionality for products html
+// Back to top icon functionality
 $('.btt-link').click(function(e) {
     window.scrollTo(0,0)
 })
