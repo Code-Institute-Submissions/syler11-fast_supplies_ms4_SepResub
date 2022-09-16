@@ -82,21 +82,32 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
-                                            {% if request.user.is_superuser %}
-                                                <small class="ml-3">
-                                                    <a href="{% url 'edit_product' product.id %}">
-                                                        <i class="far right fa-edit tooltipped" data-position="top" data-tooltip="Edit" title="Edit"
-                                                            aria-label="edit">
-                                                                <span class="no-show">Edit</span>
-                                                        </i>
-                                                    </a> | 
-                                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">
-                                                        <i class="far right fa-trash-alt tooltipped" data-position="top" data-tooltip="Delete" title="Delete"
-                                                            aria-label="edit">
-                                                                <span class="no-show">Delete</span>
-                                                        </i>
-                                                    </a>
-                                                </small>
+                                            <small class="ml-3">
+                                                <a href="{% url 'edit_product' product.id %}">
+                                                    <i class="far right fa-edit tooltipped" data-position="top" data-tooltip="Edit" title="Edit"
+                                                    aria-label="edit">
+                                                    <span class="no-show">Edit</span>
+                                                </i>
+                                            </a> | 
+                                            <a class="text-danger" href="{% url 'delete_product' product.id %}">
+                                                <i class="far right fa-trash-alt tooltipped" data-position="top" data-tooltip="Delete" title="Delete"
+                                                aria-label="edit">
+                                                <span class="no-show">Delete</span>
+                                            </i>
+                                        </a> |
+                                        {% if is_product_in_favourites %}
+                                        <a href="do_something">
+                                            <i class="fa right fa-star tooltipped" data-position="top" data-tooltip="Favourites" title="Favourites"
+                                            aria-label="favourites"></i>
+                                        </a>
+                                        {% else %}
+                                        <a href="do_something_else">
+                                            <i class="far right fa-star tooltipped" data-position="top" data-tooltip="Favourites" title="Favourites"
+                                            aria-label="favourites"></i>
+                                        </a>
+                                        {% endif %}
+                                    </small>
+                                    {% if request.user.is_superuser %}
                                             {% endif %}
                                         </div>
                                     </div>
