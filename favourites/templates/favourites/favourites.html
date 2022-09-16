@@ -47,57 +47,41 @@
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
                                 <span class="small"><a href="{% url 'products' %}">Show All Favourites</a> | </span>
                             {% endif %}
-                            {{ products|length }} Favourites{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
+                            {{ favourites_items |length }} Favourites{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                         </p>
                     </div>
                 </div>
                 <div class="row">
-                    {% for product in products %}
+                    {% for favourite in favourites_items %}
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
-                                {% if product.image %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                                {% if favourite.image %}
+                                <a href="{% url 'product_detail' favourite.id %}">
+                                    <img class="card-img-top img-fluid" src="{{ favourite.image.url }}" alt="{{ favourite.name }}">
                                 </a>
                                 {% else %}
-                                <a href="{% url 'product_detail' product.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                                <a href="{% url 'product_detail' favourite.id %}">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ favourite.name }}">
                                 </a>
                                 {% endif %}
                                 <div class="card-body pb-0">
-                                    <p class="mb-0">{{ product.name }}</p>
+                                    <p class="mb-0">{{ favourite.name }}</p>
                                 </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
-                                            <p class="lead mb-0 text-left font-weight-bold">£{{ product.price }} for {{ product.quantity }}</p>
-                                            {% if product.category %}
+                                            <p class="lead mb-0 text-left font-weight-bold">£{{ favourite.price }} for {{ favourite.quantity }}</p>
+                                            {% if favourite.category %}
                                             <p class="small mt-1 mb-0">
-                                                <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
-                                                    <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
+                                                <a class="text-muted" href="{% url 'products' %}?category={{ favourite.category.name }}">
+                                                    <i class="fas fa-tag mr-1"></i>{{ favourite.category.friendly_name }}
                                                 </a>
                                             </p>
                                             {% endif %}
-                                            {% if product.rating %}
-                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ product.rating }} / 5</small>
+                                            {% if favourite.rating %}
+                                                <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ favourite.rating }} / 5</small>
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
-                                            {% endif %}
-                                            {% if request.user.is_superuser %}
-                                                <small class="ml-3">
-                                                    <a href="{% url 'edit_product' product.id %}">
-                                                        <i class="far right fa-edit tooltipped" data-position="top" data-tooltip="Edit" title="Edit"
-                                                            aria-label="edit">
-                                                                <span class="no-show">Edit</span>
-                                                        </i>
-                                                    </a> | 
-                                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">
-                                                        <i class="far right fa-trash-alt tooltipped" data-position="top" data-tooltip="Delete" title="Delete"
-                                                            aria-label="edit">
-                                                                <span class="no-show">Delete</span>
-                                                        </i>
-                                                    </a>
-                                                </small>
                                             {% endif %}
                                         </div>
                                     </div>

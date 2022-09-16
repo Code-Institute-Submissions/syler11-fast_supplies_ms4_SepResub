@@ -96,12 +96,12 @@
                                             </i>
                                         </a> |
                                         {% if is_product_in_favourites %}
-                                        <a href="do_something">
+                                        <a href="{% url 'add_to_favourites' product.id %}">
                                             <i class="fa right fa-star tooltipped" data-position="top" data-tooltip="Favourites" title="Favourites"
                                             aria-label="favourites"></i>
                                         </a>
                                         {% else %}
-                                        <a href="do_something_else">
+                                        <a href="{% url 'add_to_favourites' product.id %}">
                                             <i class="far right fa-star tooltipped" data-position="top" data-tooltip="Favourites" title="Favourites"
                                             aria-label="favourites"></i>
                                         </a>
