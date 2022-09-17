@@ -27,5 +27,5 @@ class Favourites(models.Model):
         """
         Returns favourites name
         """
-        return self.username
+        return str(self.username)
 
