@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load crispy_forms_tags %}
 
 
 {% block page_header %}
@@ -23,39 +24,38 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 <p class="text-muted">Please select return item from Order History</p>
-                <form class="mt-3" action="#" method="POST" id="profile-update-form">
-                    <button class="btn btn-black rounded-0 text-uppercase float-right">Request Return</button>
+                <form method="POST" action="{% url 'request_returns' %}" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div>
+                    </div>
+                    <div class=" form-group">
+                        <label for="occasion">Order Number</label>
+                        <select class="form-control w-75" id="order_number" name="order_number">
+                          <option>Please Select</option>
+                          {% for return in returns %}
+                          <option>{{ return.order_number }}</option>
+                          {% endfor %}
+                        </select>
+                      </div>
+                    <div class="form-group">
+                        <label for="name">Username</label>
+                        <input type="text" class="form-control w-75" id="username" name="username" placeholder="{{ username }}" value="{{ username }}" disabled>
+                      </div>
+                    <div class=" form-group">
+                        <label for="occasion">Return Reason</label>
+                        <select class="form-control w-75" id="return_reason" name="return_reason">
+                          <option>Please Select</option>
+                          <option>Wrong Item</option>
+                          <option>Damaged Item</option>
+                          <option>Item Not Received</option>
+                          <option>Other</option>
+                        </select>
+                      </div>
+                    <div class=" form-group">
+                      {{ form.additional_info | as_crispy_field }}
+                    </div>
+                    <button class="btn btn-black rounded-0 text-uppercase float-left">Request Return</button>
                 </form>
-            </div>
-            <div class="col-12 col-lg-6">
-                <p class="text-muted">Return History</p>
-                <div class="order-history table-responsive">
-                    <table class="table table-sm table-borderless">
-                        <thead>
-                            <tr>
-                                <th>Order Number</th>
-                                <th>Date</th>
-                                <th>Return Reason</th>
-                                <th>Addition Info</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for return in returns %}
-                                <tr>
-                                    <td>
-                                        <a class="text-shadow-blue" href=""
-                                        title="{{ return.order_number }}">
-                                            {{ return.order_number|truncatechars:10 }}
-                                        </a>
-                                    </td>
-                                    <td>{{ return.return_request_date }}</td>
-                                    <td>{{ return.get_return_reason_display }}</td>
-                                    <td>{{ return.additional_info }}</td>
-                                </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
             </div>
         </div>
     </div>
