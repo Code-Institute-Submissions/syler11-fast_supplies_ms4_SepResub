@@ -12,6 +12,7 @@ class ReturnsAdmin(admin.ModelAdmin):
     Favourites admin  model class
     """
     list_display = (
+        'order_number',
         'username',
         'return_reason',
         'return_request_date',
@@ -22,9 +23,10 @@ class ReturnsAdmin(admin.ModelAdmin):
         'return_request_date',
     )
     search_fields = (
+       'order_number',
        'username',
        'return_reason',
-        'return_request_date',
+       'return_request_date',
     )
 
     ordering = ('username',)

@@ -24,11 +24,12 @@ class Returns(models.Model):
         ('item_not_received', 'Item Not Received'),
     ]
 
-    order_number = models.ManyToManyField(Order, blank=True)
-    username = models.OneToOneField(User, on_delete=models.CASCADE)
+    order_number = models.ForeignKey(Order, null=True, blank=True,
+                                 on_delete=models.SET_NULL)
+    username = models.ForeignKey(User, null=True, blank=True, on_delete=models.SET_NULL)
     return_reason = models.CharField(max_length=20, choices=RETURN_REASON_CHOICES,)
     return_request_date = models.DateTimeField(auto_now_add=True)
-    additional_info = models.CharField(max_length=20, blank=True)
+    additional_info = models.CharField(max_length=200, blank=True)
 
 
     def __str__(self):
