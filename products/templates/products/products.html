@@ -94,18 +94,7 @@
                                                 aria-label="edit">
                                                 <span class="no-show">Delete</span>
                                             </i>
-                                        </a> |
-                                        {% if is_product_in_favourites %}
-                                        <a href="{% url 'add_to_favourites' product.id %}">
-                                            <i class="fa right fa-star tooltipped" data-position="top" data-tooltip="Favourites" title="Favourites"
-                                            aria-label="favourites"></i>
                                         </a>
-                                        {% else %}
-                                        <a href="{% url 'add_to_favourites' product.id %}">
-                                            <i class="far right fa-star tooltipped" data-position="top" data-tooltip="Favourites" title="Favourites"
-                                            aria-label="favourites"></i>
-                                        </a>
-                                        {% endif %}
                                     </small>
                                     {% if request.user.is_superuser %}
                                             {% endif %}
