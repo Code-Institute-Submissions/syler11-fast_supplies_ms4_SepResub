@@ -64,8 +64,10 @@
                 <a href="{% url 'products' %}?category=new_products,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
+        {% if user.is_authenticated %}
         <li class="nav-item dropdown">
             <a href="{% url 'product_favourites' %}" class="logo-font font-weight-bold nav-link text-black">Favourites</a>
         </li>
+        {% endif %}
     </ul>
 </div>
