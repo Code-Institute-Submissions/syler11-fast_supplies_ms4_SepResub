@@ -30,20 +30,20 @@
                     </div>
                     <div class=" form-group">
                         <label for="occasion">Order Number</label>
-                        <select class="form-control w-75" id="order_number" name="order_number">
+                        <select class="form-control border-black rounded-0 w-75" id="order_number" name="order_number">
                           <option>Please Select</option>
-                          {% for return in returns %}
-                          <option>{{ return.order_number }}</option>
+                          {% for order in orders %}
+                          <option>{{ order.order_number }}</option>
                           {% endfor %}
                         </select>
                       </div>
                     <div class="form-group">
                         <label for="name">Username</label>
-                        <input type="text" class="form-control w-75" id="username" name="username" placeholder="{{ username }}" value="{{ username }}" disabled>
+                        <input type="text" class="form-control border-black rounded-0 w-75" id="username" name="username" placeholder="{{ username }}" value="{{ username }}">
                       </div>
-                    <div class=" form-group">
+                    <div class="form-group">
                         <label for="occasion">Return Reason</label>
-                        <select class="form-control w-75" id="return_reason" name="return_reason">
+                        <select class="form-control border-black rounded-0 w-75" id="return_reason" name="return_reason">
                           <option>Please Select</option>
                           <option>Wrong Item</option>
                           <option>Damaged Item</option>
@@ -54,6 +54,7 @@
                     <div class=" form-group">
                       {{ form.additional_info | as_crispy_field }}
                     </div>
+                    {{ form.errors }}
                     <button class="btn btn-black rounded-0 text-uppercase float-left">Request Return</button>
                 </form>
             </div>

@@ -1,6 +1,7 @@
 """
 Imports
 """
+from django.http import Http404
 from django.shortcuts import (render, redirect, get_object_or_404)
 from django.contrib import messages
 from django.urls import reverse
@@ -21,14 +22,25 @@ def request_returns(request):
 
     returns = Returns.objects.filter(username=user_id)
 
-    order = Order.objects.filter(user_profile=user_id)
+    new_return = request.POST.get("order_number")
+
+    print(new_return)
+
+    for e in Returns.objects.all():
+        test = e.order_number
+
+    orders = Order.objects.filter(user_profile=user_id)
 
     if request.method == 'POST':
-        form = ReturnsForm(request.POST, request.FILES)
+        form = ReturnsForm(request.POST)
         if form.is_valid():
-            returns = form.save()
-            messages.success(request, 'Return request was successfully submitted!')
-            return redirect(reverse('request_returns'))
+            if new_return  not in test:
+                form.save()
+                messages.success(request, 'Return request was successfully submitted!')
+                return redirect(reverse('request_returns'))
+            else:
+                messages.error(request, 'Return was already requested')
+                return redirect(reverse('request_returns'))
         else:
             messages.error(request,
                            'Failed to add return request. \
@@ -36,12 +48,12 @@ def request_returns(request):
     else:
         form = ReturnsForm()
 
-
     context = {
         'returns': returns,
+        'orders': orders,
         'form': form,
-        'order': order,
         'username': username
     }
 
     return render(request, "returns/request_returns.html", context)
+
