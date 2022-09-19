@@ -20,11 +20,9 @@ def request_returns(request):
 
     username = request.user
 
-    returns = Returns.objects.filter(username=user_id)
+    returns = Returns.objects.filter(username=username)
 
     new_return = request.POST.get("order_number")
-
-    print(new_return)
 
     for e in Returns.objects.all():
         test = e.order_number
@@ -39,7 +37,7 @@ def request_returns(request):
                 messages.success(request, 'Return request was successfully submitted!')
                 return redirect(reverse('request_returns'))
             else:
-                messages.error(request, 'Return was already requested')
+                messages.error(request, 'This order is already in the return history!')
                 return redirect(reverse('request_returns'))
         else:
             messages.error(request,

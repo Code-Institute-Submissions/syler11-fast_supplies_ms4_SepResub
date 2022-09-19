@@ -33,13 +33,18 @@
                         <select class="form-control border-black rounded-0 w-75" id="order_number" name="order_number">
                           <option>Please Select</option>
                           {% for order in orders %}
-                          <option>{{ order.order_number }}</option>
+                          <option>{{ order.order_number}}</option>
                           {% endfor %}
                         </select>
                       </div>
-                    <div class="form-group">
-                        <label for="name">Username</label>
+                    <div class="form-groug d-none">
+                        <label for="username">Username</label>
                         <input type="text" class="form-control border-black rounded-0 w-75" id="username" name="username" placeholder="{{ username }}" value="{{ username }}">
+                       
+                      </div>
+                    <div class="form-group">
+                        <label for="display-username">Username</label>
+                        <input type="text" class="form-control border-black rounded-0 w-75" id="display-username" name="display-username" placeholder="{{ username|title  }}" value="{{ username|title  }}" disabled>
                       </div>
                     <div class="form-group">
                         <label for="occasion">Return Reason</label>
@@ -58,6 +63,33 @@
                     <button class="btn btn-black rounded-0 text-uppercase float-left">Request Return</button>
                 </form>
             </div>
+            <div class="col-12 col-lg-6">
+              <p class="text-muted">Return History</p>
+              <div class="order-history table-responsive">
+                  <table class="table table-sm table-borderless">
+                      <thead>
+                          <tr>
+                              <th>Return Number</th>
+                              <th>Date</th>
+                              <th>Reason</th>
+                              <th>Additional Info</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                        {% for return in returns %}
+                              <tr>
+                                  <td>
+                                    <p class="text-shadow-blue">R-{{ return.order_number|truncatechars:6 }}</p>
+                                  </td>
+                                  <td>{{ return.return_request_date }}</td>
+                                  <td>{{ return.return_reason }}</td>
+                                  <td>{{ return.additional_info }}</td>
+                              </tr>
+                          {% endfor %}
+                      </tbody>
+                  </table>
+              </div>
+          </div>
         </div>
     </div>
 {% endblock %}
