@@ -1,0 +1,11 @@
+Hello {{  username|title }},
+
+We received your return request for order number {{ new_return }}.
+
+One of our colleague will get in touch with you shortly.
+
+Sorry for any inconvenience caused.
+
+Kind regards,
+
+Fast Supplies
