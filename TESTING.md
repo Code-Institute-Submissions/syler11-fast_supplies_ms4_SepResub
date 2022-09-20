@@ -360,6 +360,8 @@ products/products_edit.html | Passed, No errors found | [Results](media/testing/
 checkout/checkout.html | Passed, No errors found | [Results](media/testing/html_validation/checkout.html_validation.png)  
 checkout/checkout_success.html | Passed, No errors found | [Results](media/testing/html_validation/checkout_success.html_validation.png)  
 profile/order_history.html | Passed, No errors found | [Results](media/testing/html_validation/order_history.html_validation.png)  
+favourites/product_favourites.html | Passed, No errors found | [Results](media/testing/html_validation/product_favourites.html_validation.png)  
+returns/request_return.html | Passed, No errors found | [Results](media/testing/html_validation/request_return.html_validation.png)  
  
 
 ## CSS Validation Service
@@ -393,6 +395,8 @@ login.html | [Results](media/testing/lighthouse/login.html_desktop.png)
 returns.html | [Results](media/testing/lighthouse/returns.html_desktop.png)  
 terms.html | [Results](media/testing/lighthouse/terms.html_desktop.png)  
 privacy.html | [Results](media/testing/lighthouse/privacy.html_desktop.png)  
+product_favourites.html | [Results](media/testing/lighthouse/product_favourites.html_desktop.png)  
+request_returns.html | [Results](media/testing/lighthouse/request_returns.html_desktop.png)  
  
 <br>
 
@@ -415,6 +419,8 @@ login.html | [Results](media/testing/lighthouse/login.html_mobile.png)
 returns.html | [Results](media/testing/lighthouse/returns.html_mobile.png)  
 terms.html | [Results](media/testing/lighthouse/terms.html_mobile.png)  
 privacy.html | [Results](media/testing/lighthouse/privacy.html_mobile.png)  
+product_favourites.html | [Results](media/testing/lighthouse/product_favourites.html_mobile.png) 
+request_returns.html | [Results](media/testing/lighthouse/request_returns.html_mobile.png)  
  
 <br>
 
@@ -435,6 +441,8 @@ checkout/checkout.html | Passed, No errors found | [Results](media/testing/acces
 checkout/checkout_success.html | Passed, No errors found | [Results](media/testing/accessibility/checkout_success.html_accessibility.png)  
 profile/profile.html | Passed, No errors found | [Results](media/testing/accessibility/profile.html_accessibility.png) 
 profile/order_history.html | Passed, No errors found | [Results](media/testing/accessibility/order_history.html_accessibility.png) 
+favourites/product_favourites.html | Passed, No errors found | [Results](media/testing/accessibility/product_favourites.html_accessibility.png) 
+returns/request_returns.html | Passed, No errors found | [Results](media/testing/accessibility/request_returns.html_accessibility.png) 
 
 ## JSHint
 * JSHint(https://jshint.com/) was used to analyse the Javascript files
@@ -444,6 +452,7 @@ Page | Result | Test Detail/Screenshot
 js/newsletter.js |  errors, 0 warnings | [Results](media/testing/js_validation/newsletter.js_validation.png)  
 js/stripe.js |  errors, 0 warnings | [Results](media/testing/js_validation/stripe.js_validation.png)  
 js/countryfield.js |  errors, 0 warnings | [Results](media/testing/js_validation/countryfiled.js_validation.png)  
+js/favourites.js |  errors, 0 warnings | [Results](media/testing/js_validation/favourites.js_validation.png)  
 
 ## PEP8online
 * PEP8online was used to analyse the Python files (https://pep8online.com/)
