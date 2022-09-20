@@ -1,7 +1,7 @@
 // Back to top icon functionality
 $('.btt-link').click(function(e) {
-    window.scrollTo(0,0)
-})
+    window.scrollTo(0,0);
+});
 
 // Javascript from favourites.html to sort favourites
 $('#sort-selector').change(function() {
@@ -23,4 +23,4 @@ $('#sort-selector').change(function() {
 
         window.location.replace(currentUrl);
     }
-})
+});

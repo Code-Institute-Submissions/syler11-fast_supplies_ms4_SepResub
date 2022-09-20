@@ -6,7 +6,6 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.contrib import messages
 from django.urls import reverse
-from django.contrib.auth.models import User
 
 from checkout.models import Order
 
