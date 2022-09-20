@@ -6,6 +6,7 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.contrib import messages
 from django.urls import reverse
+from django.contrib.auth.models import User
 
 from checkout.models import Order
 
@@ -50,12 +51,15 @@ def request_returns(request):
                     'returns/returns_email/returns_email_body.txt',
                     {'username': username, 'new_return': new_return, })
 
+                # user email
+                user_email = request.user.email
+
                 # send an request email from request page
                 send_mail(
                     subject,
                     body,
                     'noreply@fastsupplies.co.uk',
-                    ['nemeth.szilard82@gmail.com'],
+                    [user_email],
                     fail_silently=False,
                     )
 
