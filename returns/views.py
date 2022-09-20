@@ -1,17 +1,17 @@
 """
 Imports
 """
-from django.http import Http404
-from django.shortcuts import (render, redirect, get_object_or_404)
+from django.shortcuts import (render, redirect)
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.contrib import messages
 from django.urls import reverse
 
+from checkout.models import Order
+
 from .forms import ReturnsForm
 
 from .models import Returns
-from checkout.models import Order
 
 
 def request_returns(request):
@@ -20,11 +20,7 @@ def request_returns(request):
     """
     user_id = request.user.id
 
-    user_email = request.user.email
-
     username = request.user
-
-    rtrn = Returns.objects.all()
 
     returns = Returns.objects.filter(username=username)
 
@@ -44,11 +40,11 @@ def request_returns(request):
                 subject = render_to_string(
                     'returns/returns_email/returns_email_subject.txt',
                     {'username': username})
-            
+
                 # email body path
                 body = render_to_string(
                     'returns/returns_email/returns_email_body.txt',
-                    {'username': username, 'orders': orders, 'returns': returns, 'new_return': new_return, 'rtrn': rtrn})
+                    {'username': username, 'new_return': new_return, })
 
                 # send an request email from request page
                 send_mail(
@@ -59,10 +55,12 @@ def request_returns(request):
                     fail_silently=False,
                     )
 
-                messages.success(request, 'Return request was successfully submitted!')
+                messages.success(request, 'Return request was'
+                                 'successfully submitted!')
                 return redirect(reverse('request_returns'))
             else:
-                messages.error(request, 'This order is already in the return history!')
+                messages.error(request, 'This order is already'
+                               'in the return history!')
                 return redirect(reverse('request_returns'))
         else:
             messages.error(request,
@@ -76,9 +74,7 @@ def request_returns(request):
         'orders': orders,
         'form': form,
         'username': username,
-        'rtrn': rtrn,
         'new_return': new_return
     }
 
     return render(request, "returns/request_returns.html", context)
-
