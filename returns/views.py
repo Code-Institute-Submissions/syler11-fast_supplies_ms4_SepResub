@@ -30,13 +30,13 @@ def request_returns(request):
 
     new_return = request.POST.get("order_number")
 
-    for e in Returns.objects.all():
-        test = e.order_number
-
     orders = Order.objects.filter(user_profile=user_id)
 
     if request.method == 'POST':
         form = ReturnsForm(request.POST)
+        for e in Returns.objects.all():
+            test = e.order_number
+
         if form.is_valid():
             if new_return  not in test:
                 form.save()
