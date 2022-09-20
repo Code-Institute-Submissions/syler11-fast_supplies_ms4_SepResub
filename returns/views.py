@@ -63,11 +63,11 @@ def request_returns(request):
                     fail_silently=False,
                     )
 
-                messages.success(request, 'Return request was'
+                messages.success(request, 'Return request was '
                                  'successfully submitted!')
                 return redirect(reverse('request_returns'))
             else:
-                messages.error(request, 'This order is already'
+                messages.error(request, 'This order is already '
                                'in the return history!')
                 return redirect(reverse('request_returns'))
         else:
