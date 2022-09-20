@@ -28,12 +28,16 @@ def request_returns(request):
 
     orders = Order.objects.filter(user_profile=user_id)
 
+    returned = []
+
+    for e in Returns.objects.all():
+        returned = e.order_number
+
     if request.method == 'POST':
         form = ReturnsForm(request.POST)
-        test = [(e) for e in Returns.objects.all()]
 
         if form.is_valid():
-            if new_return  not in test:
+            if new_return  not in returned:
                 form.save()
 
                 # email subject path
