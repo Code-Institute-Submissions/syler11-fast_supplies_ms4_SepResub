@@ -34,8 +34,7 @@ def request_returns(request):
 
     if request.method == 'POST':
         form = ReturnsForm(request.POST)
-        for e in Returns.objects.all():
-            test = e.order_number
+        test = [(e) for e in Returns.objects.all()]
 
         if form.is_valid():
             if new_return  not in test:
