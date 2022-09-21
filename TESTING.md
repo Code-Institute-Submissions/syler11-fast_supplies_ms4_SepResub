@@ -39,6 +39,10 @@
     + [User Story Feature 9](#user-story-feature-9)
     + [User Story Steps 9](#user-story-steps-9)
     + [User Story Testing Results 9](#user-story-testing-results-9)
+  * [Feature Ten Favourites](#feature-ten-favourites)
+    + [User Story Feature 10](#user-story-feature-10)
+    + [User Story Steps 10](#user-story-steps-10)
+    + [User Story Testing Results 10](#user-story-testing-results-10)
 - [Code Validators and Website Analysis](#code-validators-and-website-analysis)
   * [HTML Markup Validation Service](#html-markup-validation-service)
   * [CSS Validation Service](#css-validation-service)
@@ -336,7 +340,26 @@ Step 4 | Poducts filtered for category nam "restaurant" 2 results | [Desktop](me
 Step 5 | All users are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_5.png)  | N/A  | N/A  | Passed | 
 Step 6 | users filtered for "not Superuser" 2 results | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_6.png)  | N/A  | N/A  | Passed | 
 Step 7 | All categories are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_7.png)  | N/A  | N/A  | Passed | 
-Step 7 | All returns are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_8.png)  | N/A  | N/A  | Passed | 
+Step 8 | All returns are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_8.png)  | N/A  | N/A  | Passed | 
+
+## Feature Ten Favourites
+
+### User Story Feature 10
+- User Story 10.1: As a superuser/regular user I can navigate to product details and click on the favourite icon ( empty star) and add product to my own favourites product list
+- User Story 10.2: As a superuser/regular user I can navigate to product details and click on the favourite icon (filled star) and remove product from my own favourites product list
+
+### User Story Steps 10
+1. Step 1: As a superuser/regular user navigate to https://fast-supplies.herokuapp.com/products/15/
+2. Step 2: As a superuser/regular user navigate to https://fast-supplies.herokuapp.com/products/15/ and click on the empty icon to add product to favourites
+3. Step 3: As a superuser/regular user navigate to https://fast-supplies.herokuapp.com/products/15/ and click on the filled icon to remove product from favourites
+
+### User Story Testing Results 10
+Step| Result | Desktop | Tablet | Mobile | Status
+------------ | ------------ | ------------- | ------------- | ------------- | -------------
+Step 1 | Logged in user to navigate to product detail page | [Desktop](media/testing/user_stories/user_story_result_ten/user_story10_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_ten/user_story10_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_ten/user_story10_step_1_mobile.png)  | Passed | 
+Step 2 | User to click on the empty star icon to add product to favourites | [Desktop](media/testing/user_stories/user_story_result_ten/user_story10_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_ten/user_story10_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_ten/user_story10_step_2_mobile.png)  | Passed | 
+Step 3 | User to click on the filled star icon to remove product from favourites | [Desktop](media/testing/user_stories/user_story_result_ten/user_story10_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_ten/user_story10_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_ten/user_story10_step_3_mobile.png)  | Passed | 
+
 
 ## Bugs during the testing
 1. Empty button links were found
