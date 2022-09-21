@@ -2,9 +2,6 @@
 Imports
 """
 from django.db import models
-from django.contrib.auth.models import User
-
-from checkout.models import Order
 
 
 class Returns(models.Model):
@@ -23,7 +20,6 @@ class Returns(models.Model):
     return_reason = models.CharField(max_length=100, blank=True)
     return_request_date = models.DateTimeField(auto_now_add=True)
     additional_info = models.CharField(max_length=200, blank=True)
-
 
     def __str__(self):
         """

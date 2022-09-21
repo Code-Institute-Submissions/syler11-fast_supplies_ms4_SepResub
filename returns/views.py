@@ -37,6 +37,7 @@ def request_returns(request):
         form = ReturnsForm(request.POST)
 
         if form.is_valid():
+
             if new_return  not in returned:
                 form.save()
 
@@ -69,10 +70,12 @@ def request_returns(request):
                 messages.error(request, 'This order is already '
                                'in the return history!')
                 return redirect(reverse('request_returns'))
+
         else:
             messages.error(request,
                            'Failed to add return request. \
                             Please ensure the form is valid.')
+
     else:
         form = ReturnsForm()
 

@@ -493,6 +493,13 @@ products-models.py | All right | [Results](media/testing/pep8/products-forms.py.
 products-urls.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
 products-views.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
 products-widgets.py | All right | [Results](media/testing/pep8/products-forms.py.png) 
- 
+favourites-admin.py | All right | [Results](media/testing/pep8/favourites-admin.py.png)
+favourites-models.py | All right | [Results](media/testing/pep8/favourites-models.py.png)
+favourites-urls.py | All right | [Results](media/testing/pep8/favourites-urls.py.png)
+favourites-views.py | All right | [Results](media/testing/pep8/favourites-views.py.png)
+returns-admin.py | All right | [Results](media/testing/pep8/returns-admin.py.png)
+returns-models.py | All right | [Results](media/testing/pep8/returns-models.py.png)
+returns-urls.py | All right | [Results](media/testing/pep8/returns-urls.py.png)
+returns-views.py | All right | [Results](media/testing/pep8/returns-views.py.png)
   
  
