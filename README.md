@@ -301,6 +301,8 @@ Checkout Success | [Desktop/Tablet/Mobile](media/wireframes/checkout_success.png
 Order History | [Desktop/Tablet/Mobile](media/wireframes/order_history.png)
 Add Product | [Desktop/Tablet/Mobile](media/wireframes/add_product.png)
 Edit product | [Desktop/Tablet/Mobile](media/wireframes/edit_product.png)
+Favourites | [Desktop/Tablet/Mobile](media/wireframes/favourites.png)
+Request Return | [Desktop/Tablet/Mobile](media/wireframes/request_returns.png)
 
 ## Surface
 
