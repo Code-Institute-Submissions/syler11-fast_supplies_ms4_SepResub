@@ -314,6 +314,7 @@ Step 5 | Product was successfully deleted and user message displayed | [Desktop]
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
+- User Story 9.8: As a superiser I can view return request in the django admin page under the returns tab as per user and the realted order number
 
 ### User Story Steps 9
 1. Step 1: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/checkout/order/
@@ -323,6 +324,7 @@ Step 5 | Product was successfully deleted and user message displayed | [Desktop]
 2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ 
 2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ apply filter not Superuser
 2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/category/
+2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/returns/returns/
 
 ### User Story Testing Results 9
 Step| Result | Desktop | Tablet | Mobile | Status
@@ -334,6 +336,7 @@ Step 4 | Poducts filtered for category nam "restaurant" 2 results | [Desktop](me
 Step 5 | All users are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_5.png)  | N/A  | N/A  | Passed | 
 Step 6 | users filtered for "not Superuser" 2 results | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_6.png)  | N/A  | N/A  | Passed | 
 Step 7 | All categories are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_7.png)  | N/A  | N/A  | Passed | 
+Step 7 | All returns are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_8.png)  | N/A  | N/A  | Passed | 
 
 ## Bugs during the testing
 1. Empty button links were found

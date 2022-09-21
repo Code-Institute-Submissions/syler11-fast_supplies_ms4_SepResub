@@ -132,7 +132,7 @@ The primary goal of the website from a site users perspective is as follows:
 
 ## Structure
 ### Website pages
-The website contains 17 pages in a logical structure, information and purpose.
+The website contains 19 pages in a logical structure, information and purpose.
 1. Home Page: The first page the user would see when they access the website before they can login to the site.
 2. Login: This page allows the user to login to the website. There was no register page added to the landing page to ensure that only authorised personnel could access the website when given access by one of the admin.
 3. Register: The first page when user would arrive after successful login. It display all the reservation / navigations and some basic statistics of the exsiting reservations. 
@@ -150,6 +150,8 @@ The website contains 17 pages in a logical structure, information and purpose.
 15. Terms and Conditions: This page allows admin users to edit existing users. 
 16. 404: The 404 error page is displayed if the user enters an incorrect url when accessing the site.
 17. 400, 403 and 500: The error page is displayed if the user encounters an error on the site
+18. Favourites: This allows logged in users to add products to a customized list on the their favourites page.
+19. Returns: This allows logged in users to submit return request for products they have previously purchased.
 
 ### Code Structure
 The project is divided into a number of apps, as is built using the Django Framework The project was built on the Boutique Ado project, that was part of the project content The apps are described as follows
@@ -159,6 +161,8 @@ The project is divided into a number of apps, as is built using the Django Frame
 - home: This app contains functionality regarding the users home page
 - products: This app contains functionality regarding a product. I added functionality for adding/removing a rating/comment to a product
 - profiles: This app contains functionality regarding a users profile and order history
+- favourites: This app contains funcionality regarding a users favourites products page
+- returns: This app contains functionaliy reagrding a uses to submit request form to return purchased items
 
 ### Database
 - The website is a data-centric one with html, javascript, css used with the materialize framework as a frontend
@@ -229,7 +233,14 @@ The user stories for the website user "regular user" (with and without account) 
 - User Story 7.15: As a superuser/regular user on the checkout page if I click the Complete Order button, and the transaction is successful, the order is saved to my order history in My profile page
 - User Story 7.16: As a superuser/regular user on the checkout success page, the Order details will be displayed (Order number, Order date/time, Full NameStreet Address 1, Street Address 2, Town or City, County, State or Locality, Postal Code and Country, Phone Number, Order Total, Deliver, Grand Total) and a link to the sales item page is displayed
 - User Story 7.17: As a superuser/regular user not logged in, I can add items to my bag and make a purchase
- 
+### Added with resubmission*
+- User Story 10.1: As a superuser/regular user I can navigate to product details and click on the favourite icon ( empty star) and add product to my own favourites product list
+- User Story 10.2: As a superuser/regular user I can navigate to product details and click on the favourite icon (filled star) and remove product from my own favourites product list
+- User Story 11.1: As a superuser/regular user I can navigate to the returns page in the my account tab
+- User Story 11.2: As a superuser/regular user I can navigate to the returns page in the my account tab and request a return by filling up the form with the mandatory fields
+- User Story 11.3: As a superuser/regular user I can receive an email confirming that my return request was succesfully submitted
+- User Story 11.4: As a superuser/regular user I can navigate to the returns page in the my account tab and see my previously submitted requests
+
 
 
 ### User Stories Website Owner
@@ -267,6 +278,7 @@ The user stories for the website owner(superuser) are described as follows: Ther
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
+- User Story 9.8: As a superiser I can view return request in the django admin page under the returns tab as per user and the realted order number
 
 ## Skeleton
 
@@ -334,6 +346,8 @@ Product Management(Add Product)     |&#10060;       |&#10060;         |&#10004; 
 Product Management(Edit Product)     |&#10060;       |&#10060;         |&#10004; |
 Product Management(Delete Product)     |&#10060;       |&#10060;         |&#10004; |
 Admin backend access |&#10060;        |&#10060;          |&#10004; |
+Favourites |&#10060;        |&#10004;          |&#10004; |
+Returns |&#10060;        |&#10004;          |&#10004; |
 
 
 ## Existing Features
