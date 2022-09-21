@@ -397,6 +397,10 @@ footer a {
         height: 230px;
         width: auto;
     }
+
+    th {
+        min-width: 100px;
+    }
 }
 
 
