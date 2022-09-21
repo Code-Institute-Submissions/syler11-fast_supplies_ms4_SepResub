@@ -375,20 +375,18 @@ Step 3 | User to click on the filled star icon to remove product from favourites
 ### User Story Steps 11
 1. Step 1: As a superuser/regular user navigate to https://fast-supplies.herokuapp.com/returns/request_returns/
 2. Step 2: As a superuser/regular user filling up all the mandatory fields and clicking on Submit request
-3. Step 3: As a superuser/regular user receive message that the request was successfully submitted
-4. Step 4: As a superuser/regular user receives an email that the request was succesfully submitted
-5. Step 5: As a superuser/regular user receive message that the request was already added before and submission is cancelled
-6. Step 6: As a superuser/regular user can see previously added return requests
+3. Step 3: As a superuser/regular user receive pop up message and also an email that the request was succesfully submitted
+4. Step 4: As a superuser/regular user receive message that the request was already added before and submission is cancelled
+5. Step 5: As a superuser/regular user can see previously added return requests
 
 ### User Story Testing Results 11
-Step| Result | Desktop | Tablet | Mobile | Status
------------- | ------------ | ------------- | ------------- | ------------- | -------------
-Step 1 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_mobile.png)  | Passed | 
-Step 2 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_mobile.png)  | Passed | 
-Step 3 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_mobile.png)  | Passed | 
-Step 4 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_mobile.png)  | Passed | 
-Step 5 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_mobile.png)  | Passed | 
-Step 6 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_6_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_6_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_6_mobile.png)  | Passed | 
+Step| Result | Desktop | Tablet | Mobile | Email | Status
+------------ | ------------ | ------------- | ------------- | ------------- | ------------- | -------------
+Step 1 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_mobile.png)  | N/A | Passed | 
+Step 2 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_mobile.png)  | N/A |Passed | 
+Step 3 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_mobile.png)  | [Email](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_email.png)  | Passed | 
+Step 4 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_mobile.png)  | N/A | Passed | 
+Step 5 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_mobile.png)  | N/A | Passed | 
 
 
 
