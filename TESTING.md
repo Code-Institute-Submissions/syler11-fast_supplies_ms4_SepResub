@@ -62,7 +62,7 @@
 ## Unit Testing
 - Due the approaching deadline for the assessment I have only done one testing for the bag.
 - The number of unit tests are 8 and I used the Django testing framework for it.
-- To run the test type at the command line <code>./manage.py test</code>
+- To run the test type at the command line <code>python3 manage.py test (app name)</code>
 
 ### Unit Testing for the Bag app
 - Bag app doesn't have the models or forms therefore only the view was tested.
@@ -70,6 +70,13 @@
 - The test run without errors or failures as per the screenshot below. 
 
 ![](media/testing/unit_testing/unit_testing_bag_app.png)
+
+### Unit Testing for the Profile app
+- Profile app had the models and view tested.
+- The test was covering 4 tests adding test user, deleteing test user, adding user profile page and order history page. 
+- The test run without errors or failures as per the screenshot below. 
+
+![](media/testing/unit_testing/unit_testing_profile_app.png)
 
 ## Manual Testing
 Testing was completed on the following browsers and device types
