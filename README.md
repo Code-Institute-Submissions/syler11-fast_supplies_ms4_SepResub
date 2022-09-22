@@ -629,14 +629,31 @@ Returns |&#10060;        |&#10004;          |&#10004; |
 
 ### Feature Ten Admin
 #### Description Feature Ten
+- Superuser/regular users can add favourites poduct to their by navigating to the product detail page and click on the empty star icon
+- Superuser/regular users can remove favourites poduct to their by navigating to the product detail page and click on the filled star icon
+
+#### Product detail with favourite icon
+![Product detail mobile](media/testing/features/feature_ten/product_detail.png)
+#### Product added to the favourites list
+![Product detail mobile](media/testing/features/feature_ten/favourite_added.png)
+#### Product removed from the favourites list
+![Product detail mobile](media/testing/features/feature_ten/favourite_removed.png)
+
+
 
 #### User Stories Feature Ten
+- User Story 10.1: As a superuser/regular user I can navigate to product details and click on the favourite icon ( empty star) and add product to my own favourites product list
+- User Story 10.2: As a superuser/regular user I can navigate to product details and click on the favourite icon (filled star) and remove product from my own favourites product list
 
 
 ### Feature Eleven Admin
 #### Description Feature Eleven
 
 #### User Stories Feature Eleven
+- User Story 11.1: As a superuser/regular user I can navigate to the returns page in the my account tab
+- User Story 11.2: As a superuser/regular user I can navigate to the returns page in the my account tab and request a return by filling up the form with the mandatory fields
+- User Story 11.3: As a superuser/regular user I can receive an email confirming that my return request was succesfully submitted
+- User Story 11.4: As a superuser/regular user I can navigate to the returns page in the my account tab and see my previously submitted requests
 
 
 

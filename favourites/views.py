@@ -46,7 +46,7 @@ def add_to_favourites(request, item_id):
         messages.info(request, 'The product is already in favourites!')
     else:
         favourites.products.add(product)
-        messages.info(request, 'The product added was to your favourites')
+        messages.info(request, 'The product was added to your favourites')
     return redirect(reverse('product_favourites'))
 
 
