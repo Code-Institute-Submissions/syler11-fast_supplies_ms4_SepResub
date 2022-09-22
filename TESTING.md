@@ -322,17 +322,19 @@ Step 5 | Product was successfully deleted and user message displayed | [Desktop]
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
-- User Story 9.8: As a superiser I can view return request in the django admin page under the returns tab as per user and the realted order number
+- User Story 9.8: As a superiser I can view favourites in the django admin page under the favourites tab as per user and the related product SKU
+- User Story 9.9: As a superiser I can view return request in the django admin page under the returns tab as per user and the related order number
 
 ### User Story Steps 9
 1. Step 1: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/checkout/order/
 2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/checkout/order/ a filter for users first name "Tim" who made an order in the past
-2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/product/
-2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/product/ apply filter "restaurant" categories
-2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ 
-2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ apply filter not Superuser
-2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/category/
-2. Step 2: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/returns/returns/
+3. Step 3: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/product/
+4. Step 4: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/product/ apply filter "restaurant" categories
+5. Step 5: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ 
+6. Step 6: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/auth/user/ apply filter not Superuser
+7. Step 7: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/products/category/
+8. Step 8: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/favourites/favourites/
+9. Step 9: As a superuser login navigate to https://fast-supplies.herokuapp.com/admin/returns/returns/
 
 ### User Story Testing Results 9
 Step| Result | Desktop | Tablet | Mobile | Status
@@ -345,6 +347,7 @@ Step 5 | All users are displayed | [Desktop](media/testing/user_stories/user_sto
 Step 6 | users filtered for "not Superuser" 2 results | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_6.png)  | N/A  | N/A  | Passed | 
 Step 7 | All categories are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_7.png)  | N/A  | N/A  | Passed | 
 Step 8 | All returns are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_8.png)  | N/A  | N/A  | Passed | 
+Step 9 | All returns are displayed | [Desktop](media/testing/user_stories/user_story_result_nine/user_story9_step_9.png)  | N/A  | N/A  | Passed | 
 
 ## Feature Ten Favourites
 
@@ -383,10 +386,10 @@ Step 3 | User to click on the filled star icon to remove product from favourites
 Step| Result | Desktop | Tablet | Mobile | Email | Status
 ------------ | ------------ | ------------- | ------------- | ------------- | ------------- | -------------
 Step 1 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_1_mobile.png)  | N/A | Passed | 
-Step 2 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_mobile.png)  | N/A |Passed | 
-Step 3 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_mobile.png)  | [Email](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_email.png)  | Passed | 
-Step 4 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_mobile.png)  | N/A | Passed | 
-Step 5 | Logged in user to navigate to request return detail page | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_mobile.png)  | N/A | Passed | 
+Step 2 | Logged in user to filling up all required fields | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_2_mobile.png)  | N/A |Passed | 
+Step 3 | Logged in user submitting form to receive confirmation on the website and in email | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_mobile.png)  | [Email](media/testing/user_stories/user_story_result_eleven/user_story11_step_3_email.png)  | Passed | 
+Step 4 | Logged in user submitting existing request and receive error notification | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_4_mobile.png)  | N/A | Passed | 
+Step 5 | Logged in user to navigate to request return detail page to review existing requests | [Desktop](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_desktop.png)  | [Tablet](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_tablet.png)  | [Mobile](media/testing/user_stories/user_story_result_eleven/user_story11_step_5_mobile.png)  | N/A | Passed | 
 
 
 

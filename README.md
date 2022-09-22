@@ -278,7 +278,8 @@ The user stories for the website owner(superuser) are described as follows: Ther
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
-- User Story 9.8: As a superiser I can view return request in the django admin page under the returns tab as per user and the realted order number
+- User Story 9.8: As a superiser I can view favourites in the django admin page under the favourites tab as per user and the related product SKU
+- User Story 9.9: As a superiser I can view return request in the django admin page under the returns tab as per user and the related order number
 
 ## Skeleton
 
@@ -607,8 +608,12 @@ Returns |&#10060;        |&#10004;          |&#10004; |
 ![Product detail mobile](media/testing/features/feature_nine/admin_products.png)
 #### Admin Users
 ![Product detail mobile](media/testing/features/feature_nine/admin_users.png)
-#### Admin Categories
+#### Admin Favourites
 ![Product detail mobile](media/testing/features/feature_nine/admin_categories.png)
+#### Admin Categories
+![Product detail mobile](media/testing/features/feature_nine/admin_favourites.png)
+#### Admin Returns
+![Product detail mobile](media/testing/features/feature_nine/admin_returns.png)
 
 
 #### User Stories Feature Nine
@@ -619,6 +624,22 @@ Returns |&#10060;        |&#10004;          |&#10004; |
 - User Story 9.5: As a superuser I can view users in the django admin page and can view their username, email address, first name, last name, staff status
 - User Story 9.6: As a superuser I can view users in the django admin page and can search by username and email address and filter by staff status, superuser status and active status
 - User Story 9.7: As a superuser I can view categories in the django admin page and can view a category name and friendly name
+- User Story 9.8: As a superiser I can view favourites in the django admin page under the favourites tab as per user and the related product SKU
+- User Story 9.9: As a superiser I can view return request in the django admin page under the returns tab as per user and the related order number
+
+### Feature Ten Admin
+#### Description Feature Ten
+
+#### User Stories Feature Ten
+
+
+### Feature Eleven Admin
+#### Description Feature Eleven
+
+#### User Stories Feature Eleven
+
+
+
 
 ## Features left to implement
 
