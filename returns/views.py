@@ -6,6 +6,7 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.contrib import messages
 from django.urls import reverse
+from django.contrib.auth.decorators import login_required
 
 from checkout.models import Order
 
@@ -14,6 +15,7 @@ from .forms import ReturnsForm
 from .models import Returns
 
 
+@login_required
 def request_returns(request):
     """
     A view to return the request_return page

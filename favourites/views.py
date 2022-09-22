@@ -5,11 +5,13 @@ from django.http import Http404
 from django.shortcuts import (render, get_object_or_404, redirect)
 from django.contrib import messages
 from django.urls import reverse
+from django.contrib.auth.decorators import login_required
 
 from products.models import Product
 from .models import Favourites
 
 
+@login_required
 def product_favourites(request):
     """
     A view to return the favourites page
