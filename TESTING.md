@@ -2,6 +2,7 @@
 - [Testing](#testing)
   * [Unit Testing](#unit-testing)
     + [Unit Testing for the Bag app](#unit-testing-for-the-bag-app)
+    + [Unit Testing for the Profile app](#unit-testing-for-the-profile-app)
   * [Manual Testing](#manual-testing)
   * [Feature One Navigation and Header](#feature-one-navigation-and-header)
     + [User Story Feature 1](#user-story-feature-1)
