@@ -633,11 +633,11 @@ Returns |&#10060;        |&#10004;          |&#10004; |
 - Superuser/regular users can remove favourites poduct to their by navigating to the product detail page and click on the filled star icon
 
 #### Product detail with favourite icon
-![Product detail mobile](media/testing/features/feature_ten/product_detail.png)
+![Product detail desktop](media/testing/features/feature_ten/product_detail.png)
 #### Product added to the favourites list
-![Product detail mobile](media/testing/features/feature_ten/favourite_added.png)
+![Favourite added desktop](media/testing/features/feature_ten/favourite_added.png)
 #### Product removed from the favourites list
-![Product detail mobile](media/testing/features/feature_ten/favourite_removed.png)
+![Favourite removed desktop](media/testing/features/feature_ten/favourite_removed.png)
 
 
 
@@ -648,6 +648,24 @@ Returns |&#10060;        |&#10004;          |&#10004; |
 
 ### Feature Eleven Admin
 #### Description Feature Eleven
+- Superuser/regular user can navigate to return request page by clicking on the my account tab
+- By filling selecting the order number from the existing order and choosing the return reason (Additional Info is optional) the user can submit the return request
+- If the request doesn't exist yet it will be added to the return history and user will receive an email confirmation about their request
+- If the request is already exists the user will receiver an error message informing them that the request is alredy in place
+- Superuser/regular user I can navigate to the returns page in the my account tab and see my previously submitted requests
+
+#### Request Return page
+![Request Return desktop](media/testing/features/feature_eleven/request_return_page.png)
+#### Request Return mandatory field error
+![Request Return desktop](media/testing/features/feature_eleven/request_return_form_error.png)
+#### Request Return added
+![Request Return desktop](media/testing/features/feature_eleven/request_return_added.png)
+#### Request Return Email
+![Request Return desktop](media/testing/features/feature_eleven/request_return_email.png)
+#### Request Return Error
+![Request Return desktop](media/testing/features/feature_eleven/request_return_error.png)
+#### Request Return History
+![Request Return desktop](media/testing/features/feature_eleven/request_return_history.png)
 
 #### User Stories Feature Eleven
 - User Story 11.1: As a superuser/regular user I can navigate to the returns page in the my account tab
